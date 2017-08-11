@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p><em>Your visual guide to Capitol Hill</em></p> 
+    <div class='row justify-content-md-center'>
+        <div class="col-md-7">
+            <h2>What is {{ app_name }}?</h2>
+
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shazam, but for House members faces.</p>&mdash; jennifer steinhauer (@jestei) <a href="https://twitter.com/jestei/status/819250406471729152">January 11, 2017</a></blockquote>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <p>{{ app_name }} is a NYT internal facial recognition service for members of Congress.</p>
+            
+            <p>Text a picture of a member of Congress (or a group of members) to <strong>{{ number }}</strong>. You'll receive a message back listing all the members of Congress in the picture. The message will also tell you how confident the application is about its judgement. In addition, you'll receive a message containing a copy of the picture you sent with colored outlines around the faces of each Congress member.</p>
+
+            <p><strong>Please do not share the {{ app_name }} number outside of the Times.</strong> Every {{ app_name }} text costs a (small) amount of money, so we don't want random people using it.</p>
+
+            <p>Also, please note that while we hope {{ app_name }} is useful, <strong>we cannot guarantee 100 percent accuracy and occasionally see recognition errors. Please double check any result from {{ app_name }} before using it.</strong></p>
+            
+            <h2>How does it work?</h2>
+
+            <p>This app uses <a target="_blank" href="https://aws.amazon.com/rekognition/">Amazon Rekognition</a>, a facial recognition service that can analyze pictures and detect "celebrity" faces in them.</p>
+
+            <p>Amazon's facial recognition API has more trouble with some members of Congress than others, so this isn't a perfectly reliable solution. This means that the API may be unable to identify some Congress members and return a "failure to find a Congress member" message. We're working on ways to improve the recognition accuracy.</p>
+
+            <p>The texting function of {{ app_name }} is powered by <a href="https://www.twilio.com/">Twilio</a>, a service that allows software to send text messages.</p>
+
+            <p>If you're curious about the exact code behind {{ app_name }}, you can check out the <a target="_blank" href="https://github.com/newsdev/shazongress">Github repository</a>.</p>
+
+            <p class="small-text">Created by 2017 INT interns <a target="_blank" href="https://twitter.com/gautamhathi">Gautam Hathi</a> and <a target="_blank" href="https://twitter.com/Sherman_Hewitt">Sherman Hewitt</a>.</p>
+            <p class="small-text">For technical support or other issues, please contact Jeremy Bowers, Rachel Shorey, or <a href="mailto:newsdev@nytimes.com">newsdev@nytimes.com</a>.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="img-responsive" src="https://pbs.twimg.com/media/DGP41GAU0AASDvh.jpg" alt="Shazongress result" />
+        </div>
+    </div>
+{% endblock %}

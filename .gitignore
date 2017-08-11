@@ -1,0 +1,15 @@
+.vscode/
+.DS_Store
+bin/
+include/
+lib/
+pip-selfcheck.json
+.Python
+
+*.env
+*.sql
+*.pem
+*.txt
+
+__pycache__/
+dump.rdb
