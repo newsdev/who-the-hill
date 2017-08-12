@@ -153,8 +153,9 @@ def recongize():
                 return str(resp)
             key_str = 'faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
-            s3.Bucket('who-the-hill').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
-            url = os.environ['AWS_S3_ENDPOINT'] + "/who-the-hill/" + key_str
+            bucket_folder_name = 'who-the-hill'
+            s3.Bucket(bucket_folder_name).put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+            url = os.environ['AWS_S3_ENDPOINT'] + "/" + bucket_folder_name + "/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
