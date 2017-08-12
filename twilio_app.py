@@ -151,10 +151,10 @@ def recongize():
                 resp.message(failure_message)
                 del target_image
                 return str(resp)
-            key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
+            key_str = 'faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
-            s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
-            url = "https://int.nyt.com/" + key_str
+            s3.Bucket('who-the-hill').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+            url = os.environ['AWS_S3_ENDPOINT'] + "/who-the-hill/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
