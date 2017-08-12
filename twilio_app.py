@@ -70,7 +70,7 @@ def get_nicknames(nickname_env_var, local_filename):
         return response.json()
     else:
         logging.info("loading nicknames from json dump...")
-        with open(local_filename, 'r') as f:
+        with open(local_filename, 'r', encoding="utf8") as f:
             nicknames = json.loads(f.read())
             return nicknames
     return []
