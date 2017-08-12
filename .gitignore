@@ -10,6 +10,5 @@ pip-selfcheck.json
 *.sql
 *.pem
 
-
 __pycache__/
 dump.rdb
