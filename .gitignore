@@ -5,6 +5,8 @@ include/
 lib/
 pip-selfcheck.json
 .Python
+Scripts/
+tcl/
 
 *.env
 *.sql
