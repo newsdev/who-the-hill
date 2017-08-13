@@ -148,8 +148,8 @@ def recongize():
             #face_messages = process_faces(face_obj['CelebrityFaces'], f)
             face_messages = process_faces(target_image)
             if len(face_messages) == 0:
+                logging.info("Failure message sent")
                 resp.message(failure_message)
-                del target_image
                 return str(resp)
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
