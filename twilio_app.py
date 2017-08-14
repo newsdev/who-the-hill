@@ -30,7 +30,6 @@ s3 = boto3.resource(
     aws_access_key_id=os.environ['AWS_GCS_ACCESS_KEY_ID'],
     aws_secret_access_key=os.environ['AWS_GCS_SECRET_ACCESS_KEY'],
 )
-twilio_client = Client(os.environ['TWILIO_ACCOUNT_SID'], os.environ['TWILIO_AUTH_TOKEN'])
 
 recognizer = RekognitionRecognizer(os.environ['FACIAL_RECOGNITION_ENDPOINT'])
 
@@ -147,28 +146,54 @@ def recongize():
         if len(target_image.recognized_faces) > 0:
             #face_messages = process_faces(face_obj['CelebrityFaces'], f)
             face_messages = process_faces(target_image)
+            
             if len(face_messages) == 0:
-                resp.message(failure_message)
-                del target_image
-                return str(resp)
+                send_text_message(failure_message, external_num, twilio_num)
+                logging.info("Failure message sent")
+                return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
             s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
             url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
-            logging.info("\n".join(face_messages))
-            resp.message("\n".join(face_messages))
-            message = twilio_client.messages.create(
-                to=external_num,
-                from_=twilio_num,
-                media_url=url)
+
+            for message in face_messages:
+                send_text_message(message, external_num, twilio_num)
+
+            send_img_message(url, external_num, twilio_num)
+
         else:
             logging.info("Failure message sent")
-            resp.message(failure_message)
+            send_text_message(failure_message, external_num, twilio_num)
     finally:
         del target_image
         
-    return str(resp)
+    return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+
+def send_text_message(message, to_num, from_num):
+    """ 
+    Send text message via Twilio API.
+    """
+    twilio_client = Client(os.environ['TWILIO_ACCOUNT_SID'], os.environ['TWILIO_AUTH_TOKEN'])
+
+    logging.info("Message: " + str(message))
+    twilio_client.messages.create(
+                to=to_num,
+                from_=from_num,
+                body=message)
+
+def send_img_message(image_url, to_num, from_num):
+    """
+    Send image message via Twilio API.
+    """
+    twilio_client = Client(os.environ['TWILIO_ACCOUNT_SID'], os.environ['TWILIO_AUTH_TOKEN'])
+
+    logging.info("Image URL: " + str(image_url))
+    twilio_client.messages.create(
+                to=to_num,
+                from_=from_num,
+                media_url=image_url)
 
 def process_faces(image):
     ''' Calls methods to draw boxes around faces and generate response messages for faces '''
