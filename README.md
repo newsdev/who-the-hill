@@ -82,6 +82,21 @@ export TWILIO_AUTH_TOKEN='<YOUR_AUTH_TOKEN>'
 
 ...and run `source dev.env`. This will export your credentials to your environment.
 
+In addition to loading credentials, you may also need to add a bucket policy for your S3 bucket that will allow Twilio to access the files stored there:
+
+```
+{
+  "Version": "2008-10-17",
+  "Statement": [{
+    "Sid": "AllowPublicRead",
+    "Effect": "Allow",
+    "Principal": { "AWS": "*" },
+    "Action": ["s3:GetObject"],
+    "Resource": ["arn:aws:s3:::who-the-hill/*" ]
+  }]
+}
+```
+
 ## Running the App
 Running the app locally requires running two servers at the same time: one for app.py (which houses the call to Amazon's Rekognition) and another for twilio_app.py (which handles receiving and sending messages via Twilio).
 
