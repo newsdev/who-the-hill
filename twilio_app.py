@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO)
 
 s3 = boto3.resource(
     's3',
-    endpoint_url=os.environ['AWS_S3_ENDPOINT'],
+    os.getenv('AWS_S3_ENDPOINT'),
     aws_access_key_id=os.environ['AWS_GCS_ACCESS_KEY_ID'],
     aws_secret_access_key=os.environ['AWS_GCS_SECRET_ACCESS_KEY'],
 )
@@ -70,7 +70,7 @@ def get_nicknames(nickname_env_var, local_filename):
         return response.json()
     else:
         logging.info("loading nicknames from json dump...")
-        with open(local_filename, 'r') as f:
+        with open(local_filename, 'r', encoding='utf-8') as f:
             nicknames = json.loads(f.read())
             return nicknames
     return []
@@ -153,8 +153,8 @@ def recongize():
                 return str(resp)
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
-            s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
-            url = "https://int.nyt.com/" + key_str
+            s3.Bucket(os.environ["AWS_GCS_BUCKET"]).put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+            url = "http://{}.s3.amazonaws.com/".format(os.environ["AWS_GCS_BUCKET"]) + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
@@ -167,7 +167,7 @@ def recongize():
             resp.message(failure_message)
     finally:
         del target_image
-        
+    
     return str(resp)
 
 def process_faces(image):
