@@ -5,10 +5,12 @@ include/
 lib/
 pip-selfcheck.json
 .Python
+*.pyc
 
 *.env
 *.sql
 *.pem
+*.bat
 
 __pycache__/
 dump.rdb
