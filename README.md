@@ -87,6 +87,11 @@ Running the app locally requires running two servers at the same time: one for a
 
 One method for running the application uses [ngrok](https://ngrok.com/) to tunnel to localhost, providing a public URL for the Twilio webhook. Ngrok allows you to expose the Twilio server so it can receive text messages. That public link refreshes every time the ngrok server is shut down.
 
+## Running Tests
+To run all the tests in the `tests` directory, use `python run_tests.py`.
+
+When creating a new test file, make sure the file's name follows the following pattern: `*_test.py`.
+
 ## Acknowledgements
 This app was developed by Interactive News interns [Gautam Hathi](https://github.com/gautamh) and [Sherman Hewitt](https://github.com/SHewitt95).
 
