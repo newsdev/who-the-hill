@@ -26,13 +26,13 @@ logging.basicConfig(level=logging.INFO)
 
 s3 = boto3.resource(
     's3',
-    endpoint_url=os.environ['AWS_S3_ENDPOINT'],
-    aws_access_key_id=os.environ['AWS_GCS_ACCESS_KEY_ID'],
-    aws_secret_access_key=os.environ['AWS_GCS_SECRET_ACCESS_KEY'],
+    # endpoint_url=os.environ.get('AWS_S3_ENDPOINT', None),
+    aws_access_key_id=os.environ.get('AWS_GCS_ACCESS_KEY_ID', None),
+    aws_secret_access_key=os.environ.get('AWS_GCS_SECRET_ACCESS_KEY', None),
 )
-twilio_client = Client(os.environ['TWILIO_ACCOUNT_SID'], os.environ['TWILIO_AUTH_TOKEN'])
+twilio_client = Client(os.environ.get('TWILIO_ACCOUNT_SID', None), os.environ.get('TWILIO_AUTH_TOKEN', None))
 
-recognizer = RekognitionRecognizer(os.environ['FACIAL_RECOGNITION_ENDPOINT'])
+recognizer = RekognitionRecognizer(os.environ.get('FACIAL_RECOGNITION_ENDPOINT', None))
 
 failure_message = 'No member recognized, sorry'
 confidence_levels = [
@@ -95,7 +95,7 @@ doppelgangers = get_doppelgangers('doppelgangers.json')
 
 def getRecipients():
     ''' Fetch email recipients from environment variable. '''
-    emails = os.environ["EMAIL_RECIPIENTS"]
+    emails = os.environ.get("EMAIL_RECIPIENTS", None)
     emails = emails.split(" ")
     return emails
 
@@ -106,7 +106,7 @@ def info_page():
     '''
     returns an info page for Shazongress
     '''
-    return render_template("info_page.html", number=os.environ['TWILIO_NUMBER'], app_name=os.environ['APP_NAME'])
+    return render_template("info_page.html", number=os.environ.get('TWILIO_NUMBER', None), app_name=os.environ.get('APP_NAME', None))
 
 
 @app.route('/healthcheck', methods=["GET"])
@@ -145,7 +145,7 @@ def recongize():
     try:
         # Makes POST request with image to app.py on port 8888
         logging.info("Sending image to rekognition app...")
-        #r = requests.post(os.environ['FACIAL_RECOGNITION_ENDPOINT'], files={'file': f.getvalue()})
+        #r = requests.post(os.environ.get('FACIAL_RECOGNITION_ENDPOINT'], files={'file': f.getvalue()})
         recognizer.recognize(target_image)
 
         # Sends reply text based on content in Amazon Rekognition's response

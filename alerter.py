@@ -18,7 +18,7 @@ class Alerter:
         self.counter_limit = counter_limit
         self.time_interval = time_interval
         self.recipients = recipients
-        self.client = boto3.client('ses',region_name=os.environ["AWS_DEFAULT_REGION"], aws_access_key_id=os.environ["AWS_ACCESS_KEY_ID_EMAIL"], aws_secret_access_key=os.environ["AWS_SECRET_ACCESS_KEY_EMAIL"])
+        self.client = boto3.client('ses',region_name=os.environ.get("AWS_DEFAULT_REGION", None), aws_access_key_id=os.environ.get("AWS_ACCESS_KEY_ID_EMAIL", None), aws_secret_access_key=os.environ.get("AWS_SECRET_ACCESS_KEY_EMAIL", None))
 
     def increment_counter(self):
         """ Increment counter by 1. """
@@ -59,7 +59,7 @@ class Alerter:
 
     def send_email(self, recipient):
         # The sender of the email.
-        sender = os.environ["EMAIL_SENDER"]
+        sender = os.environ.get("EMAIL_SENDER", None)
 
         # The character encoding for the email.
         charset = "UTF-8"
