@@ -145,24 +145,27 @@ def recongize():
     try:
         # Makes POST request with image to app.py on port 8888
         logging.info("Sending image to rekognition app...")
-        #r = requests.post(os.environ.get('FACIAL_RECOGNITION_ENDPOINT'], files={'file': f.getvalue()})
         recognizer.recognize(target_image)
 
         # Sends reply text based on content in Amazon Rekognition's response
         resp = MessagingResponse()
 
-        #face_obj = json.loads(r.text)
-        #if ("CelebrityFaces" in face_obj and len(face_obj['CelebrityFaces']) > 0):
+        logging.info("Found %s faces" % target_image.recognized_faces)
         if len(target_image.recognized_faces) > 0:
-            #face_messages = process_faces(face_obj['CelebrityFaces'], f)
+    
+            logging.info("Processing faces ...")
             face_messages = process_faces(target_image)
+
             if len(face_messages) == 0:
                 resp.message(failure_message)
                 del target_image
                 return str(resp)
+
+            logging.info("Sending image up to S3")
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
             s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+
             url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
