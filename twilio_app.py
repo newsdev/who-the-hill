@@ -26,6 +26,7 @@ logging.basicConfig(level=logging.INFO)
 
 s3 = boto3.resource(
     's3',
+    endpoint_url=os.environ.get('AWS_S3_ENDPOINT', 'https://int.nyt.com/'),
     aws_access_key_id=os.environ.get('AWS_GCS_ACCESS_KEY_ID', None),
     aws_secret_access_key=os.environ.get('AWS_GCS_SECRET_ACCESS_KEY', None),
 )
