@@ -63,17 +63,25 @@ def get_nicknames(nickname_env_var, local_filename):
     If there's an api endpoint supplied in the environment variables, it uses that.
     Else the function returns names from a local file
     '''
-    nicknames_endpoint = os.getenv(nickname_env_var)
-    if nicknames_endpoint is not None:
-        logging.info("loading nicknames from endpoint...")
-        response = requests.get(nicknames_endpoint)
-        return response.json()
-    else:
-        logging.info("loading nicknames from json dump...")
+
+    # Default case will at least return none.
+    nicknames = []
+    try:
+        logging.info("loading nicknames from local json dump...")
         with open(local_filename, 'r') as f:
             nicknames = json.loads(f.read())
-            return nicknames
-    return []
+    except:
+        pass
+
+    nicknames_endpoint = os.environ.get(nickname_env_var, None)
+    if nicknames_endpoint:
+        try:
+            logging.info("loading nicknames from endpoint...")
+            response = requests.get(nicknames_endpoint)
+            nicknames = response.json()
+        except:
+            pass
+    return nicknames
 
 logging.info("Downloading nicknames...")
 nicknames = get_nicknames('NICKNAMES_ENDPOINT', 'nicknames_dump.json')
