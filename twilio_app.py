@@ -32,7 +32,7 @@ s3 = boto3.resource(
 )
 twilio_client = Client(os.environ.get('TWILIO_ACCOUNT_SID', None), os.environ.get('TWILIO_AUTH_TOKEN', None))
 
-recognizer = RekognitionRecognizer(os.environ.get('FACIAL_RECOGNITION_ENDPOINT', None))
+recognizer = RekognitionRecognizer()
 
 failure_message = 'No member recognized, sorry'
 confidence_levels = [
@@ -145,11 +145,13 @@ def recongize():
     try:
         # Makes POST request with image to app.py on port 8888
         logging.info("Sending image to rekognition app...")
+
         #r = requests.post(os.environ.get('FACIAL_RECOGNITION_ENDPOINT'], files={'file': f.getvalue()})
         recognizer.recognize(target_image)
 
         # Sends reply text based on content in Amazon Rekognition's response
         resp = MessagingResponse()
+
         #face_obj = json.loads(r.text)
         #if ("CelebrityFaces" in face_obj and len(face_obj['CelebrityFaces']) > 0):
         if len(target_image.recognized_faces) > 0:
