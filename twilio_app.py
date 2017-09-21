@@ -165,9 +165,11 @@ def recongize():
             target_image.get_image_file().seek(0)
 
             # IT IS FAILING RIGHT HERE APPARENTLY
-            s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+            # s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
 
-            url = "https://int.nyt.com/" + key_str
+            url = persist_file(key_str, target_image.get_image_file())
+
+            # url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
@@ -262,6 +264,20 @@ def findCongressPerson(name, nicknames_json):
         return True
 
     return False
+
+def persist_file(filename, uploaded_file):
+    '''
+    persists a file to google cloud.
+    '''
+    client = storage.Client()
+    bucket = client.get_bucket('int.nyt.com')
+    local_filename = path.split('/')[-1]
+    remote_path = '%s/%s' % ('shazongress', local_filename)
+    blob = bucket.blob(remote_path)
+    blob = bucket.blob(filename)
+    blob.upload_from_string(uploaded_file.read(), content_type=uploaded_file.content_type)
+    blob.make_public()
+    return blob.public_url.replace('apps%2Fshazongress%2F', 'apps/shazongress/')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
