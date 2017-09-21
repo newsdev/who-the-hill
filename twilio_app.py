@@ -166,21 +166,19 @@ def recongize():
 
             # IT IS FAILING RIGHT HERE APPARENTLY
             # s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+            # url = persist_file(key_str, target_image.get_image_file())
 
-            url = persist_file(key_str, target_image.get_image_file())
-
-            # url = "https://int.nyt.com/" + key_str
+            url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
 
-            message = twilio_client.messages.create(
-                to=external_num,
-                from_=twilio_num,
-                media_url=url)
+            message = twilio_client.messages.create(to=external_num, from_=twilio_num,media_url=url)
+
         else:
             logging.info("Failure message sent")
             resp.message(failure_message)
+
     finally:
         del target_image
         
