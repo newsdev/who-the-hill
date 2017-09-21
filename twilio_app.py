@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO)
 
 s3 = boto3.resource(
     's3',
-    endpoint_url=os.environ.get('AWS_S3_ENDPOINT', 'https://int.nyt.com/'),
+    endpoint_url=os.environ.get('AWS_S3_ENDPOINT', 'https://'),
     aws_access_key_id=os.environ.get('AWS_GCS_ACCESS_KEY_ID', None),
     aws_secret_access_key=os.environ.get('AWS_GCS_SECRET_ACCESS_KEY', None),
 )
@@ -164,7 +164,9 @@ def recongize():
             logging.info("Sending image up to S3")
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
-            s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
+
+            # IT IS FAILING RIGHT HERE APPARENTLY
+            # s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
 
             url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
