@@ -270,7 +270,7 @@ def persist_file(filename, uploaded_file):
     persists a file to google cloud.
     '''
     client = storage.Client()
-    bucket = client.get_bucket('nytint-prd-newsapps')
+    bucket = client.get_bucket('nytint-stg-newsapps')
     local_filename = path.split('/')[-1]
     remote_path = '%s/%s' % ('shazongress', local_filename)
     blob = bucket.blob(remote_path)
