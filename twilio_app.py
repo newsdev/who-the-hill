@@ -17,6 +17,8 @@ from image import Image as RecognitionImage
 from rekognitionrecognizer import RekognitionRecognizer
 from face import Face
 
+from google.cloud import storage
+
 app = Flask(__name__)
 healthcheck_filter = HealthcheckFilter()
 log = logging.getLogger('werkzeug')
@@ -166,7 +168,7 @@ def recongize():
 
             # IT IS FAILING RIGHT HERE APPARENTLY
             # s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
-            # url = persist_file(key_str, target_image.get_image_file())
+            url = persist_file(key_str, target_image.get_image_file())
 
             url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
