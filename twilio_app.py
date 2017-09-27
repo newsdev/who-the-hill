@@ -275,7 +275,7 @@ def persist_file(filename, uploaded_file):
     remote_path = '%s/%s' % ('apps/shazongress', local_filename)
     blob = bucket.blob(remote_path)
     blob = bucket.blob(filename)
-    blob.upload_from_string(uploaded_file.read(), content_type=uploaded_file.content_type)
+    blob.upload_from_string(uploaded_file.read(), content_type="image/jpeg")
     blob.make_public()
     return blob.public_url.replace('apps%2Fshazongress%2F', 'apps/shazongress/')
 
