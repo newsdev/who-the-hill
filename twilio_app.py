@@ -271,8 +271,8 @@ def persist_file(filename, uploaded_file):
     '''
     client = storage.Client()
     bucket = client.get_bucket('int.nyt.com')
-    local_filename = path.split('/')[-1]
-    remote_path = '%s/%s' % ('shazongress', local_filename)
+    local_filename = filename.split('/')[-1]
+    remote_path = '%s/%s' % ('apps/shazongress', local_filename)
     blob = bucket.blob(remote_path)
     blob = bucket.blob(filename)
     blob.upload_from_string(uploaded_file.read(), content_type=uploaded_file.content_type)
