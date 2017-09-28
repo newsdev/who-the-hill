@@ -273,7 +273,7 @@ def persist_file(filename, uploaded_file):
     bucket = client.get_bucket('int.nyt.com')
     blob = bucket.blob(filename)
     blob.upload_from_string(uploaded_file.read(), content_type="image/png")
-    return blob.public_url.replace('apps%2Fshazongress%2F', 'apps/shazongress/')
+    return blob.public_url.replace('applications%2Ffaces%2F', 'applications/faces/').replace('storage.googleapis.com/', '')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
