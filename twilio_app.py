@@ -158,8 +158,8 @@ def recongize():
             face_messages = process_faces(target_image)
 
             if len(face_messages) == 0:
+                logging.info("Failure message sent")
                 resp.message(failure_message)
-                del target_image
                 return str(resp)
 
             logging.info("Sending image up to S3")
