@@ -11,20 +11,14 @@ import boto3
 import uuid
 import psycopg2
 import alerter
-from log_filter import HealthcheckFilter
 import logging
 from image import Image as RecognitionImage
-from rekognitionrecognizer import RekognitionRecognizer
 from face import Face
+from rekognitionrecognizer import RekognitionRecognizer
 
 from google.cloud import storage
 
 app = Flask(__name__)
-healthcheck_filter = HealthcheckFilter()
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.DEBUG)
-log.addFilter(healthcheck_filter)
-logging.basicConfig(level=logging.INFO)
 
 s3 = boto3.resource(
     's3',
@@ -85,30 +79,22 @@ def get_nicknames(nickname_env_var, local_filename):
     return nicknames
 
 logging.info("Downloading nicknames...")
-nicknames = get_nicknames('NICKNAMES_ENDPOINT', 'nicknames_dump.json')
+nicknames = get_nicknames('NICKNAMES_ENDPOINT', 'data/nicknames_dump.json')
 logging.info("Nicknames downloaded")
 
 def get_doppelgangers(doppelganger_filename):
     with open(doppelganger_filename, 'r') as f:
         return json.loads(f.read())
 
-doppelgangers = get_doppelgangers('doppelgangers.json')
+doppelgangers = get_doppelgangers('data/doppelgangers.json')
 
 def getRecipients():
     ''' Fetch email recipients from environment variable. '''
-    emails = os.environ.get("EMAIL_RECIPIENTS", None)
+    emails = os.environ.get("EMAIL_RECIPIENTS", "jeremy.bowers@nytimes.com")
     emails = emails.split(" ")
     return emails
 
 MY_ALERT = alerter.Alerter(counter_limit=100, time_interval=3600, recipients=getRecipients())
-
-@app.route('/', methods=["GET"])
-def info_page():
-    '''
-    returns an info page for Shazongress
-    '''
-    return render_template("info_page.html", number=os.environ.get('TWILIO_NUMBER', None), app_name=os.environ.get('APP_NAME', None))
-
 
 @app.route('/healthcheck', methods=["GET"])
 def healthcheck():
@@ -117,7 +103,7 @@ def healthcheck():
     '''
     return "Hello!"
 
-@app.route('/recognize', methods=["POST"])
+@app.route('/recognize', methods=["POST", "GET"])
 def recongize():
     '''
     Fetches image from incoming text message. Sends image to app.py (Amazon Rekognition) for analysis.
@@ -127,9 +113,9 @@ def recongize():
     # Checks if application is being hit too many times per time interval.
     # If so, send an email alert.
     MY_ALERT.abuse_check()
-
     # Fetches image url from Twilio request object
     media_url = request.values.get('MediaUrl0')
+
     logging.info(media_url)
 
     # Fetches incoming phone number
@@ -166,25 +152,22 @@ def recongize():
             key_str = 'applications/faces/' + str(uuid.uuid4()) + '.png'
             target_image.get_image_file().seek(0)
 
-            # IT IS FAILING RIGHT HERE APPARENTLY
-            # s3.Bucket('int.nyt.com').put_object(Key=key_str, Body=target_image.get_image_file(), ContentType='image/png')
             url = persist_file(key_str, target_image.get_image_file())
 
             url = "https://int.nyt.com/" + key_str
             logging.info("Image uploaded to: " + url)
             logging.info("\n".join(face_messages))
             resp.message("\n".join(face_messages))
-
-            message = twilio_client.messages.create(to=external_num, from_=twilio_num,media_url=url)
-
+            twilio_client.messages.create(to=external_num,from_=twilio_num,media_url=url)
+            twilio_client.messages.create(to=external_num,from_=twilio_num,body=face_messages)
+            return json.dumps({"image": url, "message": face_messages, "success": True})
         else:
             logging.info("Failure message sent")
-            resp.message(failure_message)
+            twilio_client.messages.create(to=external_num,from_=twilio_num,body=failure_message)
+            return json.dumps({"image": None, "message": failure_message, "success": False})
 
     finally:
         del target_image
-        
-    return str(resp)
 
 def process_faces(image):
     ''' Calls methods to draw boxes around faces and generate response messages for faces '''
@@ -260,9 +243,7 @@ def findCongressPerson(name, nicknames_json):
     '''
     congress_json = [x['nickname'] for x in nicknames_json if x['nickname'] == name]
     if len(congress_json) > 0:
-        print(congress_json)
         return True
-
     return False
 
 def persist_file(filename, uploaded_file):

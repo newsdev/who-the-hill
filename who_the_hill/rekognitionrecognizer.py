@@ -3,15 +3,8 @@ import json
 import logging
 import requests
 
-from log_filter import HealthcheckFilter
 from image import Image
 from abstractrecognizer import AbstractRecognizer
-
-healthcheck_filter = HealthcheckFilter()
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.DEBUG)
-log.addFilter(healthcheck_filter)
-logging.basicConfig(level=logging.INFO)
 
 class RekognitionRecognizer(AbstractRecognizer):
     """ An implementation of the AbstractRecognizer class to work with our Rekognition wrapper server """

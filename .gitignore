@@ -13,3 +13,4 @@ pip-selfcheck.json
 __pycache__/
 dump.rdb
 .vs/
+*-credentials.json

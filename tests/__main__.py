@@ -1,10 +1,10 @@
 import os
 import uuid
 
-from face import Face
-from image import Image as RecognitionImage
-from rekognitionrecognizer import RekognitionRecognizer
-from twilio_app import persist_file
+from who_the_hill.face import Face
+from who_the_hill.image import Image as RecognitionImage
+from who_the_hill.rekognitionrecognizer import RekognitionRecognizer
+from who_the_hill.twilio_app import persist_file
 
 media_url="https://pbs.twimg.com/profile_images/681152691461042177/_PrgDgFA.jpg"
 target_image = RecognitionImage(image_url=media_url)
