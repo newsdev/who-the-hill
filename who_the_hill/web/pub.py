@@ -204,7 +204,7 @@ def generate_message(celeb_obj, color):
             description = level['description']
             break
 
-    result = "We think the %s square is %s, and our confidence level is %s (%s)." % (color, name, description, confidence)
+    result = 'We think the %s square is %s, and our confidence level is "%s," or %s.' % (color, name, description, confidence)
     # result  = "{}, {}, {} - confidence = {})".format(name, color, description, confidence)
     return result
 
