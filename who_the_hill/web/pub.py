@@ -1,22 +1,23 @@
-from flask import Flask, request, Response, jsonify, render_template
-from twilio.twiml.messaging_response import MessagingResponse
-from twilio.rest import Client
 import urllib
 from io import BytesIO
-import requests
 import json
-from PIL import Image, ImageDraw
 import os
-import boto3
 import uuid
-import psycopg2
-import alerter
 import logging
-from image import Image as RecognitionImage
-from face import Face
-from rekognitionrecognizer import RekognitionRecognizer
 
+import boto3
+from flask import Flask, request, Response, jsonify, render_template
 from google.cloud import storage
+from PIL import Image, ImageDraw
+import psycopg2
+import requests
+from twilio.twiml.messaging_response import MessagingResponse
+from twilio.rest import Client
+
+import who_the_hill import alerter
+from who_the_hill.face import Face
+from who_the_hill.image import Image as RecognitionImage
+from who_the_hill.rekognitionrecognizer import RekognitionRecognizer
 
 app = Flask(__name__)
 
