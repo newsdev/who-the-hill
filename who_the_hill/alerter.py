@@ -65,7 +65,7 @@ class Alerter:
         charset = "UTF-8"
 
         # The subject line for the email.
-        subject = "Shazongress - Alert!"
+        subject = "Who The Hill - Alert!"
 
         # The current time
         hour = datetime.now().time().hour
@@ -79,10 +79,10 @@ class Alerter:
         current_time = "{0}:{1} {2}".format(hour, minute, time_of_day)
 
         # The HTML body of the email.
-        htmlbody = """<p>At {0}, more than {1} text messages were sent to Shazongress. This occurred before a full time interval of {2} seconds passed. Only {3} seconds have passed. Please be aware of potential abuse of the application. Nobody likes high Twilio costs!</p>""".format(current_time, self.counter_limit, self.time_interval, (time.time() - self.time_interval_start))
+        htmlbody = """<p>At {0}, more than {1} text messages were sent to Who The Hill. This occurred before a full time interval of {2} seconds passed. Only {3} seconds have passed. Please be aware of potential abuse of the application. Nobody likes high Twilio costs!</p>""".format(current_time, self.counter_limit, self.time_interval, (time.time() - self.time_interval_start))
 
         # The email body for recipients with non-HTML email clients.  
-        textbody = "At {0}, more than {1} text messages were sent to Shazongress. This occurred before a full time interval of {2} seconds passed. Only {3} seconds have passed. Please be aware of potential abuse of the application. Nobody likes high Twilio costs!".format(current_time, self.counter_limit, self.time_interval, (time.time() - self.time_interval_start))
+        textbody = "At {0}, more than {1} text messages were sent to Who The Hill. This occurred before a full time interval of {2} seconds passed. Only {3} seconds have passed. Please be aware of potential abuse of the application. Nobody likes high Twilio costs!".format(current_time, self.counter_limit, self.time_interval, (time.time() - self.time_interval_start))
 
         # Try to send the email.
         try:

@@ -54,11 +54,11 @@ rectangle_colors = [
 ]
 
 def get_nicknames(nickname_env_var, local_filename):
-    '''
+    """
     Gets a mapping of nicknames to names.
     If there's an api endpoint supplied in the environment variables, it uses that.
-    Else the function returns names from a local file
-    '''
+    Else the function returns names from a local file.
+    """
 
     # Default case will at least return none.
     nicknames = []
@@ -90,7 +90,9 @@ def get_doppelgangers(doppelganger_filename):
 doppelgangers = get_doppelgangers('data/doppelgangers.json')
 
 def getRecipients():
-    ''' Fetch email recipients from environment variable. '''
+    """
+    Fetch email recipients from environment variable.
+    """
     emails = os.environ.get("EMAIL_RECIPIENTS", "jeremy.bowers@nytimes.com")
     emails = emails.split(" ")
     return emails
@@ -99,17 +101,17 @@ MY_ALERT = alerter.Alerter(counter_limit=100, time_interval=3600, recipients=get
 
 @app.route('/healthcheck', methods=["GET"])
 def healthcheck():
-    '''
+    """
     Checks that the app is properly running.
-    '''
+    """
     return "200 ok"
 
-@app.route('/recognize', methods=["POST", "GET"])
+@app.route('/recognize', methods=["POST"])
 def recongize():
-    '''
+    """
     Fetches image from incoming text message. Sends image to app.py (Amazon Rekognition) for analysis.
     Sends reply text message.
-    '''
+    """
     logging.info("MESSAGE RECIEVED")
     # Checks if application is being hit too many times per time interval.
     # If so, send an email alert.
@@ -171,7 +173,9 @@ def recongize():
         del target_image
 
 def process_faces(image):
-    ''' Calls methods to draw boxes around faces and generate response messages for faces '''
+    """
+    Calls methods to draw boxes around faces and generate response messages for faces.
+    """
     logging.debug([x.name for x in image.recognized_faces])
     filtered_objs = [x for x in image.recognized_faces if findCongressPerson(x.name, nicknames)]
 
@@ -188,7 +192,10 @@ def process_faces(image):
     return [generate_message(x, color) for x, color in zip(filtered_objs, colors)]
 
 def generate_message(celeb_obj, color):
-    ''' Generates a response message for a celebrity recognition object recieved from Amazon Rekognition '''
+    """
+    Generates a response message for a celebrity 
+    recognition object recieved from Amazon Rekognition.
+    """
     name = celeb_obj.name
     confidence = float(celeb_obj.confidence)
     description = "highly unlikely"
@@ -196,14 +203,15 @@ def generate_message(celeb_obj, color):
         if confidence >= level['prob']:
             description = level['description']
             break
-    
-    result  = "{} ({}, {} - confidence = {})".format(name, color, description, confidence)
+
+    result = "We think the %s square is %s, and our confidence level is %s (%s)." % (color, name, description, confidence)
+    # result  = "{}, {}, {} - confidence = {})".format(name, color, description, confidence)
     return result
 
 def draw_width_rectangle(drawing, coordinates, color, width, fill=None):
-    '''
+    """
     Draws a rectangle of an inputted width using the PIL drawing object
-    '''
+    """
     for i in range(width):
         x0 = coordinates[0] - i
         y0 = coordinates[1] - i
@@ -212,9 +220,9 @@ def draw_width_rectangle(drawing, coordinates, color, width, fill=None):
         drawing.rectangle([x0, y0, x1, y1], outline=color)
 
 def draw_bounding_boxes(celeb_objs, file):
-    '''
+    """
     Draws bounding boxes around all faces in inputted file determined by celeb_objs
-    '''
+    """
     colors = []
     im = Image.open(file)
     draw = ImageDraw.Draw(im)
@@ -230,7 +238,9 @@ def draw_bounding_boxes(celeb_objs, file):
     return colors
 
 def get_coords_from_ratios(bounding_box_ratios, img_width, img_height):
-    ''' Calculate face-box coordinates from passed-in ratios and image size. '''
+    """
+    Calculate face-box coordinates from passed-in ratios and image size.
+    """
     x0 = int(bounding_box_ratios['Left'] * float(img_width))
     y0 = int(bounding_box_ratios['Top'] * float(img_height))
     x1 = x0 + int(bounding_box_ratios['Width'] * float(img_width))
@@ -238,19 +248,19 @@ def get_coords_from_ratios(bounding_box_ratios, img_width, img_height):
     return [x0, y0, x1, y1]
 
 def findCongressPerson(name, nicknames_json):
-    '''
+    """
     Checks the nicknames endpoint of the NYT Congress API
     to determine if the inputted name is that of a member of Congress
-    '''
+    """
     congress_json = [x['nickname'] for x in nicknames_json if x['nickname'] == name]
     if len(congress_json) > 0:
         return True
     return False
 
 def persist_file(filename, uploaded_file):
-    '''
-    persists a file to google cloud.
-    '''
+    """
+    Persists a file to google cloud.
+    """
     client = storage.Client()
     bucket = client.get_bucket('int.nyt.com')
     blob = bucket.blob(filename)

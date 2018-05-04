@@ -20,7 +20,7 @@ pytz==2017.2
 requests==2.18.3
 s3transfer==0.1.10
 six==1.10.0
-twilio==6.5.1
+twilio==6.13.0
 urllib3==1.22
 Werkzeug==0.12.2
 google-cloud-storage

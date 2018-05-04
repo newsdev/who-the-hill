@@ -6,7 +6,7 @@ from who_the_hill.face import Face
 class Image:
     """
     A class to store an image and its facial recognition information
-    in a non-json-dependent form
+    in a non-json-dependent form.
     """
 
     def __init__(self, image_url='', image_file=None):
@@ -18,7 +18,7 @@ class Image:
 
     def to_dict(self):
         """
-        Returns a jsonifyable dict of this image
+        Returns a jsonifyable dict of this image.
         """
         results = []
         for face in recognized_faces:
@@ -27,7 +27,8 @@ class Image:
         return results
 
     def add_face(self, left, top, width, height, confidence, name):
-        """ Add a new face to the list of recognized faces in this image
+        """ 
+        Add a new face to the list of recognized faces in this image
 
         Args:
             left (float): the left side of the face's bounding box as a fraction of the image width
@@ -42,7 +43,9 @@ class Image:
 
     
     def get_image_file(self):
-        """ Returns a file object containing the image this object contains, fetching it from a url if necessary
+        """ 
+        Returns a file object containing the image this object 
+        contains, fetching it from a url if necessary.
         """
         if self.image_file is None and self.image_url != '':
             self.image_file = self._get_image_from_url(self.image_url)
@@ -50,13 +53,17 @@ class Image:
         return self.image_file
 
     def _get_image_from_url(self, image_url):
-        ''' Get image file object from passed-in url. '''
+        """
+        Get image file object from passed-in url.
+        """
         req = requests.get(image_url, headers={'User-Agent' : "Magic Browser"})
         image_page = req.content
         f = BytesIO(image_page)
         return f
 
     def __del__(self):
-        '''Close the file object if one exists for this image'''
+        """
+        Close the file object if one exists for this image.
+        """
         if self.image_file is not None:
             self.image_file.close()
