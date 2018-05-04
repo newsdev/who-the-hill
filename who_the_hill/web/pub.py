@@ -102,7 +102,7 @@ def healthcheck():
     '''
     Checks that the app is properly running.
     '''
-    return "Hello!"
+    return "200 ok"
 
 @app.route('/recognize', methods=["POST", "GET"])
 def recongize():

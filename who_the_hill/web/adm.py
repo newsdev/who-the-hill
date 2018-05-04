@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET"])
 def index():
-    return render_template('index.html', number=os.environ.get('TWILIO_NUMBER', None))
+    return render_template('who_the_hill/templates/index.html', number=os.environ.get('TWILIO_NUMBER', None))
 
 @app.route('/healthcheck', methods=["GET"])
 def healthcheck():
