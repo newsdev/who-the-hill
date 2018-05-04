@@ -1,7 +1,7 @@
 import requests
 from io import BytesIO
 
-from face import Face
+from who_the_hill.face import Face
 
 class Image:
     """
