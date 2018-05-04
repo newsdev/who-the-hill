@@ -3,17 +3,6 @@ import json
 import os
 import re
 
-def export2env():
-    """
-    For local development.
-    """
-    CREDS_FILE = os.environ.get('CREDS_FILE', 'staging-credentials.json')
-    with open(, 'r') as readfile:
-        creds = json.loads(readfile.read())
-
-        for k,v in creds.items():
-            os.system('export %s="%s"' % (k.replace('-', '_').upper(), v))
-            print('export %s="%s"' % (k.replace('-', '_').upper(), v))
 
 def valid_uuid(possible_uuid):
     """
