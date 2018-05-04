@@ -3,8 +3,8 @@ import json
 import logging
 import requests
 
-from image import Image
-from abstractrecognizer import AbstractRecognizer
+from who_the_hill.image import Image
+from who_the_hill.abstractrecognizer import AbstractRecognizer
 
 class RekognitionRecognizer(AbstractRecognizer):
     """ An implementation of the AbstractRecognizer class to work with our Rekognition wrapper server """
