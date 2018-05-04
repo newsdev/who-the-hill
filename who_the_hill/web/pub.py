@@ -14,7 +14,7 @@ import requests
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
 
-import who_the_hill import alerter
+from who_the_hill import alerter
 from who_the_hill.face import Face
 from who_the_hill.image import Image as RecognitionImage
 from who_the_hill.rekognitionrecognizer import RekognitionRecognizer
