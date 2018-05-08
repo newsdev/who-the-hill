@@ -158,8 +158,8 @@ def recongize():
             url = persist_file(key_str, target_image.get_image_file())
 
             url = "https://int.nyt.com/" + key_str
-            logging.info("Image uploaded to: " + url)
-            logging.info("\n".join(face_messages))
+            print("Image uploaded to: " + url)
+            print("\n".join(face_messages))
             resp.message("\n".join(face_messages))
             twilio_client.messages.create(to=external_num,from_=twilio_num,media_url=url)
             twilio_client.messages.create(to=external_num,from_=twilio_num,body=face_messages)
