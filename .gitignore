@@ -14,3 +14,4 @@ __pycache__/
 dump.rdb
 .vs/
 *-credentials.json
+report.json
