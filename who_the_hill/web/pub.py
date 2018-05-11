@@ -9,15 +9,14 @@ import boto3
 from flask import Flask, request, Response, jsonify, render_template
 from google.cloud import storage
 from PIL import Image, ImageDraw
-import psycopg2
 import requests
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
 
-from who_the_hill import alerter
-from who_the_hill.face import Face
-from who_the_hill.image import Image as RecognitionImage
-from who_the_hill.rekognitionrecognizer import RekognitionRecognizer
+from rek.models import Alerter
+from rek.models import Face
+from rek.models import Image as RecognitionImage
+from rek.models import RekognitionRecognizer
 
 app = Flask(__name__)
 
