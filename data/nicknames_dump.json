@@ -1,3132 +1,2717 @@
 [
-  {
-    "nickname": "Joe Kennedy",
-    "member_id": "K000379",
-    "nyt_name": "Joseph P. Kennedy III"
-  },
-  {
-    "nickname": "Joseph Kennedy",
-    "member_id": "K000379",
-    "nyt_name": "Joseph P. Kennedy III"
-  },
-  {
-    "nickname": "Joseph P Kennedy",
-    "member_id": "K000379",
-    "nyt_name": "Joseph P. Kennedy III"
-  },
-  {
-    "nickname": "James Risch",
-    "member_id": "R000584",
-    "nyt_name": "Jim Risch"
-  },
-  {
-    "nickname": "John N. Kennedy",
-    "member_id": "K000393",
-    "nyt_name": "John Kennedy"
-  },
-  {
-    "nickname": "John Neely Kennedy",
-    "member_id": "K000393",
-    "nyt_name": "John Kennedy"
-  },
-  {
-    "nickname": "Benjamin E. Sasse",
-    "member_id": "S001197",
-    "nyt_name": "Ben Sasse"
-  },
-  {
-    "nickname": "Mike Rogers",
-    "member_id": "R000575",
-    "nyt_name": "Mike D. Rogers"
-  },
-  {
-    "nickname": "Michael Rogers",
-    "member_id": "R000575",
-    "nyt_name": "Mike D. Rogers"
-  },
-  {
-    "nickname": "Michael D. Rogers",
-    "member_id": "R000575",
-    "nyt_name": "Mike D. Rogers"
-  },
-  {
-    "nickname": "Donald Young",
-    "member_id": "Y000033",
-    "nyt_name": "Don Young"
-  },
-  {
-    "nickname": "Donald Edwin Young",
-    "member_id": "Y000033",
-    "nyt_name": "Don Young"
-  },
-  {
-    "nickname": "Donald E. Young",
-    "member_id": "Y000033",
-    "nyt_name": "Don Young"
-  },
-  {
-    "nickname": "Dennis Alan Ross",
-    "member_id": "R000593",
-    "nyt_name": "Dennis A. Ross"
-  },
-  {
-    "nickname": "Dennis Ross",
-    "member_id": "R000593",
-    "nyt_name": "Dennis A. Ross"
-  },
-  {
-    "nickname": "Rick Allen",
-    "member_id": "A000372",
-    "nyt_name": "Rick W. Allen"
-  },
-  {
-    "nickname": "Richard Allen",
-    "member_id": "A000372",
-    "nyt_name": "Rick W. Allen"
-  },
-  {
-    "nickname": "Richard W. Allen",
-    "member_id": "A000372",
-    "nyt_name": "Rick W. Allen"
-  },
-  {
-    "nickname": "Richard Wayne Allen",
-    "member_id": "A000372",
-    "nyt_name": "Rick W. Allen"
-  },
-  {
-    "nickname": "David Trott",
-    "member_id": "T000475",
-    "nyt_name": "Dave Trott"
-  },
-  {
-    "nickname": "David Alan Trott",
-    "member_id": "T000475",
-    "nyt_name": "Dave Trott"
-  },
-  {
-    "nickname": "David A. Trott",
-    "member_id": "T000475",
-    "nyt_name": "Dave Trott"
-  },
-  {
-    "nickname": "Timothy Walz",
-    "member_id": "W000799",
-    "nyt_name": "Tim Walz"
-  },
-  {
-    "nickname": "Timothy J. Walz",
-    "member_id": "W000799",
-    "nyt_name": "Tim Walz"
-  },
-  {
-    "nickname": "Timothy James Walz",
-    "member_id": "W000799",
-    "nyt_name": "Tim Walz"
-  },
-  {
-    "nickname": "Lacy Clay",
-    "member_id": "C001049",
-    "nyt_name": "William Lacy Clay"
-  },
-  {
-    "nickname": "William Lacy Clay Jr.",
-    "member_id": "C001049",
-    "nyt_name": "William Lacy Clay"
-  },
-  {
-    "nickname": "Ben Luján",
-    "member_id": "L000570",
-    "nyt_name": "Ben Ray Luján"
-  },
-  {
-    "nickname": "Ben Lujan",
-    "member_id": "L000570",
-    "nyt_name": "Ben Ray Luján"
-  },
-  {
-    "nickname": "Ben R. Luján",
-    "member_id": "L000570",
-    "nyt_name": "Ben Ray Luján"
-  },
-  {
-    "nickname": "Peter King",
-    "member_id": "K000210",
-    "nyt_name": "Peter T. King"
-  },
-  {
-    "nickname": "Peter Thomas King",
-    "member_id": "K000210",
-    "nyt_name": "Peter T. King"
-  },
-  {
-    "nickname": "Thomas Suozzi",
-    "member_id": "S001201",
-    "nyt_name": "Tom Suozzi"
-  },
-  {
-    "nickname": "Thomas R. Suozzi",
-    "member_id": "S001201",
-    "nyt_name": "Tom Suozzi"
-  },
-  {
-    "nickname": "Daniel Michael Donovan Jr.",
-    "member_id": "D000625",
-    "nyt_name": "Dan Donovan"
-  },
-  {
-    "nickname": "Daniel M. Donovan Jr.",
-    "member_id": "D000625",
-    "nyt_name": "Dan Donovan"
-  },
-  {
-    "nickname": "Daniel Donovan",
-    "member_id": "D000625",
-    "nyt_name": "Dan Donovan"
-  },
-  {
-    "nickname": "José Serrano",
-    "member_id": "S000248",
-    "nyt_name": "José E. Serrano"
-  },
-  {
-    "nickname": "Jose Serrano",
-    "member_id": "S000248",
-    "nyt_name": "José E. Serrano"
-  },
-  {
-    "nickname": "Jose E. Serrano",
-    "member_id": "S000248",
-    "nyt_name": "José E. Serrano"
-  },
-  {
-    "nickname": "Paul D. Tonko",
-    "member_id": "T000469",
-    "nyt_name": "Paul Tonko"
-  },
-  {
-    "nickname": "Paul David Tonko",
-    "member_id": "T000469",
-    "nyt_name": "Paul Tonko"
-  },
-  {
-    "nickname": "Walter B. Jones Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Walter Jones Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Walter Jones",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Walter Beaman Jones Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Robert Brady",
-    "member_id": "B001227",
-    "nyt_name": "Robert A. Brady"
-  },
-  {
-    "nickname": "Bob Brady",
-    "member_id": "B001227",
-    "nyt_name": "Robert A. Brady"
-  },
-  {
-    "nickname": "Brendan Boyle",
-    "member_id": "B001296",
-    "nyt_name": "Brendan F. Boyle"
-  },
-  {
-    "nickname": "Brendan Francis Boyle",
-    "member_id": "B001296",
-    "nyt_name": "Brendan F. Boyle"
-  },
-  {
-    "nickname": "Stephen Cohen",
-    "member_id": "C001068",
-    "nyt_name": "Steve Cohen"
-  },
-  {
-    "nickname": "Stephen I. Cohen",
-    "member_id": "C001068",
-    "nyt_name": "Steve Cohen"
-  },
-  {
-    "nickname": "Stephen Ira Cohen",
-    "member_id": "C001068",
-    "nyt_name": "Steve Cohen"
-  },
-  {
-    "nickname": "Michael Burgess",
-    "member_id": "B001248",
-    "nyt_name": "Michael C. Burgess"
-  },
-  {
-    "nickname": "Michael Clifton Burgess",
-    "member_id": "B001248",
-    "nyt_name": "Michael C. Burgess"
-  },
-  {
-    "nickname": "Filemon Vela, Jr.",
-    "member_id": "V000132",
-    "nyt_name": "Filemon Vela"
-  },
-  {
-    "nickname": "Filemon Vela Jr.",
-    "member_id": "V000132",
-    "nyt_name": "Filemon Vela"
-  },
-  {
-    "nickname": "Bobby Scott",
-    "member_id": "S000185",
-    "nyt_name": "Robert C. Scott"
-  },
-  {
-    "nickname": "Robert Cortez Scott",
-    "member_id": "S000185",
-    "nyt_name": "Robert C. Scott"
-  },
-  {
-    "nickname": "Robert Scott",
-    "member_id": "S000185",
-    "nyt_name": "Robert C. Scott"
-  },
-  {
-    "nickname": "Thomas Garrett, Jr.",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Tom Garrett Jr.",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Thomas Garrett",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Joaquín Castro",
-    "member_id": "C001091",
-    "nyt_name": "Joaquin Castro"
-  },
-  {
-    "nickname": "Ralph Norman",
-    "member_id": "N000190",
-    "nyt_name": "Ralph Norman"
-  },
-  {
-    "nickname": "John Yarmuth",
-    "member_id": "Y000062",
-    "nyt_name": "John Yarmuth"
-  },
-  {
-    "nickname": "Roy Blunt",
-    "member_id": "B000575",
-    "nyt_name": "Roy Blunt"
-  },
-  {
-    "nickname": "Brenda Lawrence",
-    "member_id": "L000581",
-    "nyt_name": "Brenda Lawrence"
-  },
-  {
-    "nickname": "Thomas R. Carper",
-    "member_id": "C000174",
-    "nyt_name": "Thomas R. Carper"
-  },
-  {
-    "nickname": "Jim Langevin",
-    "member_id": "L000559",
-    "nyt_name": "Jim Langevin"
-  },
-  {
-    "nickname": "Michael B. Enzi",
-    "member_id": "E000285",
-    "nyt_name": "Michael B. Enzi"
-  },
-  {
-    "nickname": "Shelley Moore Capito",
-    "member_id": "C001047",
-    "nyt_name": "Shelley Moore Capito"
-  },
-  {
-    "nickname": "Richard E. Neal",
-    "member_id": "N000015",
-    "nyt_name": "Richard E. Neal"
-  },
-  {
-    "nickname": "Mark Takano",
-    "member_id": "T000472",
-    "nyt_name": "Mark Takano"
-  },
-  {
-    "nickname": "Brian Babin",
-    "member_id": "B001291",
-    "nyt_name": "Brian Babin"
-  },
-  {
-    "nickname": "Tim Ryan",
-    "member_id": "R000577",
-    "nyt_name": "Tim Ryan"
-  },
-  {
-    "nickname": "Bill Cassidy",
-    "member_id": "C001075",
-    "nyt_name": "Bill Cassidy"
-  },
-  {
-    "nickname": "Johnny Isakson",
-    "member_id": "I000055",
-    "nyt_name": "Johnny Isakson"
-  },
-  {
-    "nickname": "Karen Handel",
-    "member_id": "H001078",
-    "nyt_name": "Karen Handel"
-  },
-  {
-    "nickname": "Mazie K. Hirono",
-    "member_id": "H001042",
-    "nyt_name": "Mazie K. Hirono"
-  },
-  {
-    "nickname": "Martha E. McSally",
-    "member_id": "M001197",
-    "nyt_name": "Martha E. McSally"
-  },
-  {
-    "nickname": "Roger Wicker",
-    "member_id": "W000437",
-    "nyt_name": "Roger Wicker"
-  },
-  {
-    "nickname": "Joe Manchin III",
-    "member_id": "M001183",
-    "nyt_name": "Joe Manchin III"
-  },
-  {
-    "nickname": "Marco Rubio",
-    "member_id": "R000595",
-    "nyt_name": "Marco Rubio"
-  },
-  {
-    "nickname": "Peter Roskam",
-    "member_id": "R000580",
-    "nyt_name": "Peter Roskam"
-  },
-  {
-    "nickname": "Ken Calvert",
-    "member_id": "C000059",
-    "nyt_name": "Ken Calvert"
-  },
-  {
-    "nickname": "Ryan Zinke",
-    "member_id": "Z000018",
-    "nyt_name": "Ryan Zinke"
-  },
-  {
-    "nickname": "Pete Olson",
-    "member_id": "O000168",
-    "nyt_name": "Pete Olson"
-  },
-  {
-    "nickname": "Tom Rice",
-    "member_id": "R000597",
-    "nyt_name": "Tom Rice"
-  },
-  {
-    "nickname": "John Delaney",
-    "member_id": "D000620",
-    "nyt_name": "John Delaney"
-  },
-  {
-    "nickname": "Tom Cotton",
-    "member_id": "C001095",
-    "nyt_name": "Tom Cotton"
-  },
-  {
-    "nickname": "Jim Sensenbrenner",
-    "member_id": "S000244",
-    "nyt_name": "Jim Sensenbrenner"
-  },
-  {
-    "nickname": "Michael Bennet",
-    "member_id": "B001267",
-    "nyt_name": "Michael Bennet"
-  },
-  {
-    "nickname": "Mike Pompeo",
-    "member_id": "P000602",
-    "nyt_name": "Mike Pompeo"
-  },
-  {
-    "nickname": "Dean Heller",
-    "member_id": "H001041",
-    "nyt_name": "Dean Heller"
-  },
-  {
-    "nickname": "Kevin Cramer",
-    "member_id": "C001096",
-    "nyt_name": "Kevin Cramer"
-  },
-  {
-    "nickname": "Tony Cárdenas",
-    "member_id": "C001097",
-    "nyt_name": "Tony Cárdenas"
-  },
-  {
-    "nickname": "John J. Faso",
-    "member_id": "F000464",
-    "nyt_name": "John J. Faso"
-  },
-  {
-    "nickname": "Tim Kaine",
-    "member_id": "K000384",
-    "nyt_name": "Tim Kaine"
-  },
-  {
-    "nickname": "Jim Jordan",
-    "member_id": "J000289",
-    "nyt_name": "Jim Jordan"
-  },
-  {
-    "nickname": "Debbie Dingell",
-    "member_id": "D000624",
-    "nyt_name": "Debbie Dingell"
-  },
-  {
-    "nickname": "Darin M. LaHood",
-    "member_id": "L000585",
-    "nyt_name": "Darin M. LaHood"
-  },
-  {
-    "nickname": "Mike Johnson",
-    "member_id": "J000299",
-    "nyt_name": "Mike Johnson"
-  },
-  {
-    "nickname": "Louie Gohmert",
-    "member_id": "G000552",
-    "nyt_name": "Louie Gohmert"
-  },
-  {
-    "nickname": "John Thune",
-    "member_id": "T000250",
-    "nyt_name": "John Thune"
-  },
-  {
-    "nickname": "Lucille Roybal-Allard",
-    "member_id": "R000486",
-    "nyt_name": "Lucille Roybal-Allard"
-  },
-  {
-    "nickname": "Tim Walberg",
-    "member_id": "W000798",
-    "nyt_name": "Tim Walberg"
-  },
-  {
-    "nickname": "James Lankford",
-    "member_id": "L000575",
-    "nyt_name": "James Lankford"
-  },
-  {
-    "nickname": "Michael C. Burgess",
-    "member_id": "B001248",
-    "nyt_name": "Michael C. Burgess"
-  },
-  {
-    "nickname": "Dianne Feinstein",
-    "member_id": "F000062",
-    "nyt_name": "Dianne Feinstein"
-  },
-  {
-    "nickname": "Tom Garrett",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Thom Tillis",
-    "member_id": "T000476",
-    "nyt_name": "Thom Tillis"
-  },
-  {
-    "nickname": "Tim Scott",
-    "member_id": "S001184",
-    "nyt_name": "Tim Scott"
-  },
-  {
-    "nickname": "Steve Chabot",
-    "member_id": "C000266",
-    "nyt_name": "Steve Chabot"
-  },
-  {
-    "nickname": "Bernie Sanders",
-    "member_id": "S000033",
-    "nyt_name": "Bernie Sanders"
-  },
-  {
-    "nickname": "Chris Van Hollen",
-    "member_id": "V000128",
-    "nyt_name": "Chris Van Hollen"
-  },
-  {
-    "nickname": "Jon Tester",
-    "member_id": "T000464",
-    "nyt_name": "Jon Tester"
-  },
-  {
-    "nickname": "Dan Sullivan",
-    "member_id": "S001198",
-    "nyt_name": "Dan Sullivan"
-  },
-  {
-    "nickname": "Randy Weber",
-    "member_id": "W000814",
-    "nyt_name": "Randy Weber"
-  },
-  {
-    "nickname": "Lynn Jenkins",
-    "member_id": "J000290",
-    "nyt_name": "Lynn Jenkins"
-  },
-  {
-    "nickname": "Michael E. Capuano",
-    "member_id": "C001037",
-    "nyt_name": "Michael E. Capuano"
-  },
-  {
-    "nickname": "Luis V. Gutiérrez",
-    "member_id": "G000535",
-    "nyt_name": "Luis V. Gutiérrez"
-  },
-  {
-    "nickname": "Claudia Tenney",
-    "member_id": "T000478",
-    "nyt_name": "Claudia Tenney"
-  },
-  {
-    "nickname": "Mike Bishop",
-    "member_id": "B001293",
-    "nyt_name": "Mike Bishop"
-  },
-  {
-    "nickname": "Ben Ray Luján",
-    "member_id": "L000570",
-    "nyt_name": "Ben Ray Luján"
-  },
-  {
-    "nickname": "Tom Udall",
-    "member_id": "U000039",
-    "nyt_name": "Tom Udall"
-  },
-  {
-    "nickname": "Mike D. Rogers",
-    "member_id": "R000575",
-    "nyt_name": "Mike D. Rogers"
-  },
-  {
-    "nickname": "Trent Kelly",
-    "member_id": "K000388",
-    "nyt_name": "Trent Kelly"
-  },
-  {
-    "nickname": "Seth Moulton",
-    "member_id": "M001196",
-    "nyt_name": "Seth Moulton"
-  },
-  {
-    "nickname": "Derek Kilmer",
-    "member_id": "K000381",
-    "nyt_name": "Derek Kilmer"
-  },
-  {
-    "nickname": "Scott DesJarlais",
-    "member_id": "D000616",
-    "nyt_name": "Scott DesJarlais"
-  },
-  {
-    "nickname": "Peter Welch",
-    "member_id": "W000800",
-    "nyt_name": "Peter Welch"
-  },
-  {
-    "nickname": "Lisa Blunt Rochester",
-    "member_id": "B001303",
-    "nyt_name": "Lisa Blunt Rochester"
-  },
-  {
-    "nickname": "John Katko",
-    "member_id": "K000386",
-    "nyt_name": "John Katko"
-  },
-  {
-    "nickname": "Chellie Pingree",
-    "member_id": "P000597",
-    "nyt_name": "Chellie Pingree"
-  },
-  {
-    "nickname": "Jerry Moran",
-    "member_id": "M000934",
-    "nyt_name": "Jerry Moran"
-  },
-  {
-    "nickname": "Rob Portman",
-    "member_id": "P000449",
-    "nyt_name": "Rob Portman"
-  },
-  {
-    "nickname": "John Hoeven",
-    "member_id": "H001061",
-    "nyt_name": "John Hoeven"
-  },
-  {
-    "nickname": "Joseph Crowley",
-    "member_id": "C001038",
-    "nyt_name": "Joseph Crowley"
-  },
-  {
-    "nickname": "Richard M. Burr",
-    "member_id": "B001135",
-    "nyt_name": "Richard M. Burr"
-  },
-  {
-    "nickname": "Jared Polis",
-    "member_id": "P000598",
-    "nyt_name": "Jared Polis"
-  },
-  {
-    "nickname": "Alma Adams",
-    "member_id": "A000370",
-    "nyt_name": "Alma Adams"
-  },
-  {
-    "nickname": "Pat Roberts",
-    "member_id": "R000307",
-    "nyt_name": "Pat Roberts"
-  },
-  {
-    "nickname": "David Young",
-    "member_id": "Y000066",
-    "nyt_name": "David Young"
-  },
-  {
-    "nickname": "Steven M. Palazzo",
-    "member_id": "P000601",
-    "nyt_name": "Steven M. Palazzo"
-  },
-  {
-    "nickname": "Ben Sasse",
-    "member_id": "S001197",
-    "nyt_name": "Ben Sasse"
-  },
-  {
-    "nickname": "Tom O'Halleran",
-    "member_id": "O000171",
-    "nyt_name": "Tom O'Halleran"
-  },
-  {
-    "nickname": "Sam Johnson",
-    "member_id": "J000174",
-    "nyt_name": "Sam Johnson"
-  },
-  {
-    "nickname": "Brendan F. Boyle",
-    "member_id": "B001296",
-    "nyt_name": "Brendan F. Boyle"
-  },
-  {
-    "nickname": "Alex X. Mooney",
-    "member_id": "M001195",
-    "nyt_name": "Alex X. Mooney"
-  },
-  {
-    "nickname": "Cheri Bustos",
-    "member_id": "B001286",
-    "nyt_name": "Cheri Bustos"
-  },
-  {
-    "nickname": "Jeff Denham",
-    "member_id": "D000612",
-    "nyt_name": "Jeff Denham"
-  },
-  {
-    "nickname": "Debbie Stabenow",
-    "member_id": "S000770",
-    "nyt_name": "Debbie Stabenow"
-  },
-  {
-    "nickname": "Marc Veasey",
-    "member_id": "V000131",
-    "nyt_name": "Marc Veasey"
-  },
-  {
-    "nickname": "Neal Dunn",
-    "member_id": "D000628",
-    "nyt_name": "Neal Dunn"
-  },
-  {
-    "nickname": "Tom Suozzi",
-    "member_id": "S001201",
-    "nyt_name": "Tom Suozzi"
-  },
-  {
-    "nickname": "Don Beyer",
-    "member_id": "B001292",
-    "nyt_name": "Don Beyer"
-  },
-  {
-    "nickname": "Elizabeth Warren",
-    "member_id": "W000817",
-    "nyt_name": "Elizabeth Warren"
-  },
-  {
-    "nickname": "Gregg Harper",
-    "member_id": "H001045",
-    "nyt_name": "Gregg Harper"
-  },
-  {
-    "nickname": "Mike Simpson",
-    "member_id": "S001148",
-    "nyt_name": "Mike Simpson"
-  },
-  {
-    "nickname": "Liz Cheney",
-    "member_id": "C001109",
-    "nyt_name": "Liz Cheney"
-  },
-  {
-    "nickname": "Dave Reichert",
-    "member_id": "R000578",
-    "nyt_name": "Dave Reichert"
-  },
-  {
-    "nickname": "Sanford D. Bishop Jr.",
-    "member_id": "B000490",
-    "nyt_name": "Sanford D. Bishop Jr."
-  },
-  {
-    "nickname": "Charlie Dent",
-    "member_id": "D000604",
-    "nyt_name": "Charlie Dent"
-  },
-  {
-    "nickname": "Jody B. Hice",
-    "member_id": "H001071",
-    "nyt_name": "Jody B. Hice"
-  },
-  {
-    "nickname": "Richard Blumenthal",
-    "member_id": "B001277",
-    "nyt_name": "Richard Blumenthal"
-  },
-  {
-    "nickname": "Rodney Davis",
-    "member_id": "D000619",
-    "nyt_name": "Rodney Davis"
-  },
-  {
-    "nickname": "John Boozman",
-    "member_id": "B001236",
-    "nyt_name": "John Boozman"
-  },
-  {
-    "nickname": "Jim Banks",
-    "member_id": "B001299",
-    "nyt_name": "Jim Banks"
-  },
-  {
-    "nickname": "Susan W. Brooks",
-    "member_id": "B001284",
-    "nyt_name": "Susan W. Brooks"
-  },
-  {
-    "nickname": "Jimmy Gomez",
-    "member_id": "G000585",
-    "nyt_name": "Jimmy Gomez"
-  },
-  {
-    "nickname": "Jan Schakowsky",
-    "member_id": "S001145",
-    "nyt_name": "Jan Schakowsky"
-  },
-  {
-    "nickname": "Ryan A. Costello",
-    "member_id": "C001106",
-    "nyt_name": "Ryan A. Costello"
-  },
-  {
-    "nickname": "Jim McGovern",
-    "member_id": "M000312",
-    "nyt_name": "Jim McGovern"
-  },
-  {
-    "nickname": "James Comer",
-    "member_id": "C001108",
-    "nyt_name": "James Comer"
-  },
-  {
-    "nickname": "Adam B. Schiff",
-    "member_id": "S001150",
-    "nyt_name": "Adam B. Schiff"
-  },
-  {
-    "nickname": "Mark DeSaulnier",
-    "member_id": "D000623",
-    "nyt_name": "Mark DeSaulnier"
-  },
-  {
-    "nickname": "Salud Carbajal",
-    "member_id": "C001112",
-    "nyt_name": "Salud Carbajal"
-  },
-  {
-    "nickname": "Robin Kelly",
-    "member_id": "K000385",
-    "nyt_name": "Robin Kelly"
-  },
-  {
-    "nickname": "Cory Booker",
-    "member_id": "B001288",
-    "nyt_name": "Cory Booker"
-  },
-  {
-    "nickname": "Mike Doyle",
-    "member_id": "D000482",
-    "nyt_name": "Mike Doyle"
-  },
-  {
-    "nickname": "Jackie Walorski",
-    "member_id": "W000813",
-    "nyt_name": "Jackie Walorski"
-  },
-  {
-    "nickname": "Lloyd Doggett",
-    "member_id": "D000399",
-    "nyt_name": "Lloyd Doggett"
-  },
-  {
-    "nickname": "Adam Kinzinger",
-    "member_id": "K000378",
-    "nyt_name": "Adam Kinzinger"
-  },
-  {
-    "nickname": "Roger Williams",
-    "member_id": "W000816",
-    "nyt_name": "Roger Williams"
-  },
-  {
-    "nickname": "Terri A. Sewell",
-    "member_id": "S001185",
-    "nyt_name": "Terri A. Sewell"
-  },
-  {
-    "nickname": "Joe Wilson",
-    "member_id": "W000795",
-    "nyt_name": "Joe Wilson"
-  },
-  {
-    "nickname": "Frank Pallone Jr.",
-    "member_id": "P000034",
-    "nyt_name": "Frank Pallone Jr."
-  },
-  {
-    "nickname": "John Moolenaar",
-    "member_id": "M001194",
-    "nyt_name": "John Moolenaar"
-  },
-  {
-    "nickname": "Mike Kelly",
-    "member_id": "K000376",
-    "nyt_name": "Mike Kelly"
-  },
-  {
-    "nickname": "Mark Pocan",
-    "member_id": "P000607",
-    "nyt_name": "Mark Pocan"
-  },
-  {
-    "nickname": "Kevin Yoder",
-    "member_id": "Y000063",
-    "nyt_name": "Kevin Yoder"
-  },
-  {
-    "nickname": "Zoe Lofgren",
-    "member_id": "L000397",
-    "nyt_name": "Zoe Lofgren"
-  },
-  {
-    "nickname": "Suzan DelBene",
-    "member_id": "D000617",
-    "nyt_name": "Suzan DelBene"
-  },
-  {
-    "nickname": "Dana Rohrabacher",
-    "member_id": "R000409",
-    "nyt_name": "Dana Rohrabacher"
-  },
-  {
-    "nickname": "Eddie Bernice Johnson",
-    "member_id": "J000126",
-    "nyt_name": "Eddie Bernice Johnson"
-  },
-  {
-    "nickname": "Christopher S. Murphy",
-    "member_id": "M001169",
-    "nyt_name": "Christopher S. Murphy"
-  },
-  {
-    "nickname": "Mark Walker",
-    "member_id": "W000819",
-    "nyt_name": "Mark Walker"
-  },
-  {
-    "nickname": "Jenniffer González-Colón",
-    "member_id": "G000582",
-    "nyt_name": "Jenniffer González-Colón"
-  },
-  {
-    "nickname": "Greg Walden",
-    "member_id": "W000791",
-    "nyt_name": "Greg Walden"
-  },
-  {
-    "nickname": "Steve Pearce",
-    "member_id": "P000588",
-    "nyt_name": "Steve Pearce"
-  },
-  {
-    "nickname": "Jeff Sessions",
-    "member_id": "S001141",
-    "nyt_name": "Jeff Sessions"
-  },
-  {
-    "nickname": "Jimmy Panetta",
-    "member_id": "P000613",
-    "nyt_name": "Jimmy Panetta"
-  },
-  {
-    "nickname": "Rosa DeLauro",
-    "member_id": "D000216",
-    "nyt_name": "Rosa DeLauro"
-  },
-  {
-    "nickname": "Marcia L. Fudge",
-    "member_id": "F000455",
-    "nyt_name": "Marcia L. Fudge"
-  },
-  {
-    "nickname": "Adriano Espaillat",
-    "member_id": "E000297",
-    "nyt_name": "Adriano Espaillat"
-  },
-  {
-    "nickname": "Dwight Evans",
-    "member_id": "E000296",
-    "nyt_name": "Dwight Evans"
-  },
-  {
-    "nickname": "A. Donald McEachin",
-    "member_id": "M001200",
-    "nyt_name": "A. Donald McEachin"
-  },
-  {
-    "nickname": "Pete Aguilar",
-    "member_id": "A000371",
-    "nyt_name": "Pete Aguilar"
-  },
-  {
-    "nickname": "Karen Bass",
-    "member_id": "B001270",
-    "nyt_name": "Karen Bass"
-  },
-  {
-    "nickname": "Danny K. Davis",
-    "member_id": "D000096",
-    "nyt_name": "Danny K. Davis"
-  },
-  {
-    "nickname": "José E. Serrano",
-    "member_id": "S000248",
-    "nyt_name": "José E. Serrano"
-  },
-  {
-    "nickname": "Bruce Poliquin",
-    "member_id": "P000611",
-    "nyt_name": "Bruce Poliquin"
-  },
-  {
-    "nickname": "James M. Inhofe",
-    "member_id": "I000024",
-    "nyt_name": "James M. Inhofe"
-  },
-  {
-    "nickname": "James B. Renacci",
-    "member_id": "R000586",
-    "nyt_name": "James B. Renacci"
-  },
-  {
-    "nickname": "Brian Fitzpatrick",
-    "member_id": "F000466",
-    "nyt_name": "Brian Fitzpatrick"
-  },
-  {
-    "nickname": "French Hill",
-    "member_id": "H001072",
-    "nyt_name": "French Hill"
-  },
-  {
-    "nickname": "Susan Collins",
-    "member_id": "C001035",
-    "nyt_name": "Susan Collins"
-  },
-  {
-    "nickname": "Tom Graves",
-    "member_id": "G000560",
-    "nyt_name": "Tom Graves"
-  },
-  {
-    "nickname": "Cathy McMorris Rodgers",
-    "member_id": "M001159",
-    "nyt_name": "Cathy McMorris Rodgers"
-  },
-  {
-    "nickname": "Mimi Walters",
-    "member_id": "W000820",
-    "nyt_name": "Mimi Walters"
-  },
-  {
-    "nickname": "Val Demings",
-    "member_id": "D000627",
-    "nyt_name": "Val Demings"
-  },
-  {
-    "nickname": "Jeff Merkley",
-    "member_id": "M001176",
-    "nyt_name": "Jeff Merkley"
-  },
-  {
-    "nickname": "Beto O'Rourke",
-    "member_id": "O000170",
-    "nyt_name": "Beto O'Rourke"
-  },
-  {
-    "nickname": "Mike Gallagher",
-    "member_id": "G000579",
-    "nyt_name": "Mike Gallagher"
-  },
-  {
-    "nickname": "Ron Estes",
-    "member_id": "E000298",
-    "nyt_name": "Ron Estes"
-  },
-  {
-    "nickname": "Steny H. Hoyer",
-    "member_id": "H000874",
-    "nyt_name": "Steny H. Hoyer"
-  },
-  {
-    "nickname": "Benjamin L. Cardin",
-    "member_id": "C000141",
-    "nyt_name": "Benjamin L. Cardin"
-  },
-  {
-    "nickname": "Mia Love",
-    "member_id": "L000584",
-    "nyt_name": "Mia Love"
-  },
-  {
-    "nickname": "Bill Foster",
-    "member_id": "F000454",
-    "nyt_name": "Bill Foster"
-  },
-  {
-    "nickname": "Brad Wenstrup",
-    "member_id": "W000815",
-    "nyt_name": "Brad Wenstrup"
-  },
-  {
-    "nickname": "Raja Krishnamoorthi",
-    "member_id": "K000391",
-    "nyt_name": "Raja Krishnamoorthi"
-  },
-  {
-    "nickname": "Billy Long",
-    "member_id": "L000576",
-    "nyt_name": "Billy Long"
-  },
-  {
-    "nickname": "Kathy Castor",
-    "member_id": "C001066",
-    "nyt_name": "Kathy Castor"
-  },
-  {
-    "nickname": "Jeb Hensarling",
-    "member_id": "H001036",
-    "nyt_name": "Jeb Hensarling"
-  },
-  {
-    "nickname": "Diane Black",
-    "member_id": "B001273",
-    "nyt_name": "Diane Black"
-  },
-  {
-    "nickname": "Josh Gottheimer",
-    "member_id": "G000583",
-    "nyt_name": "Josh Gottheimer"
-  },
-  {
-    "nickname": "Sander M. Levin",
-    "member_id": "L000263",
-    "nyt_name": "Sander M. Levin"
-  },
-  {
-    "nickname": "Jeff Duncan",
-    "member_id": "D000615",
-    "nyt_name": "Jeff Duncan"
-  },
-  {
-    "nickname": "Kamala Harris",
-    "member_id": "H001075",
-    "nyt_name": "Kamala Harris"
-  },
-  {
-    "nickname": "John Carter",
-    "member_id": "C001051",
-    "nyt_name": "John Carter"
-  },
-  {
-    "nickname": "Chuck Fleischmann",
-    "member_id": "F000459",
-    "nyt_name": "Chuck Fleischmann"
-  },
-  {
-    "nickname": "Alan Lowenthal",
-    "member_id": "L000579",
-    "nyt_name": "Alan Lowenthal"
-  },
-  {
-    "nickname": "Sean P. Duffy",
-    "member_id": "D000614",
-    "nyt_name": "Sean P. Duffy"
-  },
-  {
-    "nickname": "Mo Brooks",
-    "member_id": "B001274",
-    "nyt_name": "Mo Brooks"
-  },
-  {
-    "nickname": "Mark Amodei",
-    "member_id": "A000369",
-    "nyt_name": "Mark Amodei"
-  },
-  {
-    "nickname": "Eric Swalwell",
-    "member_id": "S001193",
-    "nyt_name": "Eric Swalwell"
-  },
-  {
-    "nickname": "Vicky Hartzler",
-    "member_id": "H001053",
-    "nyt_name": "Vicky Hartzler"
-  },
-  {
-    "nickname": "Hakeem Jeffries",
-    "member_id": "J000294",
-    "nyt_name": "Hakeem Jeffries"
-  },
-  {
-    "nickname": "David Joyce",
-    "member_id": "J000295",
-    "nyt_name": "David Joyce"
-  },
-  {
-    "nickname": "Jeanne Shaheen",
-    "member_id": "S001181",
-    "nyt_name": "Jeanne Shaheen"
-  },
-  {
-    "nickname": "Bill Flores",
-    "member_id": "F000461",
-    "nyt_name": "Bill Flores"
-  },
-  {
-    "nickname": "Kirsten Gillibrand",
-    "member_id": "G000555",
-    "nyt_name": "Kirsten Gillibrand"
-  },
-  {
-    "nickname": "Susan A. Davis",
-    "member_id": "D000598",
-    "nyt_name": "Susan A. Davis"
-  },
-  {
-    "nickname": "Doug Collins",
-    "member_id": "C001093",
-    "nyt_name": "Doug Collins"
-  },
-  {
-    "nickname": "John McCain",
-    "member_id": "M000303",
-    "nyt_name": "John McCain"
-  },
-  {
-    "nickname": "Mike Coffman",
-    "member_id": "C001077",
-    "nyt_name": "Mike Coffman"
-  },
-  {
-    "nickname": "Jeff Flake",
-    "member_id": "F000444",
-    "nyt_name": "Jeff Flake"
-  },
-  {
-    "nickname": "Amy Klobuchar",
-    "member_id": "K000367",
-    "nyt_name": "Amy Klobuchar"
-  },
-  {
-    "nickname": "Ruben Kihuen",
-    "member_id": "K000390",
-    "nyt_name": "Ruben Kihuen"
-  },
-  {
-    "nickname": "Vicente Gonzalez",
-    "member_id": "G000581",
-    "nyt_name": "Vicente Gonzalez"
-  },
-  {
-    "nickname": "Lamar Alexander",
-    "member_id": "A000360",
-    "nyt_name": "Lamar Alexander"
-  },
-  {
-    "nickname": "David Scott",
-    "member_id": "S001157",
-    "nyt_name": "David Scott"
-  },
-  {
-    "nickname": "Charles E. Grassley",
-    "member_id": "G000386",
-    "nyt_name": "Charles E. Grassley"
-  },
-  {
-    "nickname": "Carol Shea-Porter",
-    "member_id": "S001170",
-    "nyt_name": "Carol Shea-Porter"
-  },
-  {
-    "nickname": "David Schweikert",
-    "member_id": "S001183",
-    "nyt_name": "David Schweikert"
-  },
-  {
-    "nickname": "Tom Emmer",
-    "member_id": "E000294",
-    "nyt_name": "Tom Emmer"
-  },
-  {
-    "nickname": "Lindsey Graham",
-    "member_id": "G000359",
-    "nyt_name": "Lindsey Graham"
-  },
-  {
-    "nickname": "Elizabeth Esty",
-    "member_id": "E000293",
-    "nyt_name": "Elizabeth Esty"
-  },
-  {
-    "nickname": "Kay Granger",
-    "member_id": "G000377",
-    "nyt_name": "Kay Granger"
-  },
-  {
-    "nickname": "Gwen Moore",
-    "member_id": "M001160",
-    "nyt_name": "Gwen Moore"
-  },
-  {
-    "nickname": "Scott Peters",
-    "member_id": "P000608",
-    "nyt_name": "Scott Peters"
-  },
-  {
-    "nickname": "Gene Green",
-    "member_id": "G000410",
-    "nyt_name": "Gene Green"
-  },
-  {
-    "nickname": "Raúl M. Grijalva",
-    "member_id": "G000551",
-    "nyt_name": "Raúl M. Grijalva"
-  },
-  {
-    "nickname": "Ken Buck",
-    "member_id": "B001297",
-    "nyt_name": "Ken Buck"
-  },
-  {
-    "nickname": "Bill Pascrell Jr.",
-    "member_id": "P000096",
-    "nyt_name": "Bill Pascrell Jr."
-  },
-  {
-    "nickname": "Cory Gardner",
-    "member_id": "G000562",
-    "nyt_name": "Cory Gardner"
-  },
-  {
-    "nickname": "Paul Mitchell",
-    "member_id": "M001201",
-    "nyt_name": "Paul Mitchell"
-  },
-  {
-    "nickname": "Adam Smith",
-    "member_id": "S000510",
-    "nyt_name": "Adam Smith"
-  },
-  {
-    "nickname": "Louise M. Slaughter",
-    "member_id": "S000480",
-    "nyt_name": "Louise M. Slaughter"
-  },
-  {
-    "nickname": "Michael R. Turner",
-    "member_id": "T000463",
-    "nyt_name": "Michael R. Turner"
-  },
-  {
-    "nickname": "Ann Wagner",
-    "member_id": "W000812",
-    "nyt_name": "Ann Wagner"
-  },
-  {
-    "nickname": "Martha Roby",
-    "member_id": "R000591",
-    "nyt_name": "Martha Roby"
-  },
-  {
-    "nickname": "Keith Rothfus",
-    "member_id": "R000598",
-    "nyt_name": "Keith Rothfus"
-  },
-  {
-    "nickname": "Cedric L. Richmond",
-    "member_id": "R000588",
-    "nyt_name": "Cedric L. Richmond"
-  },
-  {
-    "nickname": "Jackie Speier",
-    "member_id": "S001175",
-    "nyt_name": "Jackie Speier"
-  },
-  {
-    "nickname": "Jack Bergman",
-    "member_id": "B001301",
-    "nyt_name": "Jack Bergman"
-  },
-  {
-    "nickname": "André Carson",
-    "member_id": "C001072",
-    "nyt_name": "André Carson"
-  },
-  {
-    "nickname": "Hank Johnson",
-    "member_id": "J000288",
-    "nyt_name": "Hank Johnson"
-  },
-  {
-    "nickname": "Edward J. Markey",
-    "member_id": "M000133",
-    "nyt_name": "Edward J. Markey"
-  },
-  {
-    "nickname": "Tom McClintock",
-    "member_id": "M001177",
-    "nyt_name": "Tom McClintock"
-  },
-  {
-    "nickname": "David Rouzer",
-    "member_id": "R000603",
-    "nyt_name": "David Rouzer"
-  },
-  {
-    "nickname": "Albio Sires",
-    "member_id": "S001165",
-    "nyt_name": "Albio Sires"
-  },
-  {
-    "nickname": "Jeff Fortenberry",
-    "member_id": "F000449",
-    "nyt_name": "Jeff Fortenberry"
-  },
-  {
-    "nickname": "Aumua Amata Coleman Radewagen",
-    "member_id": "R000600",
-    "nyt_name": "Aumua Amata Coleman Radewagen"
-  },
-  {
-    "nickname": "Robert W. Goodlatte",
-    "member_id": "G000289",
-    "nyt_name": "Robert W. Goodlatte"
-  },
-  {
-    "nickname": "Virginia Foxx",
-    "member_id": "F000450",
-    "nyt_name": "Virginia Foxx"
-  },
-  {
-    "nickname": "Bobby L. Rush",
-    "member_id": "R000515",
-    "nyt_name": "Bobby L. Rush"
-  },
-  {
-    "nickname": "Kathleen Rice",
-    "member_id": "R000602",
-    "nyt_name": "Kathleen Rice"
-  },
-  {
-    "nickname": "Lloyd K. Smucker",
-    "member_id": "S001199",
-    "nyt_name": "Lloyd K. Smucker"
-  },
-  {
-    "nickname": "Jason Chaffetz",
-    "member_id": "C001076",
-    "nyt_name": "Jason Chaffetz"
-  },
-  {
-    "nickname": "Don Bacon",
-    "member_id": "B001298",
-    "nyt_name": "Don Bacon"
-  },
-  {
-    "nickname": "Robert C. Scott",
-    "member_id": "S000185",
-    "nyt_name": "Robert C. Scott"
-  },
-  {
-    "nickname": "Raúl R. Labrador",
-    "member_id": "L000573",
-    "nyt_name": "Raúl R. Labrador"
-  },
-  {
-    "nickname": "Glenn Thompson",
-    "member_id": "T000467",
-    "nyt_name": "Glenn Thompson"
-  },
-  {
-    "nickname": "Madeleine Z. Bordallo",
-    "member_id": "B001245",
-    "nyt_name": "Madeleine Z. Bordallo"
-  },
-  {
-    "nickname": "Dina Titus",
-    "member_id": "T000468",
-    "nyt_name": "Dina Titus"
-  },
-  {
-    "nickname": "Nydia M. Velázquez",
-    "member_id": "V000081",
-    "nyt_name": "Nydia M. Velázquez"
-  },
-  {
-    "nickname": "Eliot L. Engel",
-    "member_id": "E000179",
-    "nyt_name": "Eliot L. Engel"
-  },
-  {
-    "nickname": "Drew Ferguson",
-    "member_id": "F000465",
-    "nyt_name": "Drew Ferguson"
-  },
-  {
-    "nickname": "Juan C. Vargas",
-    "member_id": "V000130",
-    "nyt_name": "Juan C. Vargas"
-  },
-  {
-    "nickname": "Mac Thornberry",
-    "member_id": "T000238",
-    "nyt_name": "Mac Thornberry"
-  },
-  {
-    "nickname": "Kyrsten Sinema",
-    "member_id": "S001191",
-    "nyt_name": "Kyrsten Sinema"
-  },
-  {
-    "nickname": "Leonard Lance",
-    "member_id": "L000567",
-    "nyt_name": "Leonard Lance"
-  },
-  {
-    "nickname": "Duncan Hunter",
-    "member_id": "H001048",
-    "nyt_name": "Duncan Hunter"
-  },
-  {
-    "nickname": "Todd Rokita",
-    "member_id": "R000592",
-    "nyt_name": "Todd Rokita"
-  },
-  {
-    "nickname": "Jamie Raskin",
-    "member_id": "R000606",
-    "nyt_name": "Jamie Raskin"
-  },
-  {
-    "nickname": "Tom Marino",
-    "member_id": "M001179",
-    "nyt_name": "Tom Marino"
-  },
-  {
-    "nickname": "Kurt Schrader",
-    "member_id": "S001180",
-    "nyt_name": "Kurt Schrader"
-  },
-  {
-    "nickname": "Jim Himes",
-    "member_id": "H001047",
-    "nyt_name": "Jim Himes"
-  },
-  {
-    "nickname": "Darrell Issa",
-    "member_id": "I000056",
-    "nyt_name": "Darrell Issa"
-  },
-  {
-    "nickname": "Phil Roe",
-    "member_id": "R000582",
-    "nyt_name": "Phil Roe"
-  },
-  {
-    "nickname": "Lamar Smith",
-    "member_id": "S000583",
-    "nyt_name": "Lamar Smith"
-  },
-  {
-    "nickname": "Peter J. Visclosky",
-    "member_id": "V000108",
-    "nyt_name": "Peter J. Visclosky"
-  },
-  {
-    "nickname": "Peter A. DeFazio",
-    "member_id": "D000191",
-    "nyt_name": "Peter A. DeFazio"
-  },
-  {
-    "nickname": "Diana DeGette",
-    "member_id": "D000197",
-    "nyt_name": "Diana DeGette"
-  },
-  {
-    "nickname": "Luther Strange",
-    "member_id": "S001202",
-    "nyt_name": "Luther Strange"
-  },
-  {
-    "nickname": "Chris Stewart",
-    "member_id": "S001192",
-    "nyt_name": "Chris Stewart"
-  },
-  {
-    "nickname": "Sam Graves",
-    "member_id": "G000546",
-    "nyt_name": "Sam Graves"
-  },
-  {
-    "nickname": "Andy Harris",
-    "member_id": "H001052",
-    "nyt_name": "Andy Harris"
-  },
-  {
-    "nickname": "Joseph P. Kennedy III",
-    "member_id": "K000379",
-    "nyt_name": "Joseph P. Kennedy III"
-  },
-  {
-    "nickname": "Tom MacArthur",
-    "member_id": "M001193",
-    "nyt_name": "Tom MacArthur"
-  },
-  {
-    "nickname": "Niki Tsongas",
-    "member_id": "T000465",
-    "nyt_name": "Niki Tsongas"
-  },
-  {
-    "nickname": "Blaine Luetkemeyer",
-    "member_id": "L000569",
-    "nyt_name": "Blaine Luetkemeyer"
-  },
-  {
-    "nickname": "Daniel Lipinski",
-    "member_id": "L000563",
-    "nyt_name": "Daniel Lipinski"
-  },
-  {
-    "nickname": "Al Green",
-    "member_id": "G000553",
-    "nyt_name": "Al Green"
-  },
-  {
-    "nickname": "Tom Reed",
-    "member_id": "R000585",
-    "nyt_name": "Tom Reed"
-  },
-  {
-    "nickname": "C.A. Dutch Ruppersberger",
-    "member_id": "R000576",
-    "nyt_name": "C.A. Dutch Ruppersberger"
-  },
-  {
-    "nickname": "Brad Schneider",
-    "member_id": "S001190",
-    "nyt_name": "Brad Schneider"
-  },
-  {
-    "nickname": "Gregorio Kilili Camacho Sablan",
-    "member_id": "S001177",
-    "nyt_name": "Gregorio Kilili Camacho Sablan"
-  },
-  {
-    "nickname": "Jason Smith",
-    "member_id": "S001195",
-    "nyt_name": "Jason Smith"
-  },
-  {
-    "nickname": "Peter T. King",
-    "member_id": "K000210",
-    "nyt_name": "Peter T. King"
-  },
-  {
-    "nickname": "John Cornyn",
-    "member_id": "C001056",
-    "nyt_name": "John Cornyn"
-  },
-  {
-    "nickname": "Tim Murphy",
-    "member_id": "M001151",
-    "nyt_name": "Tim Murphy"
-  },
-  {
-    "nickname": "John Ratcliffe",
-    "member_id": "R000601",
-    "nyt_name": "John Ratcliffe"
-  },
-  {
-    "nickname": "Bill Shuster",
-    "member_id": "S001154",
-    "nyt_name": "Bill Shuster"
-  },
-  {
-    "nickname": "Bill Johnson",
-    "member_id": "J000292",
-    "nyt_name": "Bill Johnson"
-  },
-  {
-    "nickname": "David B. McKinley",
-    "member_id": "M001180",
-    "nyt_name": "David B. McKinley"
-  },
-  {
-    "nickname": "David Cicilline",
-    "member_id": "C001084",
-    "nyt_name": "David Cicilline"
-  },
-  {
-    "nickname": "James E. Clyburn",
-    "member_id": "C000537",
-    "nyt_name": "James E. Clyburn"
-  },
-  {
-    "nickname": "Grace Meng",
-    "member_id": "M001188",
-    "nyt_name": "Grace Meng"
-  },
-  {
-    "nickname": "Chuck Schumer",
-    "member_id": "S000148",
-    "nyt_name": "Chuck Schumer"
-  },
-  {
-    "nickname": "Brian Higgins",
-    "member_id": "H001038",
-    "nyt_name": "Brian Higgins"
-  },
-  {
-    "nickname": "Christopher H. Smith",
-    "member_id": "S000522",
-    "nyt_name": "Christopher H. Smith"
-  },
-  {
-    "nickname": "Jaime Herrera Beutler",
-    "member_id": "H001056",
-    "nyt_name": "Jaime Herrera Beutler"
-  },
-  {
-    "nickname": "Joyce Beatty",
-    "member_id": "B001281",
-    "nyt_name": "Joyce Beatty"
-  },
-  {
-    "nickname": "Angus King",
-    "member_id": "K000383",
-    "nyt_name": "Angus King"
-  },
-  {
-    "nickname": "Tammy Duckworth",
-    "member_id": "D000622",
-    "nyt_name": "Tammy Duckworth"
-  },
-  {
-    "nickname": "Xavier Becerra",
-    "member_id": "B000287",
-    "nyt_name": "Xavier Becerra"
-  },
-  {
-    "nickname": "Blake Farenthold",
-    "member_id": "F000460",
-    "nyt_name": "Blake Farenthold"
-  },
-  {
-    "nickname": "Steve Stivers",
-    "member_id": "S001187",
-    "nyt_name": "Steve Stivers"
-  },
-  {
-    "nickname": "Pete Sessions",
-    "member_id": "S000250",
-    "nyt_name": "Pete Sessions"
-  },
-  {
-    "nickname": "Lee Zeldin",
-    "member_id": "Z000017",
-    "nyt_name": "Lee Zeldin"
-  },
-  {
-    "nickname": "Ralph Abraham",
-    "member_id": "A000374",
-    "nyt_name": "Ralph Abraham"
-  },
-  {
-    "nickname": "Patrick J. Toomey",
-    "member_id": "T000461",
-    "nyt_name": "Patrick J. Toomey"
-  },
-  {
-    "nickname": "Michael Rounds",
-    "member_id": "R000605",
-    "nyt_name": "Michael Rounds"
-  },
-  {
-    "nickname": "Pat Tiberi",
-    "member_id": "T000462",
-    "nyt_name": "Pat Tiberi"
-  },
-  {
-    "nickname": "Steve Scalise",
-    "member_id": "S001176",
-    "nyt_name": "Steve Scalise"
-  },
-  {
-    "nickname": "Scott Tipton",
-    "member_id": "T000470",
-    "nyt_name": "Scott Tipton"
-  },
-  {
-    "nickname": "Devin Nunes",
-    "member_id": "N000181",
-    "nyt_name": "Devin Nunes"
-  },
-  {
-    "nickname": "David Perdue",
-    "member_id": "P000612",
-    "nyt_name": "David Perdue"
-  },
-  {
-    "nickname": "Filemon Vela",
-    "member_id": "V000132",
-    "nyt_name": "Filemon Vela"
-  },
-  {
-    "nickname": "Ron Johnson",
-    "member_id": "J000293",
-    "nyt_name": "Ron Johnson"
-  },
-  {
-    "nickname": "Collin C. Peterson",
-    "member_id": "P000258",
-    "nyt_name": "Collin C. Peterson"
-  },
-  {
-    "nickname": "John B. Larson",
-    "member_id": "L000557",
-    "nyt_name": "John B. Larson"
-  },
-  {
-    "nickname": "Barbara Lee",
-    "member_id": "L000551",
-    "nyt_name": "Barbara Lee"
-  },
-  {
-    "nickname": "Judy Chu",
-    "member_id": "C001080",
-    "nyt_name": "Judy Chu"
-  },
-  {
-    "nickname": "Al Franken",
-    "member_id": "F000457",
-    "nyt_name": "Al Franken"
-  },
-  {
-    "nickname": "Maxine Waters",
-    "member_id": "W000187",
-    "nyt_name": "Maxine Waters"
-  },
-  {
-    "nickname": "Tom Price",
-    "member_id": "P000591",
-    "nyt_name": "Tom Price"
-  },
-  {
-    "nickname": "Paul D. Ryan",
-    "member_id": "R000570",
-    "nyt_name": "Paul D. Ryan"
-  },
-  {
-    "nickname": "Ed Royce",
-    "member_id": "R000487",
-    "nyt_name": "Ed Royce"
-  },
-  {
-    "nickname": "Mark Warner",
-    "member_id": "W000805",
-    "nyt_name": "Mark Warner"
-  },
-  {
-    "nickname": "Dan Kildee",
-    "member_id": "K000380",
-    "nyt_name": "Dan Kildee"
-  },
-  {
-    "nickname": "John Kennedy",
-    "member_id": "K000393",
-    "nyt_name": "John Kennedy"
-  },
-  {
-    "nickname": "Nancy Pelosi",
-    "member_id": "P000197",
-    "nyt_name": "Nancy Pelosi"
-  },
-  {
-    "nickname": "Elise Stefanik",
-    "member_id": "S001196",
-    "nyt_name": "Elise Stefanik"
-  },
-  {
-    "nickname": "Randy Hultgren",
-    "member_id": "H001059",
-    "nyt_name": "Randy Hultgren"
-  },
-  {
-    "nickname": "Don Young",
-    "member_id": "Y000033",
-    "nyt_name": "Don Young"
-  },
-  {
-    "nickname": "Bonnie Watson Coleman",
-    "member_id": "W000822",
-    "nyt_name": "Bonnie Watson Coleman"
-  },
-  {
-    "nickname": "Richard J. Durbin",
-    "member_id": "D000563",
-    "nyt_name": "Richard J. Durbin"
-  },
-  {
-    "nickname": "Trey Hollingsworth",
-    "member_id": "H001074",
-    "nyt_name": "Trey Hollingsworth"
-  },
-  {
-    "nickname": "Ed Perlmutter",
-    "member_id": "P000593",
-    "nyt_name": "Ed Perlmutter"
-  },
-  {
-    "nickname": "Maria Cantwell",
-    "member_id": "C000127",
-    "nyt_name": "Maria Cantwell"
-  },
-  {
-    "nickname": "Donald M. Payne Jr.",
-    "member_id": "P000604",
-    "nyt_name": "Donald M. Payne Jr."
-  },
-  {
-    "nickname": "Anthony Brown",
-    "member_id": "B001304",
-    "nyt_name": "Anthony Brown"
-  },
-  {
-    "nickname": "Denny Heck",
-    "member_id": "H001064",
-    "nyt_name": "Denny Heck"
-  },
-  {
-    "nickname": "George Holding",
-    "member_id": "H001065",
-    "nyt_name": "George Holding"
-  },
-  {
-    "nickname": "Patrick J. Leahy",
-    "member_id": "L000174",
-    "nyt_name": "Patrick J. Leahy"
-  },
-  {
-    "nickname": "Claire McCaskill",
-    "member_id": "M001170",
-    "nyt_name": "Claire McCaskill"
-  },
-  {
-    "nickname": "Martin Heinrich",
-    "member_id": "H001046",
-    "nyt_name": "Martin Heinrich"
-  },
-  {
-    "nickname": "David Valadao",
-    "member_id": "V000129",
-    "nyt_name": "David Valadao"
-  },
-  {
-    "nickname": "Ted Poe",
-    "member_id": "P000592",
-    "nyt_name": "Ted Poe"
-  },
-  {
-    "nickname": "Scott Perry",
-    "member_id": "P000605",
-    "nyt_name": "Scott Perry"
-  },
-  {
-    "nickname": "Donald Norcross",
-    "member_id": "N000188",
-    "nyt_name": "Donald Norcross"
-  },
-  {
-    "nickname": "Brad Sherman",
-    "member_id": "S000344",
-    "nyt_name": "Brad Sherman"
-  },
-  {
-    "nickname": "Dan Newhouse",
-    "member_id": "N000189",
-    "nyt_name": "Dan Newhouse"
-  },
-  {
-    "nickname": "Debbie Wasserman Schultz",
-    "member_id": "W000797",
-    "nyt_name": "Debbie Wasserman Schultz"
-  },
-  {
-    "nickname": "Bruce Westerman",
-    "member_id": "W000821",
-    "nyt_name": "Bruce Westerman"
-  },
-  {
-    "nickname": "Garret Graves",
-    "member_id": "G000577",
-    "nyt_name": "Garret Graves"
-  },
-  {
-    "nickname": "Clay Higgins",
-    "member_id": "H001077",
-    "nyt_name": "Clay Higgins"
-  },
-  {
-    "nickname": "Michelle Lujan Grisham",
-    "member_id": "L000580",
-    "nyt_name": "Michelle Lujan Grisham"
-  },
-  {
-    "nickname": "Evan H. Jenkins",
-    "member_id": "J000297",
-    "nyt_name": "Evan H. Jenkins"
-  },
-  {
-    "nickname": "Will Hurd",
-    "member_id": "H001073",
-    "nyt_name": "Will Hurd"
-  },
-  {
-    "nickname": "Warren Davidson",
-    "member_id": "D000626",
-    "nyt_name": "Warren Davidson"
-  },
-  {
-    "nickname": "Pramila Jayapal",
-    "member_id": "J000298",
-    "nyt_name": "Pramila Jayapal"
-  },
-  {
-    "nickname": "Bob Latta",
-    "member_id": "L000566",
-    "nyt_name": "Bob Latta"
-  },
-  {
-    "nickname": "Carolyn B. Maloney",
-    "member_id": "M000087",
-    "nyt_name": "Carolyn B. Maloney"
-  },
-  {
-    "nickname": "Ted Lieu",
-    "member_id": "L000582",
-    "nyt_name": "Ted Lieu"
-  },
-  {
-    "nickname": "Frank D. Lucas",
-    "member_id": "L000491",
-    "nyt_name": "Frank D. Lucas"
-  },
-  {
-    "nickname": "Frank A. LoBiondo",
-    "member_id": "L000554",
-    "nyt_name": "Frank A. LoBiondo"
-  },
-  {
-    "nickname": "Rick Larsen",
-    "member_id": "L000560",
-    "nyt_name": "Rick Larsen"
-  },
-  {
-    "nickname": "Dave Loebsack",
-    "member_id": "L000565",
-    "nyt_name": "Dave Loebsack"
-  },
-  {
-    "nickname": "Steve Knight",
-    "member_id": "K000387",
-    "nyt_name": "Steve Knight"
-  },
-  {
-    "nickname": "Doug LaMalfa",
-    "member_id": "L000578",
-    "nyt_name": "Doug LaMalfa"
-  },
-  {
-    "nickname": "J. Luis Correa",
-    "member_id": "C001110",
-    "nyt_name": "J. Luis Correa"
-  },
-  {
-    "nickname": "Nita M. Lowey",
-    "member_id": "L000480",
-    "nyt_name": "Nita M. Lowey"
-  },
-  {
-    "nickname": "Doug Lamborn",
-    "member_id": "L000564",
-    "nyt_name": "Doug Lamborn"
-  },
-  {
-    "nickname": "Betty McCollum",
-    "member_id": "M001143",
-    "nyt_name": "Betty McCollum"
-  },
-  {
-    "nickname": "Dan Donovan",
-    "member_id": "D000625",
-    "nyt_name": "Dan Donovan"
-  },
-  {
-    "nickname": "Elijah E. Cummings",
-    "member_id": "C000984",
-    "nyt_name": "Elijah E. Cummings"
-  },
-  {
-    "nickname": "Tim Walz",
-    "member_id": "W000799",
-    "nyt_name": "Tim Walz"
-  },
-  {
-    "nickname": "Earl L. “Buddy” Carter",
-    "member_id": "C001103",
-    "nyt_name": "Earl L. “Buddy” Carter"
-  },
-  {
-    "nickname": "Ro Khanna",
-    "member_id": "K000389",
-    "nyt_name": "Ro Khanna"
-  },
-  {
-    "nickname": "Rob Woodall",
-    "member_id": "W000810",
-    "nyt_name": "Rob Woodall"
-  },
-  {
-    "nickname": "Jason Lewis",
-    "member_id": "L000587",
-    "nyt_name": "Jason Lewis"
-  },
-  {
-    "nickname": "John Lewis",
-    "member_id": "L000287",
-    "nyt_name": "John Lewis"
-  },
-  {
-    "nickname": "Doris Matsui",
-    "member_id": "M001163",
-    "nyt_name": "Doris Matsui"
-  },
-  {
-    "nickname": "Grace F. Napolitano",
-    "member_id": "N000179",
-    "nyt_name": "Grace F. Napolitano"
-  },
-  {
-    "nickname": "Jerry McNerney",
-    "member_id": "M001166",
-    "nyt_name": "Jerry McNerney"
-  },
-  {
-    "nickname": "Steve King",
-    "member_id": "K000362",
-    "nyt_name": "Steve King"
-  },
-  {
-    "nickname": "Jacky Rosen",
-    "member_id": "R000608",
-    "nyt_name": "Jacky Rosen"
-  },
-  {
-    "nickname": "Gary Palmer",
-    "member_id": "P000609",
-    "nyt_name": "Gary Palmer"
-  },
-  {
-    "nickname": "Stephen F. Lynch",
-    "member_id": "L000562",
-    "nyt_name": "Stephen F. Lynch"
-  },
-  {
-    "nickname": "John Conyers Jr.",
-    "member_id": "C000714",
-    "nyt_name": "John Conyers Jr."
-  },
-  {
-    "nickname": "Walter B. Jones",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Ann McLane Kuster",
-    "member_id": "K000382",
-    "nyt_name": "Ann McLane Kuster"
-  },
-  {
-    "nickname": "John Shimkus",
-    "member_id": "S000364",
-    "nyt_name": "John Shimkus"
-  },
-  {
-    "nickname": "William Keating",
-    "member_id": "K000375",
-    "nyt_name": "William Keating"
-  },
-  {
-    "nickname": "Mike Quigley",
-    "member_id": "Q000023",
-    "nyt_name": "Mike Quigley"
-  },
-  {
-    "nickname": "Heidi Heitkamp",
-    "member_id": "H001069",
-    "nyt_name": "Heidi Heitkamp"
-  },
-  {
-    "nickname": "Paul Tonko",
-    "member_id": "T000469",
-    "nyt_name": "Paul Tonko"
-  },
-  {
-    "nickname": "Kenny Marchant",
-    "member_id": "M001158",
-    "nyt_name": "Kenny Marchant"
-  },
-  {
-    "nickname": "Linda T. Sánchez",
-    "member_id": "S001156",
-    "nyt_name": "Linda T. Sánchez"
-  },
-  {
-    "nickname": "Gregory W. Meeks",
-    "member_id": "M001137",
-    "nyt_name": "Gregory W. Meeks"
-  },
-  {
-    "nickname": "Patrick Meehan",
-    "member_id": "M001181",
-    "nyt_name": "Patrick Meehan"
-  },
-  {
-    "nickname": "Ron Kind",
-    "member_id": "K000188",
-    "nyt_name": "Ron Kind"
-  },
-  {
-    "nickname": "Harold Rogers",
-    "member_id": "R000395",
-    "nyt_name": "Harold Rogers"
-  },
-  {
-    "nickname": "Steve Womack",
-    "member_id": "W000809",
-    "nyt_name": "Steve Womack"
-  },
-  {
-    "nickname": "Ruben Gallego",
-    "member_id": "G000574",
-    "nyt_name": "Ruben Gallego"
-  },
-  {
-    "nickname": "Tulsi Gabbard",
-    "member_id": "G000571",
-    "nyt_name": "Tulsi Gabbard"
-  },
-  {
-    "nickname": "Stacey Plaskett",
-    "member_id": "P000610",
-    "nyt_name": "Stacey Plaskett"
-  },
-  {
-    "nickname": "Ileana Ros-Lehtinen",
-    "member_id": "R000435",
-    "nyt_name": "Ileana Ros-Lehtinen"
-  },
-  {
-    "nickname": "Michael D. Crapo",
-    "member_id": "C000880",
-    "nyt_name": "Michael D. Crapo"
-  },
-  {
-    "nickname": "Barry Loudermilk",
-    "member_id": "L000583",
-    "nyt_name": "Barry Loudermilk"
-  },
-  {
-    "nickname": "Thad Cochran",
-    "member_id": "C000567",
-    "nyt_name": "Thad Cochran"
-  },
-  {
-    "nickname": "Trent Franks",
-    "member_id": "F000448",
-    "nyt_name": "Trent Franks"
-  },
-  {
-    "nickname": "Bob Casey",
-    "member_id": "C001070",
-    "nyt_name": "Bob Casey"
-  },
-  {
-    "nickname": "Fred Upton",
-    "member_id": "U000031",
-    "nyt_name": "Fred Upton"
-  },
-  {
-    "nickname": "Steve Russell",
-    "member_id": "R000604",
-    "nyt_name": "Steve Russell"
-  },
-  {
-    "nickname": "Brett Guthrie",
-    "member_id": "G000558",
-    "nyt_name": "Brett Guthrie"
-  },
-  {
-    "nickname": "Joe Donnelly",
-    "member_id": "D000607",
-    "nyt_name": "Joe Donnelly"
-  },
-  {
-    "nickname": "Patty Murray",
-    "member_id": "M001111",
-    "nyt_name": "Patty Murray"
-  },
-  {
-    "nickname": "Richard C. Shelby",
-    "member_id": "S000320",
-    "nyt_name": "Richard C. Shelby"
-  },
-  {
-    "nickname": "John Garamendi",
-    "member_id": "G000559",
-    "nyt_name": "John Garamendi"
-  },
-  {
-    "nickname": "Sheldon Whitehouse",
-    "member_id": "W000802",
-    "nyt_name": "Sheldon Whitehouse"
-  },
-  {
-    "nickname": "Thomas Massie",
-    "member_id": "M001184",
-    "nyt_name": "Thomas Massie"
-  },
-  {
-    "nickname": "Bill Nelson",
-    "member_id": "N000032",
-    "nyt_name": "Bill Nelson"
-  },
-  {
-    "nickname": "Joni Ernst",
-    "member_id": "E000295",
-    "nyt_name": "Joni Ernst"
-  },
-  {
-    "nickname": "Joaquin Castro",
-    "member_id": "C001091",
-    "nyt_name": "Joaquin Castro"
-  },
-  {
-    "nickname": "Sean Patrick Maloney",
-    "member_id": "M001185",
-    "nyt_name": "Sean Patrick Maloney"
-  },
-  {
-    "nickname": "Catherine Cortez Masto",
-    "member_id": "C001113",
-    "nyt_name": "Catherine Cortez Masto"
-  },
-  {
-    "nickname": "Lisa Murkowski",
-    "member_id": "M001153",
-    "nyt_name": "Lisa Murkowski"
-  },
-  {
-    "nickname": "Joe L. Barton",
-    "member_id": "B000213",
-    "nyt_name": "Joe L. Barton"
-  },
-  {
-    "nickname": "Jodey Arrington",
-    "member_id": "A000375",
-    "nyt_name": "Jodey Arrington"
-  },
-  {
-    "nickname": "Trey Gowdy",
-    "member_id": "G000566",
-    "nyt_name": "Trey Gowdy"
-  },
-  {
-    "nickname": "Mitch McConnell",
-    "member_id": "M000355",
-    "nyt_name": "Mitch McConnell"
-  },
-  {
-    "nickname": "Andy Barr",
-    "member_id": "B001282",
-    "nyt_name": "Andy Barr"
-  },
-  {
-    "nickname": "Norma J. Torres",
-    "member_id": "T000474",
-    "nyt_name": "Norma J. Torres"
-  },
-  {
-    "nickname": "Robert B. Aderholt",
-    "member_id": "A000055",
-    "nyt_name": "Robert B. Aderholt"
-  },
-  {
-    "nickname": "Steve Daines",
-    "member_id": "D000618",
-    "nyt_name": "Steve Daines"
-  },
-  {
-    "nickname": "Marsha Blackburn",
-    "member_id": "B001243",
-    "nyt_name": "Marsha Blackburn"
-  },
-  {
-    "nickname": "Bob Gibbs",
-    "member_id": "G000563",
-    "nyt_name": "Bob Gibbs"
-  },
-  {
-    "nickname": "Rick W. Allen",
-    "member_id": "A000372",
-    "nyt_name": "Rick W. Allen"
-  },
-  {
-    "nickname": "Andy Biggs",
-    "member_id": "B001302",
-    "nyt_name": "Andy Biggs"
-  },
-  {
-    "nickname": "Larry Bucshon",
-    "member_id": "B001275",
-    "nyt_name": "Larry Bucshon"
-  },
-  {
-    "nickname": "Earl Blumenauer",
-    "member_id": "B000574",
-    "nyt_name": "Earl Blumenauer"
-  },
-  {
-    "nickname": "Ron Wyden",
-    "member_id": "W000779",
-    "nyt_name": "Ron Wyden"
-  },
-  {
-    "nickname": "Justin Amash",
-    "member_id": "A000367",
-    "nyt_name": "Justin Amash"
-  },
-  {
-    "nickname": "John Barrasso",
-    "member_id": "B001261",
-    "nyt_name": "John Barrasso"
-  },
-  {
-    "nickname": "Rand Paul",
-    "member_id": "P000603",
-    "nyt_name": "Rand Paul"
-  },
-  {
-    "nickname": "Rod Blum",
-    "member_id": "B001294",
-    "nyt_name": "Rod Blum"
-  },
-  {
-    "nickname": "Todd Young",
-    "member_id": "Y000064",
-    "nyt_name": "Todd Young"
-  },
-  {
-    "nickname": "Ted Budd",
-    "member_id": "B001305",
-    "nyt_name": "Ted Budd"
-  },
-  {
-    "nickname": "Tom Cole",
-    "member_id": "C001053",
-    "nyt_name": "Tom Cole"
-  },
-  {
-    "nickname": "Dave Brat",
-    "member_id": "B001290",
-    "nyt_name": "Dave Brat"
-  },
-  {
-    "nickname": "Lou Barletta",
-    "member_id": "B001269",
-    "nyt_name": "Lou Barletta"
-  },
-  {
-    "nickname": "K. Michael Conaway",
-    "member_id": "C001062",
-    "nyt_name": "K. Michael Conaway"
-  },
-  {
-    "nickname": "Jim Costa",
-    "member_id": "C001059",
-    "nyt_name": "Jim Costa"
-  },
-  {
-    "nickname": "Mike Bost",
-    "member_id": "B001295",
-    "nyt_name": "Mike Bost"
-  },
-  {
-    "nickname": "Gary Peters",
-    "member_id": "P000595",
-    "nyt_name": "Gary Peters"
-  },
-  {
-    "nickname": "William Lacy Clay",
-    "member_id": "C001049",
-    "nyt_name": "William Lacy Clay"
-  },
-  {
-    "nickname": "Chris Coons",
-    "member_id": "C001088",
-    "nyt_name": "Chris Coons"
-  },
-  {
-    "nickname": "Morgan Griffith",
-    "member_id": "G000568",
-    "nyt_name": "Morgan Griffith"
-  },
-  {
-    "nickname": "Kevin McCarthy",
-    "member_id": "M001165",
-    "nyt_name": "Kevin McCarthy"
-  },
-  {
-    "nickname": "Kevin Brady",
-    "member_id": "B000755",
-    "nyt_name": "Kevin Brady"
-  },
-  {
-    "nickname": "Ami Bera",
-    "member_id": "B001287",
-    "nyt_name": "Ami Bera"
-  },
-  {
-    "nickname": "Deb Fischer",
-    "member_id": "F000463",
-    "nyt_name": "Deb Fischer"
-  },
-  {
-    "nickname": "Dave Trott",
-    "member_id": "T000475",
-    "nyt_name": "Dave Trott"
-  },
-  {
-    "nickname": "Luke Messer",
-    "member_id": "M001189",
-    "nyt_name": "Luke Messer"
-  },
-  {
-    "nickname": "Jack Reed",
-    "member_id": "R000122",
-    "nyt_name": "Jack Reed"
-  },
-  {
-    "nickname": "Jerrold Nadler",
-    "member_id": "N000002",
-    "nyt_name": "Jerrold Nadler"
-  },
-  {
-    "nickname": "Yvette D. Clarke",
-    "member_id": "C001067",
-    "nyt_name": "Yvette D. Clarke"
-  },
-  {
-    "nickname": "Kristi Noem",
-    "member_id": "N000184",
-    "nyt_name": "Kristi Noem"
-  },
-  {
-    "nickname": "Emanuel Cleaver II",
-    "member_id": "C001061",
-    "nyt_name": "Emanuel Cleaver II"
-  },
-  {
-    "nickname": "Eleanor Holmes Norton",
-    "member_id": "N000147",
-    "nyt_name": "Eleanor Holmes Norton"
-  },
-  {
-    "nickname": "Chris Collins",
-    "member_id": "C001092",
-    "nyt_name": "Chris Collins"
-  },
-  {
-    "nickname": "Lois Frankel",
-    "member_id": "F000462",
-    "nyt_name": "Lois Frankel"
-  },
-  {
-    "nickname": "Paul Cook",
-    "member_id": "C001094",
-    "nyt_name": "Paul Cook"
-  },
-  {
-    "nickname": "Jim Cooper",
-    "member_id": "C000754",
-    "nyt_name": "Jim Cooper"
-  },
-  {
-    "nickname": "Nanette Barragán",
-    "member_id": "B001300",
-    "nyt_name": "Nanette Barragán"
-  },
-  {
-    "nickname": "John Culberson",
-    "member_id": "C001048",
-    "nyt_name": "John Culberson"
-  },
-  {
-    "nickname": "Roger Marshall",
-    "member_id": "M001198",
-    "nyt_name": "Roger Marshall"
-  },
-  {
-    "nickname": "Sherrod Brown",
-    "member_id": "B000944",
-    "nyt_name": "Sherrod Brown"
-  },
-  {
-    "nickname": "Steve Cohen",
-    "member_id": "C001068",
-    "nyt_name": "Steve Cohen"
-  },
-  {
-    "nickname": "Ted Yoho",
-    "member_id": "Y000065",
-    "nyt_name": "Ted Yoho"
-  },
-  {
-    "nickname": "Darren Soto",
-    "member_id": "S001200",
-    "nyt_name": "Darren Soto"
-  },
-  {
-    "nickname": "Charlie Crist",
-    "member_id": "C001111",
-    "nyt_name": "Charlie Crist"
-  },
-  {
-    "nickname": "Stephanie Murphy",
-    "member_id": "M001202",
-    "nyt_name": "Stephanie Murphy"
-  },
-  {
-    "nickname": "Robert Menendez",
-    "member_id": "M000639",
-    "nyt_name": "Robert Menendez"
-  },
-  {
-    "nickname": "Francis Rooney",
-    "member_id": "R000607",
-    "nyt_name": "Francis Rooney"
-  },
-  {
-    "nickname": "Tom Rooney",
-    "member_id": "R000583",
-    "nyt_name": "Tom Rooney"
-  },
-  {
-    "nickname": "Ron DeSantis",
-    "member_id": "D000621",
-    "nyt_name": "Ron DeSantis"
-  },
-  {
-    "nickname": "Ted Deutch",
-    "member_id": "D000610",
-    "nyt_name": "Ted Deutch"
-  },
-  {
-    "nickname": "Frederica S. Wilson",
-    "member_id": "W000808",
-    "nyt_name": "Frederica S. Wilson"
-  },
-  {
-    "nickname": "Bill Posey",
-    "member_id": "P000599",
-    "nyt_name": "Bill Posey"
-  },
-  {
-    "nickname": "Daniel Webster",
-    "member_id": "W000806",
-    "nyt_name": "Daniel Webster"
-  },
-  {
-    "nickname": "Vern Buchanan",
-    "member_id": "B001260",
-    "nyt_name": "Vern Buchanan"
-  },
-  {
-    "nickname": "Mike Thompson",
-    "member_id": "T000460",
-    "nyt_name": "Mike Thompson"
-  },
-  {
-    "nickname": "Mario Diaz-Balart",
-    "member_id": "D000600",
-    "nyt_name": "Mario Diaz-Balart"
-  },
-  {
-    "nickname": "Bob Corker",
-    "member_id": "C001071",
-    "nyt_name": "Bob Corker"
-  },
-  {
-    "nickname": "Mick Mulvaney",
-    "member_id": "M001182",
-    "nyt_name": "Mick Mulvaney"
-  },
-  {
-    "nickname": "Barbara Comstock",
-    "member_id": "C001105",
-    "nyt_name": "Barbara Comstock"
-  },
-  {
-    "nickname": "Bennie Thompson",
-    "member_id": "T000193",
-    "nyt_name": "Bennie Thompson"
-  },
-  {
-    "nickname": "Alcee L. Hastings",
-    "member_id": "H000324",
-    "nyt_name": "Alcee L. Hastings"
-  },
-  {
-    "nickname": "Robert Pittenger",
-    "member_id": "P000606",
-    "nyt_name": "Robert Pittenger"
-  },
-  {
-    "nickname": "Tammy Baldwin",
-    "member_id": "B001230",
-    "nyt_name": "Tammy Baldwin"
-  },
-  {
-    "nickname": "Dennis A. Ross",
-    "member_id": "R000593",
-    "nyt_name": "Dennis A. Ross"
-  },
-  {
-    "nickname": "Carlos Curbelo",
-    "member_id": "C001107",
-    "nyt_name": "Carlos Curbelo"
-  },
-  {
-    "nickname": "Al Lawson",
-    "member_id": "L000586",
-    "nyt_name": "Al Lawson"
-  },
-  {
-    "nickname": "John Rutherford",
-    "member_id": "R000609",
-    "nyt_name": "John Rutherford"
-  },
-  {
-    "nickname": "Brian Mast",
-    "member_id": "M001199",
-    "nyt_name": "Brian Mast"
-  },
-  {
-    "nickname": "Matt Gaetz",
-    "member_id": "G000578",
-    "nyt_name": "Matt Gaetz"
-  },
-  {
-    "nickname": "Rob Wittman",
-    "member_id": "W000804",
-    "nyt_name": "Rob Wittman"
-  },
-  {
-    "nickname": "Gerald E. Connolly",
-    "member_id": "C001078",
-    "nyt_name": "Gerald E. Connolly"
-  },
-  {
-    "nickname": "Scott Taylor",
-    "member_id": "T000477",
-    "nyt_name": "Scott Taylor"
-  },
-  {
-    "nickname": "Keith Ellison",
-    "member_id": "E000288",
-    "nyt_name": "Keith Ellison"
-  },
-  {
-    "nickname": "Patrick T. McHenry",
-    "member_id": "M001156",
-    "nyt_name": "Patrick T. McHenry"
-  },
-  {
-    "nickname": "Jim Bridenstine",
-    "member_id": "B001283",
-    "nyt_name": "Jim Bridenstine"
-  },
-  {
-    "nickname": "Adrian Smith",
-    "member_id": "S001172",
-    "nyt_name": "Adrian Smith"
-  },
-  {
-    "nickname": "G. K. Butterfield",
-    "member_id": "B001251",
-    "nyt_name": "G. K. Butterfield"
-  },
-  {
-    "nickname": "Henry Cuellar",
-    "member_id": "C001063",
-    "nyt_name": "Henry Cuellar"
-  },
-  {
-    "nickname": "David E. Price",
-    "member_id": "P000523",
-    "nyt_name": "David E. Price"
-  },
-  {
-    "nickname": "Orrin Hatch",
-    "member_id": "H000338",
-    "nyt_name": "Orrin G. Hatch"
-  },
-  {
-    "nickname": "Orrin G. Hatch",
-    "member_id": "H000338",
-    "nyt_name": "Orrin G. Hatch"
-  },
-  {
-    "nickname": "Bradley Byrne",
-    "member_id": "B001289",
-    "nyt_name": "Bradley Byrne"
-  },
-  {
-    "nickname": "Matt Cartwright",
-    "member_id": "C001090",
-    "nyt_name": "Matt Cartwright"
-  },
-  {
-    "nickname": "Mark Sanford",
-    "member_id": "S000051",
-    "nyt_name": "Mark Sanford"
-  },
-  {
-    "nickname": "Paul Gosar",
-    "member_id": "G000565",
-    "nyt_name": "Paul Gosar"
-  },
-  {
-    "nickname": "Sheila Jackson Lee",
-    "member_id": "J000032",
-    "nyt_name": "Sheila Jackson Lee"
-  },
-  {
-    "nickname": "Mark Meadows",
-    "member_id": "M001187",
-    "nyt_name": "Mark Meadows"
-  },
-  {
-    "nickname": "Gus Bilirakis",
-    "member_id": "B001257",
-    "nyt_name": "Gus Bilirakis"
-  },
-  {
-    "nickname": "Greg Gianforte",
-    "member_id": "G000584",
-    "nyt_name": "Greg Gianforte"
-  },
-  {
-    "nickname": "Richard Hudson",
-    "member_id": "H001067",
-    "nyt_name": "Richard Hudson"
-  },
-  {
-    "nickname": "Marcy Kaptur",
-    "member_id": "K000009",
-    "nyt_name": "Marcy Kaptur"
-  },
-  {
-    "nickname": "Katherine M. Clark",
-    "member_id": "C001101",
-    "nyt_name": "Katherine M. Clark"
-  },
-  {
-    "nickname": "Rick Nolan",
-    "member_id": "N000127",
-    "nyt_name": "Rick Nolan"
-  },
-  {
-    "nickname": "Markwayne Mullin",
-    "member_id": "M001190",
-    "nyt_name": "Markwayne Mullin"
-  },
-  {
-    "nickname": "Michael McCaul",
-    "member_id": "M001157",
-    "nyt_name": "Michael McCaul"
-  },
-  {
-    "nickname": "John Sarbanes",
-    "member_id": "S001168",
-    "nyt_name": "John Sarbanes"
-  },
-  {
-    "nickname": "Austin Scott",
-    "member_id": "S001189",
-    "nyt_name": "Austin Scott"
-  },
-  {
-    "nickname": "Anna G. Eshoo",
-    "member_id": "E000215",
-    "nyt_name": "Anna G. Eshoo"
-  },
-  {
-    "nickname": "Robert A. Brady",
-    "member_id": "B001227",
-    "nyt_name": "Robert A. Brady"
-  },
-  {
-    "nickname": "Ted Cruz",
-    "member_id": "C001098",
-    "nyt_name": "Ted Cruz"
-  },
-  {
-    "nickname": "Rob Bishop",
-    "member_id": "B001250",
-    "nyt_name": "Rob Bishop"
-  },
-  {
-    "nickname": "Suzanne Bonamici",
-    "member_id": "B001278",
-    "nyt_name": "Suzanne Bonamici"
-  },
-  {
-    "nickname": "David Kustoff",
-    "member_id": "K000392",
-    "nyt_name": "David Kustoff"
-  },
-  {
-    "nickname": "Jared Huffman",
-    "member_id": "H001068",
-    "nyt_name": "Jared Huffman"
-  },
-  {
-    "nickname": "Joe Courtney",
-    "member_id": "C001069",
-    "nyt_name": "Joe Courtney"
-  },
-  {
-    "nickname": "Maggie Hassan",
-    "member_id": "H001076",
-    "nyt_name": "Maggie Hassan"
-  },
-  {
-    "nickname": "Raul Ruiz",
-    "member_id": "R000599",
-    "nyt_name": "Raul Ruiz"
-  },
-  {
-    "nickname": "Jim Risch",
-    "member_id": "R000584",
-    "nyt_name": "Jim Risch"
-  },
-  {
-    "nickname": "Rodney Frelinghuysen",
-    "member_id": "F000372",
-    "nyt_name": "Rodney Frelinghuysen"
-  },
-  {
-    "nickname": "Glenn Grothman",
-    "member_id": "G000576",
-    "nyt_name": "Glenn Grothman"
-  },
-  {
-    "nickname": "Bill Huizenga",
-    "member_id": "H001058",
-    "nyt_name": "Bill Huizenga"
-  },
-  {
-    "nickname": "Rick Crawford",
-    "member_id": "C001087",
-    "nyt_name": "Rick Crawford"
-  },
-  {
-    "nickname": "Erik Paulsen",
-    "member_id": "P000594",
-    "nyt_name": "Erik Paulsen"
-  },
-  {
-    "nickname": "John J. Duncan Jr.",
-    "member_id": "D000533",
-    "nyt_name": "John J. Duncan Jr."
-  },
-  {
-    "nickname": "Colleen Hanabusa",
-    "member_id": "H001050",
-    "nyt_name": "Colleen Hanabusa"
-  },
-  {
-    "nickname": "Julia Brownley",
-    "member_id": "B001285",
-    "nyt_name": "Julia Brownley"
-  },
-  {
-    "nickname": "Brian Schatz",
-    "member_id": "S001194",
-    "nyt_name": "Brian Schatz"
-  },
-  {
-    "nickname": "Mike Lee",
-    "member_id": "L000577",
-    "nyt_name": "Mike Lee"
-  },
-  {
-    "nickname": "Dennis Heck",
-    "member_id": "H001064",
-    "nyt_name": "Denny Heck"
-  },
-  {
-    "nickname": "Dennis Lynn Heck",
-    "member_id": "H001064",
-    "nyt_name": "Denny Heck"
-  },
-  {
-    "nickname": "Dennis L. Heck",
-    "member_id": "H001064",
-    "nyt_name": "Denny Heck"
-  },
-  {
-    "nickname": "Tom Garrett, Jr.",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Thomas Garrett Jr.",
-    "member_id": "G000580",
-    "nyt_name": "Tom Garrett"
-  },
-  {
-    "nickname": "Eddie Johnson",
-    "member_id": "J000126",
-    "nyt_name": "Eddie Bernice Johnson"
-  },
-  {
-    "nickname": "Dwight E. Evans",
-    "member_id": "E000296",
-    "nyt_name": "Dwight Evans"
-  },
-  {
-    "nickname": "Walter B. Jones, Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Walter Jones, Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Walter Beaman Jones, Jr.",
-    "member_id": "J000255",
-    "nyt_name": "Walter B. Jones"
-  },
-  {
-    "nickname": "Donald Payne",
-    "member_id": "P000604",
-    "nyt_name": "Donald M. Payne Jr."
-  },
-  {
-    "nickname": "Donald M. Payne",
-    "member_id": "P000604",
-    "nyt_name": "Donald M. Payne Jr."
-  },
-  {
-    "nickname": "Donald M. Payne, Jr.",
-    "member_id": "P000604",
-    "nyt_name": "Donald M. Payne Jr."
-  },
-  {
-    "nickname": "Donald Payne, Jr.",
-    "member_id": "P000604",
-    "nyt_name": "Donald M. Payne Jr."
-  }
+    {
+        "nickname": "Troy",
+        "member_id": "B001306",
+        "nyt_name": "Troy Balderson"
+    },
+    {
+        "nickname": "Michael Cloud",
+        "member_id": "C001115",
+        "nyt_name": "Michael Cloud"
+    },
+    {
+        "nickname": "Jenniffer González-Colón",
+        "member_id": "G000582",
+        "nyt_name": "Jenniffer González-Colón"
+    },
+    {
+        "nickname": "Eleanor Holmes Norton",
+        "member_id": "N000147",
+        "nyt_name": "Eleanor Holmes Norton"
+    },
+    {
+        "nickname": "Stacey Plaskett",
+        "member_id": "P000610",
+        "nyt_name": "Stacey Plaskett"
+    },
+    {
+        "nickname": "Aumua Amata Coleman Radewagen",
+        "member_id": "R000600",
+        "nyt_name": "Aumua Amata Coleman Radewagen"
+    },
+    {
+        "nickname": "Gregorio Kilili Camacho Sablan",
+        "member_id": "S001177",
+        "nyt_name": "Gregorio Kilili Camacho Sablan"
+    },
+    {
+        "nickname": "Mike Braun",
+        "member_id": "B001310",
+        "nyt_name": "Mike Braun"
+    },
+    {
+        "nickname": "Colin Allred",
+        "member_id": "A000376",
+        "nyt_name": "Colin Allred"
+    },
+    {
+        "nickname": "Kelly Armstrong",
+        "member_id": "A000377",
+        "nyt_name": "Kelly Armstrong"
+    },
+    {
+        "nickname": "Cindy Axne",
+        "member_id": "A000378",
+        "nyt_name": "Cindy Axne"
+    },
+    {
+        "nickname": "Jim Baird",
+        "member_id": "B001307",
+        "nyt_name": "Jim Baird"
+    },
+    {
+        "nickname": "Troy Balderson",
+        "member_id": "B001306",
+        "nyt_name": "Troy Balderson"
+    },
+    {
+        "nickname": "Anthony Brindisi",
+        "member_id": "B001308",
+        "nyt_name": "Anthony Brindisi"
+    },
+    {
+        "nickname": "Tim Burchett",
+        "member_id": "B001309",
+        "nyt_name": "Tim Burchett"
+    },
+    {
+        "nickname": "Sean Casten",
+        "member_id": "C001117",
+        "nyt_name": "Sean Casten"
+    },
+    {
+        "nickname": "Gil Cisneros",
+        "member_id": "C001123",
+        "nyt_name": "Gil Cisneros"
+    },
+    {
+        "nickname": "Ben Cline",
+        "member_id": "C001118",
+        "nyt_name": "Ben Cline"
+    },
+    {
+        "nickname": "TJ Cox",
+        "member_id": "C001124",
+        "nyt_name": "TJ Cox"
+    },
+    {
+        "nickname": "Angie Craig",
+        "member_id": "C001119",
+        "nyt_name": "Angie Craig"
+    },
+    {
+        "nickname": "Daniel Crenshaw",
+        "member_id": "C001120",
+        "nyt_name": "Daniel Crenshaw"
+    },
+    {
+        "nickname": "Jason Crow",
+        "member_id": "C001121",
+        "nyt_name": "Jason Crow"
+    },
+    {
+        "nickname": "Joe Cunningham",
+        "member_id": "C001122",
+        "nyt_name": "Joe Cunningham"
+    },
+    {
+        "nickname": "Sharice Davids",
+        "member_id": "D000629",
+        "nyt_name": "Sharice Davids"
+    },
+    {
+        "nickname": "Madeleine Dean",
+        "member_id": "D000631",
+        "nyt_name": "Madeleine Dean"
+    },
+    {
+        "nickname": "Antonio Delgado",
+        "member_id": "D000630",
+        "nyt_name": "Antonio Delgado"
+    },
+    {
+        "nickname": "Veronica Escobar",
+        "member_id": "E000299",
+        "nyt_name": "Veronica Escobar"
+    },
+    {
+        "nickname": "Abby Finkenauer",
+        "member_id": "F000467",
+        "nyt_name": "Abby Finkenauer"
+    },
+    {
+        "nickname": "Lizzie Fletcher",
+        "member_id": "F000468",
+        "nyt_name": "Lizzie Fletcher"
+    },
+    {
+        "nickname": "Russ Fulcher",
+        "member_id": "F000469",
+        "nyt_name": "Russ Fulcher"
+    },
+    {
+        "nickname": "Mike D. Rogers",
+        "member_id": "R000575",
+        "nyt_name": "Mike D. Rogers"
+    },
+    {
+        "nickname": "Terri A. Sewell",
+        "member_id": "S001185",
+        "nyt_name": "Terri A. Sewell"
+    },
+    {
+        "nickname": "Martha Roby",
+        "member_id": "R000591",
+        "nyt_name": "Martha Roby"
+    },
+    {
+        "nickname": "Mo Brooks",
+        "member_id": "B001274",
+        "nyt_name": "Mo Brooks"
+    },
+    {
+        "nickname": "Bradley Byrne",
+        "member_id": "B001289",
+        "nyt_name": "Bradley Byrne"
+    },
+    {
+        "nickname": "Gary Palmer",
+        "member_id": "P000609",
+        "nyt_name": "Gary Palmer"
+    },
+    {
+        "nickname": "Robert B. Aderholt",
+        "member_id": "A000055",
+        "nyt_name": "Robert B. Aderholt"
+    },
+    {
+        "nickname": "Don Young",
+        "member_id": "Y000033",
+        "nyt_name": "Don Young"
+    },
+    {
+        "nickname": "Raúl M. Grijalva",
+        "member_id": "G000551",
+        "nyt_name": "Raúl M. Grijalva"
+    },
+    {
+        "nickname": "Ann Kirkpatrick",
+        "member_id": "K000368",
+        "nyt_name": "Ann Kirkpatrick"
+    },
+    {
+        "nickname": "Paul Gosar",
+        "member_id": "G000565",
+        "nyt_name": "Paul Gosar"
+    },
+    {
+        "nickname": "David Schweikert",
+        "member_id": "S001183",
+        "nyt_name": "David Schweikert"
+    },
+    {
+        "nickname": "Ruben Gallego",
+        "member_id": "G000574",
+        "nyt_name": "Ruben Gallego"
+    },
+    {
+        "nickname": "Andy Biggs",
+        "member_id": "B001302",
+        "nyt_name": "Andy Biggs"
+    },
+    {
+        "nickname": "Tom O'Halleran",
+        "member_id": "O000171",
+        "nyt_name": "Tom O'Halleran"
+    },
+    {
+        "nickname": "Debbie Lesko",
+        "member_id": "L000589",
+        "nyt_name": "Debbie Lesko"
+    },
+    {
+        "nickname": "Greg Stanton",
+        "member_id": "S001211",
+        "nyt_name": "Greg Stanton"
+    },
+    {
+        "nickname": "Rick Crawford",
+        "member_id": "C001087",
+        "nyt_name": "Rick Crawford"
+    },
+    {
+        "nickname": "Steve Womack",
+        "member_id": "W000809",
+        "nyt_name": "Steve Womack"
+    },
+    {
+        "nickname": "French Hill",
+        "member_id": "H001072",
+        "nyt_name": "French Hill"
+    },
+    {
+        "nickname": "Bruce Westerman",
+        "member_id": "W000821",
+        "nyt_name": "Bruce Westerman"
+    },
+    {
+        "nickname": "Nancy Pelosi",
+        "member_id": "P000197",
+        "nyt_name": "Nancy Pelosi"
+    },
+    {
+        "nickname": "Adam B. Schiff",
+        "member_id": "S001150",
+        "nyt_name": "Adam B. Schiff"
+    },
+    {
+        "nickname": "Susan A. Davis",
+        "member_id": "D000598",
+        "nyt_name": "Susan A. Davis"
+    },
+    {
+        "nickname": "Devin Nunes",
+        "member_id": "N000181",
+        "nyt_name": "Devin Nunes"
+    },
+    {
+        "nickname": "Linda T. Sánchez",
+        "member_id": "S001156",
+        "nyt_name": "Linda T. Sánchez"
+    },
+    {
+        "nickname": "Jim Costa",
+        "member_id": "C001059",
+        "nyt_name": "Jim Costa"
+    },
+    {
+        "nickname": "Doris Matsui",
+        "member_id": "M001163",
+        "nyt_name": "Doris Matsui"
+    },
+    {
+        "nickname": "Jerry McNerney",
+        "member_id": "M001166",
+        "nyt_name": "Jerry McNerney"
+    },
+    {
+        "nickname": "Kevin McCarthy",
+        "member_id": "M001165",
+        "nyt_name": "Kevin McCarthy"
+    },
+    {
+        "nickname": "Jackie Speier",
+        "member_id": "S001175",
+        "nyt_name": "Jackie Speier"
+    },
+    {
+        "nickname": "Tom McClintock",
+        "member_id": "M001177",
+        "nyt_name": "Tom McClintock"
+    },
+    {
+        "nickname": "Judy Chu",
+        "member_id": "C001080",
+        "nyt_name": "Judy Chu"
+    },
+    {
+        "nickname": "John Garamendi",
+        "member_id": "G000559",
+        "nyt_name": "John Garamendi"
+    },
+    {
+        "nickname": "Duncan Hunter",
+        "member_id": "H001048",
+        "nyt_name": "Duncan Hunter"
+    },
+    {
+        "nickname": "Karen Bass",
+        "member_id": "B001270",
+        "nyt_name": "Karen Bass"
+    },
+    {
+        "nickname": "Doug LaMalfa",
+        "member_id": "L000578",
+        "nyt_name": "Doug LaMalfa"
+    },
+    {
+        "nickname": "Jared Huffman",
+        "member_id": "H001068",
+        "nyt_name": "Jared Huffman"
+    },
+    {
+        "nickname": "Ami Bera",
+        "member_id": "B001287",
+        "nyt_name": "Ami Bera"
+    },
+    {
+        "nickname": "Paul Cook",
+        "member_id": "C001094",
+        "nyt_name": "Paul Cook"
+    },
+    {
+        "nickname": "Eric Swalwell",
+        "member_id": "S001193",
+        "nyt_name": "Eric Swalwell"
+    },
+    {
+        "nickname": "Julia Brownley",
+        "member_id": "B001285",
+        "nyt_name": "Julia Brownley"
+    },
+    {
+        "nickname": "Tony Cárdenas",
+        "member_id": "C001097",
+        "nyt_name": "Tony Cárdenas"
+    },
+    {
+        "nickname": "Raul Ruiz",
+        "member_id": "R000599",
+        "nyt_name": "Raul Ruiz"
+    },
+    {
+        "nickname": "Mark Takano",
+        "member_id": "T000472",
+        "nyt_name": "Mark Takano"
+    },
+    {
+        "nickname": "Alan Lowenthal",
+        "member_id": "L000579",
+        "nyt_name": "Alan Lowenthal"
+    },
+    {
+        "nickname": "Juan C. Vargas",
+        "member_id": "V000130",
+        "nyt_name": "Juan C. Vargas"
+    },
+    {
+        "nickname": "Scott Peters",
+        "member_id": "P000608",
+        "nyt_name": "Scott Peters"
+    },
+    {
+        "nickname": "Mark DeSaulnier",
+        "member_id": "D000623",
+        "nyt_name": "Mark DeSaulnier"
+    },
+    {
+        "nickname": "Pete Aguilar",
+        "member_id": "A000371",
+        "nyt_name": "Pete Aguilar"
+    },
+    {
+        "nickname": "Ted Lieu",
+        "member_id": "L000582",
+        "nyt_name": "Ted Lieu"
+    },
+    {
+        "nickname": "Norma J. Torres",
+        "member_id": "T000474",
+        "nyt_name": "Norma J. Torres"
+    },
+    {
+        "nickname": "Nanette Barragán",
+        "member_id": "B001300",
+        "nyt_name": "Nanette Barragán"
+    },
+    {
+        "nickname": "Salud Carbajal",
+        "member_id": "C001112",
+        "nyt_name": "Salud Carbajal"
+    },
+    {
+        "nickname": "J. Luis Correa",
+        "member_id": "C001110",
+        "nyt_name": "J. Luis Correa"
+    },
+    {
+        "nickname": "Ro Khanna",
+        "member_id": "K000389",
+        "nyt_name": "Ro Khanna"
+    },
+    {
+        "nickname": "Jimmy Panetta",
+        "member_id": "P000613",
+        "nyt_name": "Jimmy Panetta"
+    },
+    {
+        "nickname": "Jimmy Gomez",
+        "member_id": "G000585",
+        "nyt_name": "Jimmy Gomez"
+    },
+    {
+        "nickname": "Josh Harder",
+        "member_id": "H001090",
+        "nyt_name": "Josh Harder"
+    },
+    {
+        "nickname": "Katie Hill",
+        "member_id": "H001087",
+        "nyt_name": "Katie Hill"
+    },
+    {
+        "nickname": "Mike Levin",
+        "member_id": "L000593",
+        "nyt_name": "Mike Levin"
+    },
+    {
+        "nickname": "Katie Porter",
+        "member_id": "P000618",
+        "nyt_name": "Katie Porter"
+    },
+    {
+        "nickname": "Harley Rouda",
+        "member_id": "R000616",
+        "nyt_name": "Harley Rouda"
+    },
+    {
+        "nickname": "Maxine Waters",
+        "member_id": "W000187",
+        "nyt_name": "Maxine Waters"
+    },
+    {
+        "nickname": "Anna G. Eshoo",
+        "member_id": "E000215",
+        "nyt_name": "Anna G. Eshoo"
+    },
+    {
+        "nickname": "Lucille Roybal-Allard",
+        "member_id": "R000486",
+        "nyt_name": "Lucille Roybal-Allard"
+    },
+    {
+        "nickname": "Ken Calvert",
+        "member_id": "C000059",
+        "nyt_name": "Ken Calvert"
+    },
+    {
+        "nickname": "Zoe Lofgren",
+        "member_id": "L000397",
+        "nyt_name": "Zoe Lofgren"
+    },
+    {
+        "nickname": "Brad Sherman",
+        "member_id": "S000344",
+        "nyt_name": "Brad Sherman"
+    },
+    {
+        "nickname": "Barbara Lee",
+        "member_id": "L000551",
+        "nyt_name": "Barbara Lee"
+    },
+    {
+        "nickname": "Mike Thompson",
+        "member_id": "T000460",
+        "nyt_name": "Mike Thompson"
+    },
+    {
+        "nickname": "Grace F. Napolitano",
+        "member_id": "N000179",
+        "nyt_name": "Grace F. Napolitano"
+    },
+    {
+        "nickname": "Doug Lamborn",
+        "member_id": "L000564",
+        "nyt_name": "Doug Lamborn"
+    },
+    {
+        "nickname": "Ed Perlmutter",
+        "member_id": "P000593",
+        "nyt_name": "Ed Perlmutter"
+    },
+    {
+        "nickname": "Scott Tipton",
+        "member_id": "T000470",
+        "nyt_name": "Scott Tipton"
+    },
+    {
+        "nickname": "Ken Buck",
+        "member_id": "B001297",
+        "nyt_name": "Ken Buck"
+    },
+    {
+        "nickname": "Joe Neguse",
+        "member_id": "N000191",
+        "nyt_name": "Joe Neguse"
+    },
+    {
+        "nickname": "Diana DeGette",
+        "member_id": "D000197",
+        "nyt_name": "Diana DeGette"
+    },
+    {
+        "nickname": "Joe Courtney",
+        "member_id": "C001069",
+        "nyt_name": "Joe Courtney"
+    },
+    {
+        "nickname": "Jim Himes",
+        "member_id": "H001047",
+        "nyt_name": "Jim Himes"
+    },
+    {
+        "nickname": "Jahana Hayes",
+        "member_id": "H001081",
+        "nyt_name": "Jahana Hayes"
+    },
+    {
+        "nickname": "Rosa DeLauro",
+        "member_id": "D000216",
+        "nyt_name": "Rosa DeLauro"
+    },
+    {
+        "nickname": "John B. Larson",
+        "member_id": "L000557",
+        "nyt_name": "John B. Larson"
+    },
+    {
+        "nickname": "Lisa Blunt Rochester",
+        "member_id": "B001303",
+        "nyt_name": "Lisa Blunt Rochester"
+    },
+    {
+        "nickname": "Mario Diaz-Balart",
+        "member_id": "D000600",
+        "nyt_name": "Mario Diaz-Balart"
+    },
+    {
+        "nickname": "Debbie Wasserman Schultz",
+        "member_id": "W000797",
+        "nyt_name": "Debbie Wasserman Schultz"
+    },
+    {
+        "nickname": "Kathy Castor",
+        "member_id": "C001066",
+        "nyt_name": "Kathy Castor"
+    },
+    {
+        "nickname": "Vern Buchanan",
+        "member_id": "B001260",
+        "nyt_name": "Vern Buchanan"
+    },
+    {
+        "nickname": "Gus Bilirakis",
+        "member_id": "B001257",
+        "nyt_name": "Gus Bilirakis"
+    },
+    {
+        "nickname": "Bill Posey",
+        "member_id": "P000599",
+        "nyt_name": "Bill Posey"
+    },
+    {
+        "nickname": "Ted Deutch",
+        "member_id": "D000610",
+        "nyt_name": "Ted Deutch"
+    },
+    {
+        "nickname": "Daniel Webster",
+        "member_id": "W000806",
+        "nyt_name": "Daniel Webster"
+    },
+    {
+        "nickname": "Frederica S. Wilson",
+        "member_id": "W000808",
+        "nyt_name": "Frederica S. Wilson"
+    },
+    {
+        "nickname": "Ted Yoho",
+        "member_id": "Y000065",
+        "nyt_name": "Ted Yoho"
+    },
+    {
+        "nickname": "Lois Frankel",
+        "member_id": "F000462",
+        "nyt_name": "Lois Frankel"
+    },
+    {
+        "nickname": "Charlie Crist",
+        "member_id": "C001111",
+        "nyt_name": "Charlie Crist"
+    },
+    {
+        "nickname": "Val Demings",
+        "member_id": "D000627",
+        "nyt_name": "Val Demings"
+    },
+    {
+        "nickname": "Neal Dunn",
+        "member_id": "D000628",
+        "nyt_name": "Neal Dunn"
+    },
+    {
+        "nickname": "Matt Gaetz",
+        "member_id": "G000578",
+        "nyt_name": "Matt Gaetz"
+    },
+    {
+        "nickname": "Al Lawson",
+        "member_id": "L000586",
+        "nyt_name": "Al Lawson"
+    },
+    {
+        "nickname": "Brian Mast",
+        "member_id": "M001199",
+        "nyt_name": "Brian Mast"
+    },
+    {
+        "nickname": "Stephanie Murphy",
+        "member_id": "M001202",
+        "nyt_name": "Stephanie Murphy"
+    },
+    {
+        "nickname": "Francis Rooney",
+        "member_id": "R000607",
+        "nyt_name": "Francis Rooney"
+    },
+    {
+        "nickname": "John Rutherford",
+        "member_id": "R000609",
+        "nyt_name": "John Rutherford"
+    },
+    {
+        "nickname": "Darren Soto",
+        "member_id": "S001200",
+        "nyt_name": "Darren Soto"
+    },
+    {
+        "nickname": "Debbie Mucarsel-Powell",
+        "member_id": "M001207",
+        "nyt_name": "Debbie Mucarsel-Powell"
+    },
+    {
+        "nickname": "Donna E. Shalala",
+        "member_id": "S001206",
+        "nyt_name": "Donna E. Shalala"
+    },
+    {
+        "nickname": "Ross Spano",
+        "member_id": "S001210",
+        "nyt_name": "Ross Spano"
+    },
+    {
+        "nickname": "Greg Steube",
+        "member_id": "S001214",
+        "nyt_name": "Greg Steube"
+    },
+    {
+        "nickname": "Michael Waltz",
+        "member_id": "W000823",
+        "nyt_name": "Michael Waltz"
+    },
+    {
+        "nickname": "Alcee L. Hastings",
+        "member_id": "H000324",
+        "nyt_name": "Alcee L. Hastings"
+    },
+    {
+        "nickname": "John Lewis",
+        "member_id": "L000287",
+        "nyt_name": "John Lewis"
+    },
+    {
+        "nickname": "David Scott",
+        "member_id": "S001157",
+        "nyt_name": "David Scott"
+    },
+    {
+        "nickname": "Hank Johnson",
+        "member_id": "J000288",
+        "nyt_name": "Hank Johnson"
+    },
+    {
+        "nickname": "Tom Graves",
+        "member_id": "G000560",
+        "nyt_name": "Tom Graves"
+    },
+    {
+        "nickname": "Rob Woodall",
+        "member_id": "W000810",
+        "nyt_name": "Rob Woodall"
+    },
+    {
+        "nickname": "Austin Scott",
+        "member_id": "S001189",
+        "nyt_name": "Austin Scott"
+    },
+    {
+        "nickname": "Doug Collins",
+        "member_id": "C001093",
+        "nyt_name": "Doug Collins"
+    },
+    {
+        "nickname": "Earl L. “Buddy” Carter",
+        "member_id": "C001103",
+        "nyt_name": "Earl L. “Buddy” Carter"
+    },
+    {
+        "nickname": "Jody B. Hice",
+        "member_id": "H001071",
+        "nyt_name": "Jody B. Hice"
+    },
+    {
+        "nickname": "Barry Loudermilk",
+        "member_id": "L000583",
+        "nyt_name": "Barry Loudermilk"
+    },
+    {
+        "nickname": "Rick W. Allen",
+        "member_id": "A000372",
+        "nyt_name": "Rick W. Allen"
+    },
+    {
+        "nickname": "Drew Ferguson",
+        "member_id": "F000465",
+        "nyt_name": "Drew Ferguson"
+    },
+    {
+        "nickname": "Lucy McBath",
+        "member_id": "M001208",
+        "nyt_name": "Lucy McBath"
+    },
+    {
+        "nickname": "Sanford D. Bishop Jr.",
+        "member_id": "B000490",
+        "nyt_name": "Sanford D. Bishop Jr."
+    },
+    {
+        "nickname": "Ed Case",
+        "member_id": "C001055",
+        "nyt_name": "Ed Case"
+    },
+    {
+        "nickname": "Tulsi Gabbard",
+        "member_id": "G000571",
+        "nyt_name": "Tulsi Gabbard"
+    },
+    {
+        "nickname": "Mike Simpson",
+        "member_id": "S001148",
+        "nyt_name": "Mike Simpson"
+    },
+    {
+        "nickname": "Daniel Lipinski",
+        "member_id": "L000563",
+        "nyt_name": "Daniel Lipinski"
+    },
+    {
+        "nickname": "Bill Foster",
+        "member_id": "F000454",
+        "nyt_name": "Bill Foster"
+    },
+    {
+        "nickname": "Mike Quigley",
+        "member_id": "Q000023",
+        "nyt_name": "Mike Quigley"
+    },
+    {
+        "nickname": "Adam Kinzinger",
+        "member_id": "K000378",
+        "nyt_name": "Adam Kinzinger"
+    },
+    {
+        "nickname": "Brad Schneider",
+        "member_id": "S001190",
+        "nyt_name": "Brad Schneider"
+    },
+    {
+        "nickname": "Rodney Davis",
+        "member_id": "D000619",
+        "nyt_name": "Rodney Davis"
+    },
+    {
+        "nickname": "Cheri Bustos",
+        "member_id": "B001286",
+        "nyt_name": "Cheri Bustos"
+    },
+    {
+        "nickname": "Robin Kelly",
+        "member_id": "K000385",
+        "nyt_name": "Robin Kelly"
+    },
+    {
+        "nickname": "Mike Bost",
+        "member_id": "B001295",
+        "nyt_name": "Mike Bost"
+    },
+    {
+        "nickname": "Darin M. LaHood",
+        "member_id": "L000585",
+        "nyt_name": "Darin M. LaHood"
+    },
+    {
+        "nickname": "Raja Krishnamoorthi",
+        "member_id": "K000391",
+        "nyt_name": "Raja Krishnamoorthi"
+    },
+    {
+        "nickname": "Jesús \"Chuy\" García",
+        "member_id": "G000586",
+        "nyt_name": "Jesús \"Chuy\" García"
+    },
+    {
+        "nickname": "Lauren Underwood",
+        "member_id": "U000040",
+        "nyt_name": "Lauren Underwood"
+    },
+    {
+        "nickname": "Bobby L. Rush",
+        "member_id": "R000515",
+        "nyt_name": "Bobby L. Rush"
+    },
+    {
+        "nickname": "Danny K. Davis",
+        "member_id": "D000096",
+        "nyt_name": "Danny K. Davis"
+    },
+    {
+        "nickname": "John Shimkus",
+        "member_id": "S000364",
+        "nyt_name": "John Shimkus"
+    },
+    {
+        "nickname": "Jan Schakowsky",
+        "member_id": "S001145",
+        "nyt_name": "Jan Schakowsky"
+    },
+    {
+        "nickname": "Peter J. Visclosky",
+        "member_id": "V000108",
+        "nyt_name": "Peter J. Visclosky"
+    },
+    {
+        "nickname": "André Carson",
+        "member_id": "C001072",
+        "nyt_name": "André Carson"
+    },
+    {
+        "nickname": "Larry Bucshon",
+        "member_id": "B001275",
+        "nyt_name": "Larry Bucshon"
+    },
+    {
+        "nickname": "Jackie Walorski",
+        "member_id": "W000813",
+        "nyt_name": "Jackie Walorski"
+    },
+    {
+        "nickname": "Susan W. Brooks",
+        "member_id": "B001284",
+        "nyt_name": "Susan W. Brooks"
+    },
+    {
+        "nickname": "Jim Banks",
+        "member_id": "B001299",
+        "nyt_name": "Jim Banks"
+    },
+    {
+        "nickname": "Trey Hollingsworth",
+        "member_id": "H001074",
+        "nyt_name": "Trey Hollingsworth"
+    },
+    {
+        "nickname": "Greg Pence",
+        "member_id": "P000615",
+        "nyt_name": "Greg Pence"
+    },
+    {
+        "nickname": "Steve King",
+        "member_id": "K000362",
+        "nyt_name": "Steve King"
+    },
+    {
+        "nickname": "Dave Loebsack",
+        "member_id": "L000565",
+        "nyt_name": "Dave Loebsack"
+    },
+    {
+        "nickname": "Roger Marshall",
+        "member_id": "M001198",
+        "nyt_name": "Roger Marshall"
+    },
+    {
+        "nickname": "Ron Estes",
+        "member_id": "E000298",
+        "nyt_name": "Ron Estes"
+    },
+    {
+        "nickname": "Steve Watkins",
+        "member_id": "W000824",
+        "nyt_name": "Steve Watkins"
+    },
+    {
+        "nickname": "Harold Rogers",
+        "member_id": "R000395",
+        "nyt_name": "Harold Rogers"
+    },
+    {
+        "nickname": "John Yarmuth",
+        "member_id": "Y000062",
+        "nyt_name": "John Yarmuth"
+    },
+    {
+        "nickname": "Brett Guthrie",
+        "member_id": "G000558",
+        "nyt_name": "Brett Guthrie"
+    },
+    {
+        "nickname": "Andy Barr",
+        "member_id": "B001282",
+        "nyt_name": "Andy Barr"
+    },
+    {
+        "nickname": "James Comer",
+        "member_id": "C001108",
+        "nyt_name": "James Comer"
+    },
+    {
+        "nickname": "Thomas Massie",
+        "member_id": "M001184",
+        "nyt_name": "Thomas Massie"
+    },
+    {
+        "nickname": "Steve Scalise",
+        "member_id": "S001176",
+        "nyt_name": "Steve Scalise"
+    },
+    {
+        "nickname": "Cedric L. Richmond",
+        "member_id": "R000588",
+        "nyt_name": "Cedric L. Richmond"
+    },
+    {
+        "nickname": "Ralph Abraham",
+        "member_id": "A000374",
+        "nyt_name": "Ralph Abraham"
+    },
+    {
+        "nickname": "Garret Graves",
+        "member_id": "G000577",
+        "nyt_name": "Garret Graves"
+    },
+    {
+        "nickname": "Clay Higgins",
+        "member_id": "H001077",
+        "nyt_name": "Clay Higgins"
+    },
+    {
+        "nickname": "Mike Johnson",
+        "member_id": "J000299",
+        "nyt_name": "Mike Johnson"
+    },
+    {
+        "nickname": "Chellie Pingree",
+        "member_id": "P000597",
+        "nyt_name": "Chellie Pingree"
+    },
+    {
+        "nickname": "Jared Golden",
+        "member_id": "G000592",
+        "nyt_name": "Jared Golden"
+    },
+    {
+        "nickname": "Steny H. Hoyer",
+        "member_id": "H000874",
+        "nyt_name": "Steny H. Hoyer"
+    },
+    {
+        "nickname": "C.A. Dutch Ruppersberger",
+        "member_id": "R000576",
+        "nyt_name": "C.A. Dutch Ruppersberger"
+    },
+    {
+        "nickname": "John Sarbanes",
+        "member_id": "S001168",
+        "nyt_name": "John Sarbanes"
+    },
+    {
+        "nickname": "Andy Harris",
+        "member_id": "H001052",
+        "nyt_name": "Andy Harris"
+    },
+    {
+        "nickname": "Anthony Brown",
+        "member_id": "B001304",
+        "nyt_name": "Anthony Brown"
+    },
+    {
+        "nickname": "Jamie Raskin",
+        "member_id": "R000606",
+        "nyt_name": "Jamie Raskin"
+    },
+    {
+        "nickname": "David Trone",
+        "member_id": "T000483",
+        "nyt_name": "David Trone"
+    },
+    {
+        "nickname": "Elijah E. Cummings",
+        "member_id": "C000984",
+        "nyt_name": "Elijah E. Cummings"
+    },
+    {
+        "nickname": "Richard E. Neal",
+        "member_id": "N000015",
+        "nyt_name": "Richard E. Neal"
+    },
+    {
+        "nickname": "Stephen F. Lynch",
+        "member_id": "L000562",
+        "nyt_name": "Stephen F. Lynch"
+    },
+    {
+        "nickname": "William Keating",
+        "member_id": "K000375",
+        "nyt_name": "William Keating"
+    },
+    {
+        "nickname": "Joseph P. Kennedy III",
+        "member_id": "K000379",
+        "nyt_name": "Joseph P. Kennedy III"
+    },
+    {
+        "nickname": "Katherine M. Clark",
+        "member_id": "C001101",
+        "nyt_name": "Katherine M. Clark"
+    },
+    {
+        "nickname": "Seth Moulton",
+        "member_id": "M001196",
+        "nyt_name": "Seth Moulton"
+    },
+    {
+        "nickname": "Ayanna S. Pressley",
+        "member_id": "P000617",
+        "nyt_name": "Ayanna S. Pressley"
+    },
+    {
+        "nickname": "Lori Trahan",
+        "member_id": "T000482",
+        "nyt_name": "Lori Trahan"
+    },
+    {
+        "nickname": "Jim McGovern",
+        "member_id": "M000312",
+        "nyt_name": "Jim McGovern"
+    },
+    {
+        "nickname": "Fred Upton",
+        "member_id": "U000031",
+        "nyt_name": "Fred Upton"
+    },
+    {
+        "nickname": "Tim Walberg",
+        "member_id": "W000798",
+        "nyt_name": "Tim Walberg"
+    },
+    {
+        "nickname": "Bill Huizenga",
+        "member_id": "H001058",
+        "nyt_name": "Bill Huizenga"
+    },
+    {
+        "nickname": "Justin Amash",
+        "member_id": "A000367",
+        "nyt_name": "Justin Amash"
+    },
+    {
+        "nickname": "Dan Kildee",
+        "member_id": "K000380",
+        "nyt_name": "Dan Kildee"
+    },
+    {
+        "nickname": "John Moolenaar",
+        "member_id": "M001194",
+        "nyt_name": "John Moolenaar"
+    },
+    {
+        "nickname": "Debbie Dingell",
+        "member_id": "D000624",
+        "nyt_name": "Debbie Dingell"
+    },
+    {
+        "nickname": "Brenda Lawrence",
+        "member_id": "L000581",
+        "nyt_name": "Brenda Lawrence"
+    },
+    {
+        "nickname": "Jack Bergman",
+        "member_id": "B001301",
+        "nyt_name": "Jack Bergman"
+    },
+    {
+        "nickname": "Paul Mitchell",
+        "member_id": "M001201",
+        "nyt_name": "Paul Mitchell"
+    },
+    {
+        "nickname": "Andy Levin",
+        "member_id": "L000592",
+        "nyt_name": "Andy Levin"
+    },
+    {
+        "nickname": "Elissa Slotkin",
+        "member_id": "S001208",
+        "nyt_name": "Elissa Slotkin"
+    },
+    {
+        "nickname": "Haley Stevens",
+        "member_id": "S001215",
+        "nyt_name": "Haley Stevens"
+    },
+    {
+        "nickname": "Rashida Tlaib",
+        "member_id": "T000481",
+        "nyt_name": "Rashida Tlaib"
+    },
+    {
+        "nickname": "Betty McCollum",
+        "member_id": "M001143",
+        "nyt_name": "Betty McCollum"
+    },
+    {
+        "nickname": "Tom Emmer",
+        "member_id": "E000294",
+        "nyt_name": "Tom Emmer"
+    },
+    {
+        "nickname": "Jim Hagedorn",
+        "member_id": "H001088",
+        "nyt_name": "Jim Hagedorn"
+    },
+    {
+        "nickname": "Ilhan Omar",
+        "member_id": "O000173",
+        "nyt_name": "Ilhan Omar"
+    },
+    {
+        "nickname": "Dean Phillips",
+        "member_id": "P000616",
+        "nyt_name": "Dean Phillips"
+    },
+    {
+        "nickname": "Pete Stauber",
+        "member_id": "S001212",
+        "nyt_name": "Pete Stauber"
+    },
+    {
+        "nickname": "Collin C. Peterson",
+        "member_id": "P000258",
+        "nyt_name": "Collin C. Peterson"
+    },
+    {
+        "nickname": "Steven M. Palazzo",
+        "member_id": "P000601",
+        "nyt_name": "Steven M. Palazzo"
+    },
+    {
+        "nickname": "Trent Kelly",
+        "member_id": "K000388",
+        "nyt_name": "Trent Kelly"
+    },
+    {
+        "nickname": "Michael Guest",
+        "member_id": "G000591",
+        "nyt_name": "Michael Guest"
+    },
+    {
+        "nickname": "Bennie Thompson",
+        "member_id": "T000193",
+        "nyt_name": "Bennie Thompson"
+    },
+    {
+        "nickname": "Sam Graves",
+        "member_id": "G000546",
+        "nyt_name": "Sam Graves"
+    },
+    {
+        "nickname": "William Lacy Clay",
+        "member_id": "C001049",
+        "nyt_name": "William Lacy Clay"
+    },
+    {
+        "nickname": "Emanuel Cleaver II",
+        "member_id": "C001061",
+        "nyt_name": "Emanuel Cleaver II"
+    },
+    {
+        "nickname": "Blaine Luetkemeyer",
+        "member_id": "L000569",
+        "nyt_name": "Blaine Luetkemeyer"
+    },
+    {
+        "nickname": "Vicky Hartzler",
+        "member_id": "H001053",
+        "nyt_name": "Vicky Hartzler"
+    },
+    {
+        "nickname": "Billy Long",
+        "member_id": "L000576",
+        "nyt_name": "Billy Long"
+    },
+    {
+        "nickname": "Ann Wagner",
+        "member_id": "W000812",
+        "nyt_name": "Ann Wagner"
+    },
+    {
+        "nickname": "Jason Smith",
+        "member_id": "S001195",
+        "nyt_name": "Jason Smith"
+    },
+    {
+        "nickname": "Greg Gianforte",
+        "member_id": "G000584",
+        "nyt_name": "Greg Gianforte"
+    },
+    {
+        "nickname": "Jeff Fortenberry",
+        "member_id": "F000449",
+        "nyt_name": "Jeff Fortenberry"
+    },
+    {
+        "nickname": "Adrian Smith",
+        "member_id": "S001172",
+        "nyt_name": "Adrian Smith"
+    },
+    {
+        "nickname": "Don Bacon",
+        "member_id": "B001298",
+        "nyt_name": "Don Bacon"
+    },
+    {
+        "nickname": "Dina Titus",
+        "member_id": "T000468",
+        "nyt_name": "Dina Titus"
+    },
+    {
+        "nickname": "Mark Amodei",
+        "member_id": "A000369",
+        "nyt_name": "Mark Amodei"
+    },
+    {
+        "nickname": "Steven Horsford",
+        "member_id": "H001066",
+        "nyt_name": "Steven Horsford"
+    },
+    {
+        "nickname": "Susie Lee",
+        "member_id": "L000590",
+        "nyt_name": "Susie Lee"
+    },
+    {
+        "nickname": "Ann McLane Kuster",
+        "member_id": "K000382",
+        "nyt_name": "Ann McLane Kuster"
+    },
+    {
+        "nickname": "Chris Pappas",
+        "member_id": "P000614",
+        "nyt_name": "Chris Pappas"
+    },
+    {
+        "nickname": "Christopher H. Smith",
+        "member_id": "S000522",
+        "nyt_name": "Christopher H. Smith"
+    },
+    {
+        "nickname": "Frank Pallone Jr.",
+        "member_id": "P000034",
+        "nyt_name": "Frank Pallone Jr."
+    },
+    {
+        "nickname": "Albio Sires",
+        "member_id": "S001165",
+        "nyt_name": "Albio Sires"
+    },
+    {
+        "nickname": "Donald Norcross",
+        "member_id": "N000188",
+        "nyt_name": "Donald Norcross"
+    },
+    {
+        "nickname": "Bonnie Watson Coleman",
+        "member_id": "W000822",
+        "nyt_name": "Bonnie Watson Coleman"
+    },
+    {
+        "nickname": "Josh Gottheimer",
+        "member_id": "G000583",
+        "nyt_name": "Josh Gottheimer"
+    },
+    {
+        "nickname": "Andy Kim",
+        "member_id": "K000394",
+        "nyt_name": "Andy Kim"
+    },
+    {
+        "nickname": "Tom Malinowski",
+        "member_id": "M001203",
+        "nyt_name": "Tom Malinowski"
+    },
+    {
+        "nickname": "Mikie Sherrill",
+        "member_id": "S001207",
+        "nyt_name": "Mikie Sherrill"
+    },
+    {
+        "nickname": "Jeff Van Drew",
+        "member_id": "V000133",
+        "nyt_name": "Jeff Van Drew"
+    },
+    {
+        "nickname": "Bill Pascrell Jr.",
+        "member_id": "P000096",
+        "nyt_name": "Bill Pascrell Jr."
+    },
+    {
+        "nickname": "Donald M. Payne Jr.",
+        "member_id": "P000604",
+        "nyt_name": "Donald M. Payne Jr."
+    },
+    {
+        "nickname": "Ben Ray Luján",
+        "member_id": "L000570",
+        "nyt_name": "Ben Ray Luján"
+    },
+    {
+        "nickname": "Deb Haaland",
+        "member_id": "H001080",
+        "nyt_name": "Deb Haaland"
+    },
+    {
+        "nickname": "Xochitl Torres Small",
+        "member_id": "T000484",
+        "nyt_name": "Xochitl Torres Small"
+    },
+    {
+        "nickname": "Eliot L. Engel",
+        "member_id": "E000179",
+        "nyt_name": "Eliot L. Engel"
+    },
+    {
+        "nickname": "Nita M. Lowey",
+        "member_id": "L000480",
+        "nyt_name": "Nita M. Lowey"
+    },
+    {
+        "nickname": "Brian Higgins",
+        "member_id": "H001038",
+        "nyt_name": "Brian Higgins"
+    },
+    {
+        "nickname": "Yvette D. Clarke",
+        "member_id": "C001067",
+        "nyt_name": "Yvette D. Clarke"
+    },
+    {
+        "nickname": "Paul Tonko",
+        "member_id": "T000469",
+        "nyt_name": "Paul Tonko"
+    },
+    {
+        "nickname": "Tom Reed",
+        "member_id": "R000585",
+        "nyt_name": "Tom Reed"
+    },
+    {
+        "nickname": "Grace Meng",
+        "member_id": "M001188",
+        "nyt_name": "Grace Meng"
+    },
+    {
+        "nickname": "Hakeem Jeffries",
+        "member_id": "J000294",
+        "nyt_name": "Hakeem Jeffries"
+    },
+    {
+        "nickname": "Sean Patrick Maloney",
+        "member_id": "M001185",
+        "nyt_name": "Sean Patrick Maloney"
+    },
+    {
+        "nickname": "Chris Collins",
+        "member_id": "C001092",
+        "nyt_name": "Chris Collins"
+    },
+    {
+        "nickname": "Lee Zeldin",
+        "member_id": "Z000017",
+        "nyt_name": "Lee Zeldin"
+    },
+    {
+        "nickname": "Kathleen Rice",
+        "member_id": "R000602",
+        "nyt_name": "Kathleen Rice"
+    },
+    {
+        "nickname": "Elise Stefanik",
+        "member_id": "S001196",
+        "nyt_name": "Elise Stefanik"
+    },
+    {
+        "nickname": "John Katko",
+        "member_id": "K000386",
+        "nyt_name": "John Katko"
+    },
+    {
+        "nickname": "Adriano Espaillat",
+        "member_id": "E000297",
+        "nyt_name": "Adriano Espaillat"
+    },
+    {
+        "nickname": "Tom Suozzi",
+        "member_id": "S001201",
+        "nyt_name": "Tom Suozzi"
+    },
+    {
+        "nickname": "Joseph D. Morelle",
+        "member_id": "M001206",
+        "nyt_name": "Joseph D. Morelle"
+    },
+    {
+        "nickname": "Alexandria Ocasio-Cortez",
+        "member_id": "O000172",
+        "nyt_name": "Alexandria Ocasio-Cortez"
+    },
+    {
+        "nickname": "Max Rose",
+        "member_id": "R000613",
+        "nyt_name": "Max Rose"
+    },
+    {
+        "nickname": "José E. Serrano",
+        "member_id": "S000248",
+        "nyt_name": "José E. Serrano"
+    },
+    {
+        "nickname": "Peter T. King",
+        "member_id": "K000210",
+        "nyt_name": "Peter T. King"
+    },
+    {
+        "nickname": "Jerrold Nadler",
+        "member_id": "N000002",
+        "nyt_name": "Jerrold Nadler"
+    },
+    {
+        "nickname": "Nydia M. Velázquez",
+        "member_id": "V000081",
+        "nyt_name": "Nydia M. Velázquez"
+    },
+    {
+        "nickname": "Carolyn B. Maloney",
+        "member_id": "M000087",
+        "nyt_name": "Carolyn B. Maloney"
+    },
+    {
+        "nickname": "Gregory W. Meeks",
+        "member_id": "M001137",
+        "nyt_name": "Gregory W. Meeks"
+    },
+    {
+        "nickname": "David E. Price",
+        "member_id": "P000523",
+        "nyt_name": "David E. Price"
+    },
+    {
+        "nickname": "G. K. Butterfield",
+        "member_id": "B001251",
+        "nyt_name": "G. K. Butterfield"
+    },
+    {
+        "nickname": "Virginia Foxx",
+        "member_id": "F000450",
+        "nyt_name": "Virginia Foxx"
+    },
+    {
+        "nickname": "Patrick T. McHenry",
+        "member_id": "M001156",
+        "nyt_name": "Patrick T. McHenry"
+    },
+    {
+        "nickname": "Richard Hudson",
+        "member_id": "H001067",
+        "nyt_name": "Richard Hudson"
+    },
+    {
+        "nickname": "Mark Meadows",
+        "member_id": "M001187",
+        "nyt_name": "Mark Meadows"
+    },
+    {
+        "nickname": "George Holding",
+        "member_id": "H001065",
+        "nyt_name": "George Holding"
+    },
+    {
+        "nickname": "Mark Walker",
+        "member_id": "W000819",
+        "nyt_name": "Mark Walker"
+    },
+    {
+        "nickname": "David Rouzer",
+        "member_id": "R000603",
+        "nyt_name": "David Rouzer"
+    },
+    {
+        "nickname": "Alma Adams",
+        "member_id": "A000370",
+        "nyt_name": "Alma Adams"
+    },
+    {
+        "nickname": "Ted Budd",
+        "member_id": "B001305",
+        "nyt_name": "Ted Budd"
+    },
+    {
+        "nickname": "Walter B. Jones",
+        "member_id": "J000255",
+        "nyt_name": "Walter B. Jones"
+    },
+    {
+        "nickname": "Marcy Kaptur",
+        "member_id": "K000009",
+        "nyt_name": "Marcy Kaptur"
+    },
+    {
+        "nickname": "Michael R. Turner",
+        "member_id": "T000463",
+        "nyt_name": "Michael R. Turner"
+    },
+    {
+        "nickname": "Tim Ryan",
+        "member_id": "R000577",
+        "nyt_name": "Tim Ryan"
+    },
+    {
+        "nickname": "Jim Jordan",
+        "member_id": "J000289",
+        "nyt_name": "Jim Jordan"
+    },
+    {
+        "nickname": "Bob Latta",
+        "member_id": "L000566",
+        "nyt_name": "Bob Latta"
+    },
+    {
+        "nickname": "Marcia L. Fudge",
+        "member_id": "F000455",
+        "nyt_name": "Marcia L. Fudge"
+    },
+    {
+        "nickname": "Bill Johnson",
+        "member_id": "J000292",
+        "nyt_name": "Bill Johnson"
+    },
+    {
+        "nickname": "Steve Stivers",
+        "member_id": "S001187",
+        "nyt_name": "Steve Stivers"
+    },
+    {
+        "nickname": "Bob Gibbs",
+        "member_id": "G000563",
+        "nyt_name": "Bob Gibbs"
+    },
+    {
+        "nickname": "Brad Wenstrup",
+        "member_id": "W000815",
+        "nyt_name": "Brad Wenstrup"
+    },
+    {
+        "nickname": "Joyce Beatty",
+        "member_id": "B001281",
+        "nyt_name": "Joyce Beatty"
+    },
+    {
+        "nickname": "David Joyce",
+        "member_id": "J000295",
+        "nyt_name": "David Joyce"
+    },
+    {
+        "nickname": "Warren Davidson",
+        "member_id": "D000626",
+        "nyt_name": "Warren Davidson"
+    },
+    {
+        "nickname": "Anthony Gonzalez",
+        "member_id": "G000588",
+        "nyt_name": "Anthony Gonzalez"
+    },
+    {
+        "nickname": "Steve Chabot",
+        "member_id": "C000266",
+        "nyt_name": "Steve Chabot"
+    },
+    {
+        "nickname": "Tom Cole",
+        "member_id": "C001053",
+        "nyt_name": "Tom Cole"
+    },
+    {
+        "nickname": "Markwayne Mullin",
+        "member_id": "M001190",
+        "nyt_name": "Markwayne Mullin"
+    },
+    {
+        "nickname": "Kevin Hern",
+        "member_id": "H001082",
+        "nyt_name": "Kevin Hern"
+    },
+    {
+        "nickname": "Kendra Horn",
+        "member_id": "H001083",
+        "nyt_name": "Kendra Horn"
+    },
+    {
+        "nickname": "Frank D. Lucas",
+        "member_id": "L000491",
+        "nyt_name": "Frank D. Lucas"
+    },
+    {
+        "nickname": "Peter A. DeFazio",
+        "member_id": "D000191",
+        "nyt_name": "Peter A. DeFazio"
+    },
+    {
+        "nickname": "Kurt Schrader",
+        "member_id": "S001180",
+        "nyt_name": "Kurt Schrader"
+    },
+    {
+        "nickname": "Suzanne Bonamici",
+        "member_id": "B001278",
+        "nyt_name": "Suzanne Bonamici"
+    },
+    {
+        "nickname": "Earl Blumenauer",
+        "member_id": "B000574",
+        "nyt_name": "Earl Blumenauer"
+    },
+    {
+        "nickname": "Greg Walden",
+        "member_id": "W000791",
+        "nyt_name": "Greg Walden"
+    },
+    {
+        "nickname": "Glenn Thompson",
+        "member_id": "T000467",
+        "nyt_name": "Glenn Thompson"
+    },
+    {
+        "nickname": "Mike Kelly",
+        "member_id": "K000376",
+        "nyt_name": "Mike Kelly"
+    },
+    {
+        "nickname": "Tom Marino",
+        "member_id": "M001179",
+        "nyt_name": "Tom Marino"
+    },
+    {
+        "nickname": "Scott Perry",
+        "member_id": "P000605",
+        "nyt_name": "Scott Perry"
+    },
+    {
+        "nickname": "Matt Cartwright",
+        "member_id": "C001090",
+        "nyt_name": "Matt Cartwright"
+    },
+    {
+        "nickname": "Brendan F. Boyle",
+        "member_id": "B001296",
+        "nyt_name": "Brendan F. Boyle"
+    },
+    {
+        "nickname": "Dwight Evans",
+        "member_id": "E000296",
+        "nyt_name": "Dwight Evans"
+    },
+    {
+        "nickname": "Brian Fitzpatrick",
+        "member_id": "F000466",
+        "nyt_name": "Brian Fitzpatrick"
+    },
+    {
+        "nickname": "Lloyd K. Smucker",
+        "member_id": "S001199",
+        "nyt_name": "Lloyd K. Smucker"
+    },
+    {
+        "nickname": "Conor Lamb",
+        "member_id": "L000588",
+        "nyt_name": "Conor Lamb"
+    },
+    {
+        "nickname": "Mary Gay Scanlon",
+        "member_id": "S001205",
+        "nyt_name": "Mary Gay Scanlon"
+    },
+    {
+        "nickname": "Susan Wild",
+        "member_id": "W000826",
+        "nyt_name": "Susan Wild"
+    },
+    {
+        "nickname": "Chrissy Houlahan",
+        "member_id": "H001085",
+        "nyt_name": "Chrissy Houlahan"
+    },
+    {
+        "nickname": "John Joyce",
+        "member_id": "J000302",
+        "nyt_name": "John Joyce"
+    },
+    {
+        "nickname": "Dan Meuser",
+        "member_id": "M001204",
+        "nyt_name": "Dan Meuser"
+    },
+    {
+        "nickname": "Guy Reschenthaler",
+        "member_id": "R000610",
+        "nyt_name": "Guy Reschenthaler"
+    },
+    {
+        "nickname": "Mike Doyle",
+        "member_id": "D000482",
+        "nyt_name": "Mike Doyle"
+    },
+    {
+        "nickname": "Jim Langevin",
+        "member_id": "L000559",
+        "nyt_name": "Jim Langevin"
+    },
+    {
+        "nickname": "David Cicilline",
+        "member_id": "C001084",
+        "nyt_name": "David Cicilline"
+    },
+    {
+        "nickname": "Joe Wilson",
+        "member_id": "W000795",
+        "nyt_name": "Joe Wilson"
+    },
+    {
+        "nickname": "Jeff Duncan",
+        "member_id": "D000615",
+        "nyt_name": "Jeff Duncan"
+    },
+    {
+        "nickname": "Tom Rice",
+        "member_id": "R000597",
+        "nyt_name": "Tom Rice"
+    },
+    {
+        "nickname": "Ralph Norman",
+        "member_id": "N000190",
+        "nyt_name": "Ralph Norman"
+    },
+    {
+        "nickname": "William R. Timmons IV",
+        "member_id": "T000480",
+        "nyt_name": "William R. Timmons IV"
+    },
+    {
+        "nickname": "James E. Clyburn",
+        "member_id": "C000537",
+        "nyt_name": "James E. Clyburn"
+    },
+    {
+        "nickname": "Dusty Johnson",
+        "member_id": "J000301",
+        "nyt_name": "Dusty Johnson"
+    },
+    {
+        "nickname": "Jim Cooper",
+        "member_id": "C000754",
+        "nyt_name": "Jim Cooper"
+    },
+    {
+        "nickname": "Steve Cohen",
+        "member_id": "C001068",
+        "nyt_name": "Steve Cohen"
+    },
+    {
+        "nickname": "Phil Roe",
+        "member_id": "R000582",
+        "nyt_name": "Phil Roe"
+    },
+    {
+        "nickname": "Chuck Fleischmann",
+        "member_id": "F000459",
+        "nyt_name": "Chuck Fleischmann"
+    },
+    {
+        "nickname": "Scott DesJarlais",
+        "member_id": "D000616",
+        "nyt_name": "Scott DesJarlais"
+    },
+    {
+        "nickname": "David Kustoff",
+        "member_id": "K000392",
+        "nyt_name": "David Kustoff"
+    },
+    {
+        "nickname": "Mark E. Green",
+        "member_id": "G000590",
+        "nyt_name": "Mark E. Green"
+    },
+    {
+        "nickname": "John W. Rose",
+        "member_id": "R000612",
+        "nyt_name": "John W. Rose"
+    },
+    {
+        "nickname": "Michael C. Burgess",
+        "member_id": "B001248",
+        "nyt_name": "Michael C. Burgess"
+    },
+    {
+        "nickname": "John Carter",
+        "member_id": "C001051",
+        "nyt_name": "John Carter"
+    },
+    {
+        "nickname": "Louie Gohmert",
+        "member_id": "G000552",
+        "nyt_name": "Louie Gohmert"
+    },
+    {
+        "nickname": "Al Green",
+        "member_id": "G000553",
+        "nyt_name": "Al Green"
+    },
+    {
+        "nickname": "Michael McCaul",
+        "member_id": "M001157",
+        "nyt_name": "Michael McCaul"
+    },
+    {
+        "nickname": "K. Michael Conaway",
+        "member_id": "C001062",
+        "nyt_name": "K. Michael Conaway"
+    },
+    {
+        "nickname": "Kenny Marchant",
+        "member_id": "M001158",
+        "nyt_name": "Kenny Marchant"
+    },
+    {
+        "nickname": "Henry Cuellar",
+        "member_id": "C001063",
+        "nyt_name": "Henry Cuellar"
+    },
+    {
+        "nickname": "Pete Olson",
+        "member_id": "O000168",
+        "nyt_name": "Pete Olson"
+    },
+    {
+        "nickname": "Bill Flores",
+        "member_id": "F000461",
+        "nyt_name": "Bill Flores"
+    },
+    {
+        "nickname": "Randy Weber",
+        "member_id": "W000814",
+        "nyt_name": "Randy Weber"
+    },
+    {
+        "nickname": "Joaquin Castro",
+        "member_id": "C001091",
+        "nyt_name": "Joaquin Castro"
+    },
+    {
+        "nickname": "Roger Williams",
+        "member_id": "W000816",
+        "nyt_name": "Roger Williams"
+    },
+    {
+        "nickname": "Marc Veasey",
+        "member_id": "V000131",
+        "nyt_name": "Marc Veasey"
+    },
+    {
+        "nickname": "Filemon Vela",
+        "member_id": "V000132",
+        "nyt_name": "Filemon Vela"
+    },
+    {
+        "nickname": "John Ratcliffe",
+        "member_id": "R000601",
+        "nyt_name": "John Ratcliffe"
+    },
+    {
+        "nickname": "Will Hurd",
+        "member_id": "H001073",
+        "nyt_name": "Will Hurd"
+    },
+    {
+        "nickname": "Brian Babin",
+        "member_id": "B001291",
+        "nyt_name": "Brian Babin"
+    },
+    {
+        "nickname": "Jodey Arrington",
+        "member_id": "A000375",
+        "nyt_name": "Jodey Arrington"
+    },
+    {
+        "nickname": "Vicente Gonzalez",
+        "member_id": "G000581",
+        "nyt_name": "Vicente Gonzalez"
+    },
+    {
+        "nickname": "Sylvia R. Garcia",
+        "member_id": "G000587",
+        "nyt_name": "Sylvia R. Garcia"
+    },
+    {
+        "nickname": "Lance Gooden",
+        "member_id": "G000589",
+        "nyt_name": "Lance Gooden"
+    },
+    {
+        "nickname": "Chip Roy",
+        "member_id": "R000614",
+        "nyt_name": "Chip Roy"
+    },
+    {
+        "nickname": "Van Taylor",
+        "member_id": "T000479",
+        "nyt_name": "Van Taylor"
+    },
+    {
+        "nickname": "Ron Wright",
+        "member_id": "W000827",
+        "nyt_name": "Ron Wright"
+    },
+    {
+        "nickname": "Lloyd Doggett",
+        "member_id": "D000399",
+        "nyt_name": "Lloyd Doggett"
+    },
+    {
+        "nickname": "Mac Thornberry",
+        "member_id": "T000238",
+        "nyt_name": "Mac Thornberry"
+    },
+    {
+        "nickname": "Sheila Jackson Lee",
+        "member_id": "J000032",
+        "nyt_name": "Sheila Jackson Lee"
+    },
+    {
+        "nickname": "Kevin Brady",
+        "member_id": "B000755",
+        "nyt_name": "Kevin Brady"
+    },
+    {
+        "nickname": "Kay Granger",
+        "member_id": "G000377",
+        "nyt_name": "Kay Granger"
+    },
+    {
+        "nickname": "Eddie Bernice Johnson",
+        "member_id": "J000126",
+        "nyt_name": "Eddie Bernice Johnson"
+    },
+    {
+        "nickname": "Rob Bishop",
+        "member_id": "B001250",
+        "nyt_name": "Rob Bishop"
+    },
+    {
+        "nickname": "Chris Stewart",
+        "member_id": "S001192",
+        "nyt_name": "Chris Stewart"
+    },
+    {
+        "nickname": "John Curtis",
+        "member_id": "C001114",
+        "nyt_name": "John Curtis"
+    },
+    {
+        "nickname": "Ben McAdams",
+        "member_id": "M001209",
+        "nyt_name": "Ben McAdams"
+    },
+    {
+        "nickname": "Peter Welch",
+        "member_id": "W000800",
+        "nyt_name": "Peter Welch"
+    },
+    {
+        "nickname": "Rob Wittman",
+        "member_id": "W000804",
+        "nyt_name": "Rob Wittman"
+    },
+    {
+        "nickname": "Gerald E. Connolly",
+        "member_id": "C001078",
+        "nyt_name": "Gerald E. Connolly"
+    },
+    {
+        "nickname": "Morgan Griffith",
+        "member_id": "G000568",
+        "nyt_name": "Morgan Griffith"
+    },
+    {
+        "nickname": "Don Beyer",
+        "member_id": "B001292",
+        "nyt_name": "Don Beyer"
+    },
+    {
+        "nickname": "A. Donald McEachin",
+        "member_id": "M001200",
+        "nyt_name": "A. Donald McEachin"
+    },
+    {
+        "nickname": "Elaine Luria",
+        "member_id": "L000591",
+        "nyt_name": "Elaine Luria"
+    },
+    {
+        "nickname": "Denver Riggleman",
+        "member_id": "R000611",
+        "nyt_name": "Denver Riggleman"
+    },
+    {
+        "nickname": "Abigail Spanberger",
+        "member_id": "S001209",
+        "nyt_name": "Abigail Spanberger"
+    },
+    {
+        "nickname": "Jennifer Wexton",
+        "member_id": "W000825",
+        "nyt_name": "Jennifer Wexton"
+    },
+    {
+        "nickname": "Robert C. Scott",
+        "member_id": "S000185",
+        "nyt_name": "Robert C. Scott"
+    },
+    {
+        "nickname": "Rick Larsen",
+        "member_id": "L000560",
+        "nyt_name": "Rick Larsen"
+    },
+    {
+        "nickname": "Cathy McMorris Rodgers",
+        "member_id": "M001159",
+        "nyt_name": "Cathy McMorris Rodgers"
+    },
+    {
+        "nickname": "Jaime Herrera Beutler",
+        "member_id": "H001056",
+        "nyt_name": "Jaime Herrera Beutler"
+    },
+    {
+        "nickname": "Derek Kilmer",
+        "member_id": "K000381",
+        "nyt_name": "Derek Kilmer"
+    },
+    {
+        "nickname": "Denny Heck",
+        "member_id": "H001064",
+        "nyt_name": "Denny Heck"
+    },
+    {
+        "nickname": "Dan Newhouse",
+        "member_id": "N000189",
+        "nyt_name": "Dan Newhouse"
+    },
+    {
+        "nickname": "Pramila Jayapal",
+        "member_id": "J000298",
+        "nyt_name": "Pramila Jayapal"
+    },
+    {
+        "nickname": "Kim Schrier",
+        "member_id": "S001216",
+        "nyt_name": "Kim Schrier"
+    },
+    {
+        "nickname": "Adam Smith",
+        "member_id": "S000510",
+        "nyt_name": "Adam Smith"
+    },
+    {
+        "nickname": "Suzan DelBene",
+        "member_id": "D000617",
+        "nyt_name": "Suzan DelBene"
+    },
+    {
+        "nickname": "David B. McKinley",
+        "member_id": "M001180",
+        "nyt_name": "David B. McKinley"
+    },
+    {
+        "nickname": "Alex X. Mooney",
+        "member_id": "M001195",
+        "nyt_name": "Alex X. Mooney"
+    },
+    {
+        "nickname": "Carol Miller",
+        "member_id": "M001205",
+        "nyt_name": "Carol Miller"
+    },
+    {
+        "nickname": "Jim Sensenbrenner",
+        "member_id": "S000244",
+        "nyt_name": "Jim Sensenbrenner"
+    },
+    {
+        "nickname": "Gwen Moore",
+        "member_id": "M001160",
+        "nyt_name": "Gwen Moore"
+    },
+    {
+        "nickname": "Sean P. Duffy",
+        "member_id": "D000614",
+        "nyt_name": "Sean P. Duffy"
+    },
+    {
+        "nickname": "Mark Pocan",
+        "member_id": "P000607",
+        "nyt_name": "Mark Pocan"
+    },
+    {
+        "nickname": "Glenn Grothman",
+        "member_id": "G000576",
+        "nyt_name": "Glenn Grothman"
+    },
+    {
+        "nickname": "Mike Gallagher",
+        "member_id": "G000579",
+        "nyt_name": "Mike Gallagher"
+    },
+    {
+        "nickname": "Bryan Steil",
+        "member_id": "S001213",
+        "nyt_name": "Bryan Steil"
+    },
+    {
+        "nickname": "Ron Kind",
+        "member_id": "K000188",
+        "nyt_name": "Ron Kind"
+    },
+    {
+        "nickname": "Liz Cheney",
+        "member_id": "C001109",
+        "nyt_name": "Liz Cheney"
+    },
+    {
+        "nickname": "Doug Jones",
+        "member_id": "J000300",
+        "nyt_name": "Doug Jones"
+    },
+    {
+        "nickname": "Richard C. Shelby",
+        "member_id": "S000320",
+        "nyt_name": "Richard C. Shelby"
+    },
+    {
+        "nickname": "Lisa Murkowski",
+        "member_id": "M001153",
+        "nyt_name": "Lisa Murkowski"
+    },
+    {
+        "nickname": "Dan Sullivan",
+        "member_id": "S001198",
+        "nyt_name": "Dan Sullivan"
+    },
+    {
+        "nickname": "Kyrsten Sinema",
+        "member_id": "S001191",
+        "nyt_name": "Kyrsten Sinema"
+    },
+    {
+        "nickname": "Martha E. McSally",
+        "member_id": "M001197",
+        "nyt_name": "Martha E. McSally"
+    },
+    {
+        "nickname": "John Boozman",
+        "member_id": "B001236",
+        "nyt_name": "John Boozman"
+    },
+    {
+        "nickname": "Tom Cotton",
+        "member_id": "C001095",
+        "nyt_name": "Tom Cotton"
+    },
+    {
+        "nickname": "Kamala Harris",
+        "member_id": "H001075",
+        "nyt_name": "Kamala Harris"
+    },
+    {
+        "nickname": "Dianne Feinstein",
+        "member_id": "F000062",
+        "nyt_name": "Dianne Feinstein"
+    },
+    {
+        "nickname": "Cory Gardner",
+        "member_id": "G000562",
+        "nyt_name": "Cory Gardner"
+    },
+    {
+        "nickname": "Michael Bennet",
+        "member_id": "B001267",
+        "nyt_name": "Michael Bennet"
+    },
+    {
+        "nickname": "Christopher S. Murphy",
+        "member_id": "M001169",
+        "nyt_name": "Christopher S. Murphy"
+    },
+    {
+        "nickname": "Richard Blumenthal",
+        "member_id": "B001277",
+        "nyt_name": "Richard Blumenthal"
+    },
+    {
+        "nickname": "Thomas R. Carper",
+        "member_id": "C000174",
+        "nyt_name": "Thomas R. Carper"
+    },
+    {
+        "nickname": "Chris Coons",
+        "member_id": "C001088",
+        "nyt_name": "Chris Coons"
+    },
+    {
+        "nickname": "Marco Rubio",
+        "member_id": "R000595",
+        "nyt_name": "Marco Rubio"
+    },
+    {
+        "nickname": "Johnny Isakson",
+        "member_id": "I000055",
+        "nyt_name": "Johnny Isakson"
+    },
+    {
+        "nickname": "David Perdue",
+        "member_id": "P000612",
+        "nyt_name": "David Perdue"
+    },
+    {
+        "nickname": "Mazie K. Hirono",
+        "member_id": "H001042",
+        "nyt_name": "Mazie K. Hirono"
+    },
+    {
+        "nickname": "Brian Schatz",
+        "member_id": "S001194",
+        "nyt_name": "Brian Schatz"
+    },
+    {
+        "nickname": "Michael D. Crapo",
+        "member_id": "C000880",
+        "nyt_name": "Michael D. Crapo"
+    },
+    {
+        "nickname": "Jim Risch",
+        "member_id": "R000584",
+        "nyt_name": "Jim Risch"
+    },
+    {
+        "nickname": "Richard J. Durbin",
+        "member_id": "D000563",
+        "nyt_name": "Richard J. Durbin"
+    },
+    {
+        "nickname": "Tammy Duckworth",
+        "member_id": "D000622",
+        "nyt_name": "Tammy Duckworth"
+    },
+    {
+        "nickname": "Todd Young",
+        "member_id": "Y000064",
+        "nyt_name": "Todd Young"
+    },
+    {
+        "nickname": "Charles E. Grassley",
+        "member_id": "G000386",
+        "nyt_name": "Charles E. Grassley"
+    },
+    {
+        "nickname": "Joni Ernst",
+        "member_id": "E000295",
+        "nyt_name": "Joni Ernst"
+    },
+    {
+        "nickname": "Pat Roberts",
+        "member_id": "R000307",
+        "nyt_name": "Pat Roberts"
+    },
+    {
+        "nickname": "Jerry Moran",
+        "member_id": "M000934",
+        "nyt_name": "Jerry Moran"
+    },
+    {
+        "nickname": "Mitch McConnell",
+        "member_id": "M000355",
+        "nyt_name": "Mitch McConnell"
+    },
+    {
+        "nickname": "Rand Paul",
+        "member_id": "P000603",
+        "nyt_name": "Rand Paul"
+    },
+    {
+        "nickname": "Bill Cassidy",
+        "member_id": "C001075",
+        "nyt_name": "Bill Cassidy"
+    },
+    {
+        "nickname": "John Kennedy",
+        "member_id": "K000393",
+        "nyt_name": "John Kennedy"
+    },
+    {
+        "nickname": "Angus King",
+        "member_id": "K000383",
+        "nyt_name": "Angus King"
+    },
+    {
+        "nickname": "Susan Collins",
+        "member_id": "C001035",
+        "nyt_name": "Susan Collins"
+    },
+    {
+        "nickname": "Benjamin L. Cardin",
+        "member_id": "C000141",
+        "nyt_name": "Benjamin L. Cardin"
+    },
+    {
+        "nickname": "Chris Van Hollen",
+        "member_id": "V000128",
+        "nyt_name": "Chris Van Hollen"
+    },
+    {
+        "nickname": "Edward J. Markey",
+        "member_id": "M000133",
+        "nyt_name": "Edward J. Markey"
+    },
+    {
+        "nickname": "Elizabeth Warren",
+        "member_id": "W000817",
+        "nyt_name": "Elizabeth Warren"
+    },
+    {
+        "nickname": "Gary Peters",
+        "member_id": "P000595",
+        "nyt_name": "Gary Peters"
+    },
+    {
+        "nickname": "Debbie Stabenow",
+        "member_id": "S000770",
+        "nyt_name": "Debbie Stabenow"
+    },
+    {
+        "nickname": "Amy Klobuchar",
+        "member_id": "K000367",
+        "nyt_name": "Amy Klobuchar"
+    },
+    {
+        "nickname": "Tina Smith",
+        "member_id": "S001203",
+        "nyt_name": "Tina Smith"
+    },
+    {
+        "nickname": "Roger Wicker",
+        "member_id": "W000437",
+        "nyt_name": "Roger Wicker"
+    },
+    {
+        "nickname": "Cindy Hyde-Smith",
+        "member_id": "H001079",
+        "nyt_name": "Cindy Hyde-Smith"
+    },
+    {
+        "nickname": "Roy Blunt",
+        "member_id": "B000575",
+        "nyt_name": "Roy Blunt"
+    },
+    {
+        "nickname": "Steve Daines",
+        "member_id": "D000618",
+        "nyt_name": "Steve Daines"
+    },
+    {
+        "nickname": "Jon Tester",
+        "member_id": "T000464",
+        "nyt_name": "Jon Tester"
+    },
+    {
+        "nickname": "Deb Fischer",
+        "member_id": "F000463",
+        "nyt_name": "Deb Fischer"
+    },
+    {
+        "nickname": "Ben Sasse",
+        "member_id": "S001197",
+        "nyt_name": "Ben Sasse"
+    },
+    {
+        "nickname": "Jacky Rosen",
+        "member_id": "R000608",
+        "nyt_name": "Jacky Rosen"
+    },
+    {
+        "nickname": "Catherine Cortez Masto",
+        "member_id": "C001113",
+        "nyt_name": "Catherine Cortez Masto"
+    },
+    {
+        "nickname": "Jeanne Shaheen",
+        "member_id": "S001181",
+        "nyt_name": "Jeanne Shaheen"
+    },
+    {
+        "nickname": "Maggie Hassan",
+        "member_id": "H001076",
+        "nyt_name": "Maggie Hassan"
+    },
+    {
+        "nickname": "Robert Menendez",
+        "member_id": "M000639",
+        "nyt_name": "Robert Menendez"
+    },
+    {
+        "nickname": "Cory Booker",
+        "member_id": "B001288",
+        "nyt_name": "Cory Booker"
+    },
+    {
+        "nickname": "Martin Heinrich",
+        "member_id": "H001046",
+        "nyt_name": "Martin Heinrich"
+    },
+    {
+        "nickname": "Tom Udall",
+        "member_id": "U000039",
+        "nyt_name": "Tom Udall"
+    },
+    {
+        "nickname": "Chuck Schumer",
+        "member_id": "S000148",
+        "nyt_name": "Chuck Schumer"
+    },
+    {
+        "nickname": "Kirsten Gillibrand",
+        "member_id": "G000555",
+        "nyt_name": "Kirsten Gillibrand"
+    },
+    {
+        "nickname": "Richard M. Burr",
+        "member_id": "B001135",
+        "nyt_name": "Richard M. Burr"
+    },
+    {
+        "nickname": "Thom Tillis",
+        "member_id": "T000476",
+        "nyt_name": "Thom Tillis"
+    },
+    {
+        "nickname": "Kevin Cramer",
+        "member_id": "C001096",
+        "nyt_name": "Kevin Cramer"
+    },
+    {
+        "nickname": "John Hoeven",
+        "member_id": "H001061",
+        "nyt_name": "John Hoeven"
+    },
+    {
+        "nickname": "Rob Portman",
+        "member_id": "P000449",
+        "nyt_name": "Rob Portman"
+    },
+    {
+        "nickname": "Sherrod Brown",
+        "member_id": "B000944",
+        "nyt_name": "Sherrod Brown"
+    },
+    {
+        "nickname": "James M. Inhofe",
+        "member_id": "I000024",
+        "nyt_name": "James M. Inhofe"
+    },
+    {
+        "nickname": "James Lankford",
+        "member_id": "L000575",
+        "nyt_name": "James Lankford"
+    },
+    {
+        "nickname": "Ron Wyden",
+        "member_id": "W000779",
+        "nyt_name": "Ron Wyden"
+    },
+    {
+        "nickname": "Jeff Merkley",
+        "member_id": "M001176",
+        "nyt_name": "Jeff Merkley"
+    },
+    {
+        "nickname": "Patrick J. Toomey",
+        "member_id": "T000461",
+        "nyt_name": "Patrick J. Toomey"
+    },
+    {
+        "nickname": "Bob Casey",
+        "member_id": "C001070",
+        "nyt_name": "Bob Casey"
+    },
+    {
+        "nickname": "Jack Reed",
+        "member_id": "R000122",
+        "nyt_name": "Jack Reed"
+    },
+    {
+        "nickname": "Sheldon Whitehouse",
+        "member_id": "W000802",
+        "nyt_name": "Sheldon Whitehouse"
+    },
+    {
+        "nickname": "Tim Scott",
+        "member_id": "S001184",
+        "nyt_name": "Tim Scott"
+    },
+    {
+        "nickname": "Lindsey Graham",
+        "member_id": "G000359",
+        "nyt_name": "Lindsey Graham"
+    },
+    {
+        "nickname": "John Thune",
+        "member_id": "T000250",
+        "nyt_name": "John Thune"
+    },
+    {
+        "nickname": "Michael Rounds",
+        "member_id": "R000605",
+        "nyt_name": "Michael Rounds"
+    },
+    {
+        "nickname": "Marsha Blackburn",
+        "member_id": "B001243",
+        "nyt_name": "Marsha Blackburn"
+    },
+    {
+        "nickname": "Lamar Alexander",
+        "member_id": "A000360",
+        "nyt_name": "Lamar Alexander"
+    },
+    {
+        "nickname": "John Cornyn",
+        "member_id": "C001056",
+        "nyt_name": "John Cornyn"
+    },
+    {
+        "nickname": "Ted Cruz",
+        "member_id": "C001098",
+        "nyt_name": "Ted Cruz"
+    },
+    {
+        "nickname": "Mike Lee",
+        "member_id": "L000577",
+        "nyt_name": "Mike Lee"
+    },
+    {
+        "nickname": "Patrick J. Leahy",
+        "member_id": "L000174",
+        "nyt_name": "Patrick J. Leahy"
+    },
+    {
+        "nickname": "Bernie Sanders",
+        "member_id": "S000033",
+        "nyt_name": "Bernie Sanders"
+    },
+    {
+        "nickname": "Mark Warner",
+        "member_id": "W000805",
+        "nyt_name": "Mark Warner"
+    },
+    {
+        "nickname": "Tim Kaine",
+        "member_id": "K000384",
+        "nyt_name": "Tim Kaine"
+    },
+    {
+        "nickname": "Maria Cantwell",
+        "member_id": "C000127",
+        "nyt_name": "Maria Cantwell"
+    },
+    {
+        "nickname": "Patty Murray",
+        "member_id": "M001111",
+        "nyt_name": "Patty Murray"
+    },
+    {
+        "nickname": "Shelley Moore Capito",
+        "member_id": "C001047",
+        "nyt_name": "Shelley Moore Capito"
+    },
+    {
+        "nickname": "Joe Manchin III",
+        "member_id": "M001183",
+        "nyt_name": "Joe Manchin III"
+    },
+    {
+        "nickname": "Tammy Baldwin",
+        "member_id": "B001230",
+        "nyt_name": "Tammy Baldwin"
+    },
+    {
+        "nickname": "Ron Johnson",
+        "member_id": "J000293",
+        "nyt_name": "Ron Johnson"
+    },
+    {
+        "nickname": "John Barrasso",
+        "member_id": "B001261",
+        "nyt_name": "John Barrasso"
+    },
+    {
+        "nickname": "Michael B. Enzi",
+        "member_id": "E000285",
+        "nyt_name": "Michael B. Enzi"
+    },
+    {
+        "nickname": "Josh Hawley",
+        "member_id": "H001089",
+        "nyt_name": "Josh Hawley"
+    },
+    {
+        "nickname": "Mitt Romney",
+        "member_id": "R000615",
+        "nyt_name": "Mitt Romney"
+    },
+    {
+        "nickname": "Rick Scott",
+        "member_id": "S001217",
+        "nyt_name": "Rick Scott"
+    },
+    {
+        "nickname": "Michael F.Q. San Nicolas",
+        "member_id": "S001204",
+        "nyt_name": "Michael F.Q. San Nicolas"
+    },
+    {
+        "nickname": "Colleen Hanabusa",
+        "member_id": "H001050",
+        "nyt_name": "Colleen Hanabusa"
+    },
+    {
+        "nickname": "Claudia Tenney",
+        "member_id": "T000478",
+        "nyt_name": "Claudia Tenney"
+    }
 ]
