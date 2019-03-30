@@ -6,7 +6,7 @@ account_sid = os.environ["TWILIO_ACCOUNT_SID"]
 auth_token = os.environ["TWILIO_AUTH_TOKEN"]
 client = TwilioRestClient(account_sid, auth_token)
 
-delete_messages(number, on_after_date=None)
+def delete_messages(number, on_after_date=None)
     if on_after_date is not None
         messages = client.messages.list(to=number, date_sent=on_after_date)
 
