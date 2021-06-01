@@ -21,6 +21,6 @@ requests==2.18.3
 s3transfer==0.1.10
 six==1.10.0
 twilio==6.13.0
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.12.2
 google-cloud-storage
