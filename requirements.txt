@@ -11,7 +11,7 @@ Jinja2==2.9.6
 jmespath==0.9.3
 MarkupSafe==1.0
 olefile==0.44
-Pillow==4.2.1
+Pillow==9.0.1
 psycopg2==2.7.3
 PyJWT==1.5.2
 PySocks==1.6.7
